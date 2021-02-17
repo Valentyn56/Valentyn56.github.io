@@ -1,2 +1,4 @@
 .helloworld {
   display: block; }
+  .helloworld .bloctheme {
+    position: relative; }
