@@ -1,4 +1,4 @@
-/* Variables COLORS */
+/* COLORS */
 
 $blue : #1d6ff7;
 $pink : #f5255d;
@@ -7,7 +7,13 @@ $orange : #ff5900;
 $white : white;
 $black : black;
 
-$shadow : 0 16px 24px 0 #d8cdcc;
+
+/* EFFECTS */
+
+$lilshadow : 0 3px 10px hsl(5deg 13% 82% / 34%);
+$bigshadow : 0 16px 24px 0 #d8cdcc;
 $gradient : linear-gradient(135deg,$yellow,$orange,$pink);
 $blankgradient : linear-gradient(180deg,#f7f8fa,#fff);
+
+
 

@@ -9,6 +9,17 @@
 * --> Feel free to contact me : valentin.lemellay@gmail.com
 *
 */
-/* Variables COLORS */
+/* COLORS */
+/* EFFECTS */
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* BUTTONS */
+button[type=button], a[role=button] {
+  padding: 10px 40px;
+  font-weight: 700;
+  font-size: 12px;
+}
 
 /*# sourceMappingURL=vivatechnology.css.map */
