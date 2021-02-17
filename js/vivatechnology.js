@@ -1,3 +1,4 @@
+/*
 var myNav = document.getElementsByClassName('app-header');
 
 window.onscroll = function () {
@@ -10,3 +11,13 @@ window.onscroll = function () {
     }
 
 };
+*/
+
+window.addEventListener('scroll', function (e) {
+    var nav = document.getElementsByClassName('app-header');
+    if (document.documentElement.scrollTop || document.body.scrollTop > 10) {
+        nav.classList.add('scrolled');
+    } else {
+        nav.classList.remove('scrolled');
+    }
+});
