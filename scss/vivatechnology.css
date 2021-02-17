@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 *
 * DON'T EDIT,
@@ -11,6 +12,7 @@
 */
 /* COLORS */
 /* EFFECTS */
+/* Fonts */
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -67,6 +69,20 @@ button[type=button], a[role=button] {
   padding: 10px 40px;
   font-weight: 700;
   font-size: 12px;
+}
+
+/* Nav buttons */
+.inwink-account:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 300;
+}
+
+.inwink-search:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 300;
+  font-size: 23px;
 }
 
 /* Profile */
