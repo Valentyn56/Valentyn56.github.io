@@ -12,15 +12,22 @@ window.onscroll = function () {
 
 };
 */
-
-window.addEventListener('scroll', function (e) {
-    console.log("ok")
-    var nav = document.getElementsByClassName('app-header');
-    if (document.documentElement.scrollTop || document.body.scrollTop > 10) {
-        console.log("cocou");
-        nav.classList.add('scrolled');
+function docReady(fn) {
+    // see if DOM is already available
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+        window.addEventListener('scroll', function (e) {
+            console.log("ok")
+            var nav = document.getElementsByClassName('app-header');
+            if (document.documentElement.scrollTop || document.body.scrollTop > 10) {
+                console.log("cocou");
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+                console.log("pas coucou");
+            }
+        });
+        setTimeout(fn, 1);
     } else {
-        nav.classList.remove('scrolled');
-        console.log("pas coucou");
+        document.addEventListener("DOMContentLoaded", fn);
     }
-});
+}
