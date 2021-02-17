@@ -108,6 +108,9 @@ h6 {
   .app-header .app-header-content .pagetitle a img {
     max-height: 50px !important;
   }
+  .app-header .app-header-content .notif-content .messages {
+    color: black !important;
+  }
 }
 /* FOOTER */
 /* Footer responsive */
