@@ -1,5 +1,18 @@
 /* NAVS */
 
+.app-header{
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  .links-list{
+    .iconlink{
+      opacity: 0.9;
+      font-weight: 400 !important;
+    }
+  }
+}
+
 
 /* Navs Responsive */
 
