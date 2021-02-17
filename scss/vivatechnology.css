@@ -86,9 +86,13 @@ h6 {
     color: black !important;
     text-transform: uppercase;
     border-bottom: 1px solid rgba(179, 178, 178, 0.2);
+    background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/logos/logo_vivatech_white.png");
   }
   .app-header.scrolled {
     margin: 0;
+  }
+  .app-header .app-header-content .pagetitle a img {
+    max-height: 50px !important;
   }
 }
 /* FOOTER */

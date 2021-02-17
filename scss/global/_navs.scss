@@ -26,8 +26,22 @@
     text-transform: uppercase;
     border-bottom: 1px solid hsla(0,1%,70%,.2);
 
+    background-image: url('https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/logos/logo_vivatech_white.png');
+
     &.scrolled {
       margin: 0;
     }
+
+    .app-header-content{
+      .pagetitle{
+        a{
+          img{
+            max-height: 50px !important;
+          }
+        }
+      }
+    }
+
   }
+
 }
