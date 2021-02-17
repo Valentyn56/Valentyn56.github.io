@@ -5,3 +5,31 @@ button[type="button"], a[role="button"] {
   font-weight: 700;
   font-size: 12px;
 }
+
+
+/* Profile */
+
+#ct-myspace{
+  .addcontactrequest{
+    color: $blue;
+    background-color: transparent !important;
+    border: 2px solid $blue;
+    .text{
+      &:after{
+        top: 24% !important;
+      }
+    }
+    &:after{
+      content: "Connect";
+      font-size: 10px;
+      font-weight: 500;
+      top: 20px;
+      position: relative;
+    }
+    &:hover{
+      color: $darkblue;
+      border-color: $darkblue;
+    }
+  }
+}
+

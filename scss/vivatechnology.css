@@ -13,13 +13,81 @@
 /* EFFECTS */
 * {
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+/* BASICS */
+h1 {
+  line-height: 1.3;
+  font-weight: 900;
+}
+
+h2 {
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+h3 {
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h4 {
+  line-height: 1.4;
+  font-weight: 800;
+}
+
+h5 {
+  line-height: 1.3;
+  font-weight: 800;
+}
+
+h6 {
+  line-height: 1.3;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 1260px) {
+  .h1, h1 {
+    font-size: 44px;
+    line-height: 1.6;
+  }
+}
+@media screen and (min-width: 768px) {
+  .h1, h1 {
+    font-size: 32px;
+  }
+
+  .h2, h2 {
+    font-size: 20px;
+  }
+}
 /* BUTTONS */
 button[type=button], a[role=button] {
   padding: 10px 40px;
   font-weight: 700;
   font-size: 12px;
+}
+
+/* Profile */
+#ct-myspace .addcontactrequest {
+  color: #1d6ff7;
+  background-color: transparent !important;
+  border: 2px solid #1d6ff7;
+}
+#ct-myspace .addcontactrequest .text:after {
+  top: 24% !important;
+}
+#ct-myspace .addcontactrequest:after {
+  content: "Connect";
+  font-size: 10px;
+  font-weight: 500;
+  top: 20px;
+  position: relative;
+}
+#ct-myspace .addcontactrequest:hover {
+  color: #0a50c4;
+  border-color: #0a50c4;
 }
 
 /*# sourceMappingURL=vivatechnology.css.map */
