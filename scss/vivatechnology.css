@@ -78,6 +78,18 @@ h6 {
 
 /* Navs Responsive */
 @media screen and (min-width: 850px) {
+  #burger-menu {
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+  }
+  #burger-menu.scrolled {
+    top: 15px;
+    left: 15px;
+    color: black;
+  }
+
   .app-header {
     margin: 0px 15px;
     padding: 35px 0;
