@@ -6,7 +6,7 @@ button[type="button"], a[role="button"] {
   font-size: 12px;
 }
 
-/* Nav buttons */
+/* Inwink buttons */
 
 .inwink-account:before {
   content: "\f0f3";
@@ -18,6 +18,28 @@ button[type="button"], a[role="button"] {
   font-family: $fontawesome;
   font-weight: 300;
   font-size: 23px;
+}
+.inwink-email{
+  border-width:2px;
+  &:before{
+    content: "\f0e0";
+    font-family: $fontawesome;
+  }
+}
+
+.explore-btn{
+  .buttontitle{
+    border:none;
+    &.inwink-chevronsmall-right{
+      border: none;
+      &:before{
+        content: "\f138";
+        font-family: $fontawesome;
+        font-size: 23px;
+        font-weight: 300;
+      }
+    }
+  }
 }
 
 

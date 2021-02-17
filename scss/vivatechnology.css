@@ -71,7 +71,7 @@ button[type=button], a[role=button] {
   font-size: 12px;
 }
 
-/* Nav buttons */
+/* Inwink buttons */
 .inwink-account:before {
   content: "";
   font-family: "Font Awesome 5 Pro";
@@ -83,6 +83,27 @@ button[type=button], a[role=button] {
   font-family: "Font Awesome 5 Pro";
   font-weight: 300;
   font-size: 23px;
+}
+
+.inwink-email {
+  border-width: 2px;
+}
+.inwink-email:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+}
+
+.explore-btn .buttontitle {
+  border: none;
+}
+.explore-btn .buttontitle.inwink-chevronsmall-right {
+  border: none;
+}
+.explore-btn .buttontitle.inwink-chevronsmall-right:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  font-size: 23px;
+  font-weight: 300;
 }
 
 /* Profile */
@@ -104,6 +125,12 @@ button[type=button], a[role=button] {
 #ct-myspace .addcontactrequest:hover {
   color: #0a50c4;
   border-color: #0a50c4;
+}
+
+/* COMPONENTS */
+.dynamicbloc-contentwrapper .bloc-globalsearch .search-bar input[type=search] {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=vivatechnology.css.map */
