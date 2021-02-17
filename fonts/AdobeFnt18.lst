@@ -1,0 +1,153 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MuseoSans-100
+FamilyName:Museo Sans
+StyleName:100
+MenuName:Museo Sans 100
+StyleBits:0
+WeightClass:250
+WidthClass:5
+AngleClass:0
+FullName:Museo Sans 100
+WritingScript:Roman
+OutlineFileName:\MuseoSans-100.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:62420
+FileModTime:1481192492
+NameArray:0,Mac,4,Museo Sans 100
+NameArray:0,Win,1,Museo Sans 100
+NameArray:0,Win,16,Museo Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MuseoSans-100Italic
+FamilyName:Museo Sans
+StyleName:100 Italic
+MenuName:Museo Sans 100
+StyleBits:1
+WeightClass:250
+WidthClass:5
+AngleClass:0
+FullName:Museo Sans 100 Italic
+WritingScript:Roman
+OutlineFileName:\MuseoSans-100Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:65512
+FileModTime:1481192492
+NameArray:0,Mac,4,Museo Sans 100 Italic
+NameArray:0,Win,1,Museo Sans 100
+NameArray:0,Win,16,Museo Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MuseoSans-300
+FamilyName:Museo Sans
+StyleName:300
+MenuName:Museo Sans 300
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Museo Sans 300
+WritingScript:Roman
+OutlineFileName:\MuseoSans-300.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:62924
+FileModTime:1481192494
+NameArray:0,Mac,4,Museo Sans 300
+NameArray:0,Win,1,Museo Sans 300
+NameArray:0,Win,16,Museo Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MuseoSans-500
+FamilyName:Museo Sans
+StyleName:500
+MenuName:Museo Sans 500
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Museo Sans 500
+WritingScript:Roman
+OutlineFileName:\MuseoSans_500.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:62504
+FileModTime:1481192498
+NameArray:0,Mac,4,Museo Sans 500
+NameArray:0,Win,1,Museo Sans 500
+NameArray:0,Win,16,Museo Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MuseoSans-700
+FamilyName:Museo Sans
+StyleName:700
+MenuName:Museo Sans 700
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Museo Sans 700
+WritingScript:Roman
+OutlineFileName:\MuseoSans_700.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:63568
+FileModTime:1481192500
+NameArray:0,Mac,4,Museo Sans 700
+NameArray:0,Win,1,Museo Sans 700
+NameArray:0,Win,16,Museo Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MuseoSans-900
+FamilyName:Museo Sans
+StyleName:900
+MenuName:Museo Sans 900
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Museo Sans 900
+WritingScript:Roman
+OutlineFileName:\MuseoSans_900.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:65240
+FileModTime:1481192502
+NameArray:0,Mac,4,Museo Sans 900
+NameArray:0,Win,1,Museo Sans 900
+NameArray:0,Win,16,Museo Sans
+%EndFont
+

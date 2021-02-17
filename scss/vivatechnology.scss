@@ -7,13 +7,13 @@
 *
 */
 
+@import "global/variables.scss";
+@import "global/mixins.scss";
+@import "global/functions.scss";
+@import "global/navs.scss";
+@import "global/header.scss";
+@import "global/footer.scss";
 @import "global/buttons.scss";
-@import "global/buttons.scss";
-@import "global/buttons.scss";
-@import "global/buttons.scss";
-@import "global/buttons.scss";
-@import "global/buttons.scss";
-@import "global/buttons.scss";
-@import "global/buttons.scss";
-@import "global/buttons.scss";
-@import "global/buttons.scss";
+@import "pages/home.scss";
+@import "pages/partners.scss";
+
