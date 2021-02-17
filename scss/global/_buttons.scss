@@ -29,9 +29,9 @@ button[type="button"], a[role="button"] {
 
 .explore-btn{
   .buttontitle{
-    border:none;
+    border:none !important;
     &.inwink-chevronsmall-right{
-      border: none;
+      border: none !important;
       &:before{
         content: "\f138";
         font-family: $fontawesome;

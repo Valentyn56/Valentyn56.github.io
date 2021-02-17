@@ -64,6 +64,13 @@ h6 {
     font-size: 20px;
   }
 }
+/* FOOTER */
+/* Footer responsive */
+@media screen and (max-width: 1024px) {
+  .bloc-footer {
+    display: none;
+  }
+}
 /* BUTTONS */
 button[type=button], a[role=button] {
   padding: 10px 40px;
@@ -94,10 +101,10 @@ button[type=button], a[role=button] {
 }
 
 .explore-btn .buttontitle {
-  border: none;
+  border: none !important;
 }
 .explore-btn .buttontitle.inwink-chevronsmall-right {
-  border: none;
+  border: none !important;
 }
 .explore-btn .buttontitle.inwink-chevronsmall-right:before {
   content: "";
