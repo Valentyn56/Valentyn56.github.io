@@ -46,7 +46,7 @@ if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")
 }
 
 for (var i = 0; i < menulinks.length; i++){
-    menulinks[i].onclick = toggleMenu();
+    menulinks[i].onclick = console.log("coucou");
 }
 
 
