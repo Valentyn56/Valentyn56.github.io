@@ -7,33 +7,25 @@ var logo = document.getElementById("Mainlogo");
 var burgermenu = document.getElementById("burger-menu");
 var menulinks = document.getElementsByClassName("headline");
 
+
+toggleMenu();
+
 for (var i = 0; i < menulinks.length; i++){
-    var str = "lien";
-    str += i;
+    var str = "lien"+i;
     console.log(str);
     menulinks[i].setAttribute("id",str);
-
+    document.getElementById(str).addEventListener("click",toggleMenu);
 }
 
-
-
-
-logo.addEventListener("click",function () {
-    console.log("logo click");
-    nav.classList.remove("scrolled");
-    burgermenu.classList.remove("scrolled");
-})
 for (var i = 0; i < menulinks[i].length; i++){
     var link = "lien"+i;
-    console.log(link);
+    console.log(link+"coucou");
     document.getElementById(link).addEventListener("click",toggleMenu);
 }
 
 
 
 function toggleMenu(){
-
-    console.log("click menu");
 
     if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")){
         page.addEventListener("scroll", function(){
@@ -50,6 +42,11 @@ function toggleMenu(){
     }else{
         nav.classList.add("scrolled");
         burgermenu.classList.add("scrolled");
+        logo.addEventListener("click",function () {
+            console.log("logo click");
+            nav.classList.remove("scrolled");
+            burgermenu.classList.remove("scrolled");
+        });
     }
 }
 
