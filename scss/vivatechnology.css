@@ -106,7 +106,7 @@ h6 {
   }
   .app-header .app-header-content .links-list .iconlink {
     opacity: 0.9;
-    font-weight: 400 !important;
+    font-weight: 600 !important;
     position: relative;
   }
   .app-header .app-header-content .links-list .iconlink:after {
@@ -123,6 +123,9 @@ h6 {
   }
   .app-header .app-header-content .links-list .iconlink:hover:after {
     width: 100%;
+  }
+  .app-header .app-header-content .links-list .iconlink:last-child:after {
+    display: none;
   }
   .app-header .app-header-content .notif-content .messages {
     color: black !important;
@@ -199,7 +202,7 @@ button[type=button], a[role=button] {
 }
 
 /* COMPONENTS */
-.dynamicbloc-contentwrapper .bloc-globalsearch .search-bar input[type=search] {
+.dynamicbloc-contentwrapper.bloc-globalsearch .search-bar input[type=search] {
   font-size: 20px;
   font-weight: 600;
 }

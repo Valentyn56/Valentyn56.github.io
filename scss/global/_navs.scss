@@ -52,7 +52,7 @@
       .links-list{
         .iconlink{
           opacity: 0.9;
-          font-weight: 400 !important;
+          font-weight: 600 !important;
           position: relative;
           &:after{
             content: "";
@@ -70,6 +70,11 @@
           &:hover{
             &:after{
               width: 100%;
+            }
+          }
+          &:last-child{
+            &:after{
+              display: none;
             }
           }
 
