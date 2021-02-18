@@ -10,12 +10,12 @@ var menulinks = document.getElementsByClassName("headline");
 
 toggleMenu();
 
-for (var i = 0; i < menulinks.length; i++){
+/*for (var i = 0; i < menulinks.length; i++){
     var str = "lien"+i;
     console.log(str);
     menulinks[i].setAttribute("id",str);
     document.getElementById(str).addEventListener("click",toggleMenu);
-}
+}*/
 
 
 function toggleMenu(){
@@ -35,12 +35,12 @@ function toggleMenu(){
     }else{
         nav.classList.add("scrolled");
         burgermenu.classList.add("scrolled");
-        logo.addEventListener("click",function () {
+        /*logo.addEventListener("click",function () {
             console.log("logo click");
             nav.classList.remove("scrolled");
             burgermenu.classList.remove("scrolled");
             toggleMenu();
-        });
+        });*/
     }
 }
 
