@@ -5,12 +5,7 @@
   -webkit-transition: all 0.1s ease;
   -moz-transition: all 0.1s ease;
   -o-transition: all 0.1s ease;
-  .links-list{
-    .iconlink{
-      opacity: 0.9;
-      font-weight: 400 !important;
-    }
-  }
+
 }
 
 
@@ -53,6 +48,34 @@
           }
         }
       }
+
+      .links-list{
+        .iconlink{
+          opacity: 0.9;
+          font-weight: 400 !important;
+          position: relative;
+          &:after{
+            content: "";
+            position: absolute;
+            bottom: -6px;
+            width: 0%;
+            background-image: linear-gradient(90deg, $yellow, $orange, $pink);
+            height: 3px;
+            transition: all .2s ease;
+            -webkit-transition: all .2s ease;
+            -moz-transition: all .2s ease;
+            -o-transition: all .2s ease;
+          }
+
+          &:hover{
+            &:after{
+              width: 100%;
+            }
+          }
+
+        }
+      }
+
       .notif-content{
         .messages{
           color: $black !important;
