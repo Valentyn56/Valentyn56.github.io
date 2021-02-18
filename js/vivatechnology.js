@@ -4,8 +4,9 @@ document.getElementsByClassName("app-header")[0].setAttribute("id", "Appheader")
 var page = document.getElementById('Scrollcontent');
 var nav = document.getElementById("Appheader");
 var burgermenu = document.getElementById("burger-menu");
+var menulinks = document.getElementsByClassName("headline");
 
-document.getElementsByClassName("headline").addEventListener("click", function() {
+function toggleMenu(){
 
     console.log("click menu");
 
@@ -25,8 +26,17 @@ document.getElementsByClassName("headline").addEventListener("click", function()
         nav.classList.add("scrolled");
         burgermenu.classList.add("scrolled");
     }
+}
 
-});
+for (var i = 0; i < menulinks.length; i++){
+    menulinks[i].addEventListener("click",toggleMenu());
+}
+
+
+
+
+
+
 
 
 
