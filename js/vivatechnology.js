@@ -17,13 +17,6 @@ for (var i = 0; i < menulinks.length; i++){
     document.getElementById(str).addEventListener("click",toggleMenu);
 }
 
-for (var i = 0; i < menulinks[i].length; i++){
-    var link = "lien"+i;
-    console.log(link+"coucou");
-    document.getElementById(link).addEventListener("click",toggleMenu);
-}
-
-
 
 function toggleMenu(){
 
