@@ -9,15 +9,17 @@
       padding: 0 !important;
       .exhibitor-item{
         box-shadow: none;
-        width: calc(20% - 0px);
         a.itemcontent{
           @include normal-transition;
           height: 160px;
           box-shadow: $lilshadow;
           background-color: $white;
           display: flex;
-          .logo-photo{
-            height:100px !important;
+          .logo{
+            height: unset !important;
+            .logo-photo{
+              max-height:100px !important;
+            }
           }
         }
 
