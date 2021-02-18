@@ -39,6 +39,7 @@ function toggleMenu(){
             console.log("logo click");
             nav.classList.remove("scrolled");
             burgermenu.classList.remove("scrolled");
+            toggleMenu();
         });
     }
 }
