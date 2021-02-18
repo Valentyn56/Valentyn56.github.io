@@ -226,7 +226,7 @@ button[type=button], a[role=button] {
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
-  height: 160px;
+  height: 180px;
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34);
   background-color: white;
   display: flex;
