@@ -13,6 +13,7 @@
 /* COLORS */
 /* EFFECTS */
 /* Fonts */
+/* MIXINS */
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -212,6 +213,10 @@ button[type=button], a[role=button] {
   width: calc(20% - 0px);
 }
 .dynamicbloc-contentwrapper#ct-teaserexhibitors .bloc-content .exhibitor-item a.itemcontent, .dynamicbloc-contentwrapper.bloc-teaserexhibitors .bloc-content .exhibitor-item a.itemcontent {
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
   height: 160px;
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34);
   background-color: white;
@@ -219,6 +224,9 @@ button[type=button], a[role=button] {
 }
 .dynamicbloc-contentwrapper#ct-teaserexhibitors .bloc-content .exhibitor-item a.itemcontent .logo-photo, .dynamicbloc-contentwrapper.bloc-teaserexhibitors .bloc-content .exhibitor-item a.itemcontent .logo-photo {
   height: 100px !important;
+}
+.dynamicbloc-contentwrapper#ct-teaserexhibitors .bloc-content .exhibitor-item:hover a.itemcontent, .dynamicbloc-contentwrapper.bloc-teaserexhibitors .bloc-content .exhibitor-item:hover a.itemcontent {
+  box-shadow: 0 3px 10px rgba(215, 204, 203, 0.84);
 }
 .dynamicbloc-contentwrapper.bloc-globalsearch .search-bar input[type=search] {
   font-size: 22px;
