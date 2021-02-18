@@ -28,8 +28,25 @@ function toggleMenu(){
     }
 }
 
+if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")){
+    page.addEventListener("scroll", function(){
+        var pageScroll = page.scrollTop;
+
+        if(pageScroll >= 10){
+            nav.classList.add("scrolled");
+            burgermenu.classList.add("scrolled");
+        }else{
+            nav.classList.remove("scrolled");
+            burgermenu.classList.remove("scrolled");
+        }
+    });
+}else{
+    nav.classList.add("scrolled");
+    burgermenu.classList.add("scrolled");
+}
+
 for (var i = 0; i < menulinks.length; i++){
-    menulinks[i].addEventListener("click",toggleMenu());
+    menulinks[i].onclick(toggleMenu());
 }
 
 
