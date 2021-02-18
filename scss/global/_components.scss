@@ -2,13 +2,32 @@
 
 .dynamicbloc-contentwrapper{
 
-
+  &#ct-teaserexhibitors,&.bloc-teaserexhibitors{
+    .bloc-content{
+      background-color: transparent !important;
+      box-shadow: none !important;
+      padding: 0 !important;
+      .exhibitor-item{
+        box-shadow: none;
+        width: calc(20% - 0px);
+        a.itemcontent{
+          height: 160px;
+          box-shadow: $lilshadow;
+          background-color: $white;
+          display: flex;
+          .logo-photo{
+            height:100px !important;
+          }
+        }
+      }
+    }
+  }
 
 
   &.bloc-globalsearch {
     .search-bar {
       input[type=search]{
-        font-size:20px;
+        font-size:22px;
         font-weight: 600;
       }
     }
