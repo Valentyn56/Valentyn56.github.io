@@ -3,20 +3,22 @@
 span.overlay-partner-header{
   position: absolute;
   background-image: linear-gradient(90deg, hsl(0deg 0% 0% / 87%) 50%, rgb(0 0 0 / 20%));
+  width: 100vw;
+  height: 100vh;
+  left: 50%;
+  transform: translatex(-50%);
   top: -16px;
-  left: -60px;
-  right: -60px;
-  bottom: -16px;
   background-size: cover;
   z-index: -1;
 }
 
 span.background-partner-header{
   position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 50%;
+  transform: translatex(-50%);
   top: -16px;
-  left: -60px;
-  right: -60px;
-  bottom: -16px;
   background-size: cover;
   z-index: -2;
 }
