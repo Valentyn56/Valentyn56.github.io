@@ -13,6 +13,12 @@
         width: calc(20% - 0px);
         margin:0 !important;
         padding: 10px;
+        &:first-child{
+          padding-left: 0 !important;
+        }
+        &:last-child{
+          padding-right: 0 !important;
+        }
         a.itemcontent{
           @include normal-transition;
           height: 160px;

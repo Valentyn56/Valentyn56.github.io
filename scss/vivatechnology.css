@@ -215,6 +215,12 @@ button[type=button], a[role=button] {
   margin: 0 !important;
   padding: 10px;
 }
+.dynamicbloc-contentwrapper#ct-teaserexhibitors .bloc-content .exhibitor-item:first-child, .dynamicbloc-contentwrapper.bloc-teaserexhibitors .bloc-content .exhibitor-item:first-child {
+  padding-left: 0 !important;
+}
+.dynamicbloc-contentwrapper#ct-teaserexhibitors .bloc-content .exhibitor-item:last-child, .dynamicbloc-contentwrapper.bloc-teaserexhibitors .bloc-content .exhibitor-item:last-child {
+  padding-right: 0 !important;
+}
 .dynamicbloc-contentwrapper#ct-teaserexhibitors .bloc-content .exhibitor-item a.itemcontent, .dynamicbloc-contentwrapper.bloc-teaserexhibitors .bloc-content .exhibitor-item a.itemcontent {
   transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
