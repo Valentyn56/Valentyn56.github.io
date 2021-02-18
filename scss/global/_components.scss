@@ -7,8 +7,12 @@
       background-color: transparent !important;
       box-shadow: none !important;
       padding: 0 !important;
+      margin-top: 0px;
       .exhibitor-item{
         box-shadow: none;
+        width: calc(20% - 0px);
+        margin:0 !important;
+        padding: 10px;
         a.itemcontent{
           @include normal-transition;
           height: 160px;
