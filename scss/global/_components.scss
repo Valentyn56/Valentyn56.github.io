@@ -20,13 +20,12 @@
           background-color: $white;
           display: flex;
           .logo{
-            height: unset !important;
+            height: 80px !important;
             .logo-photo{
               max-height:100px !important;
             }
           }
         }
-
         &:hover{
           a.itemcontent{
             box-shadow: $lilshadowhover;

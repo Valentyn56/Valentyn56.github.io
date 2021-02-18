@@ -226,7 +226,7 @@ button[type=button], a[role=button] {
   display: flex;
 }
 .dynamicbloc-contentwrapper#ct-teaserexhibitors .bloc-content .exhibitor-item a.itemcontent .logo, .dynamicbloc-contentwrapper.bloc-teaserexhibitors .bloc-content .exhibitor-item a.itemcontent .logo {
-  height: unset !important;
+  height: 80px !important;
 }
 .dynamicbloc-contentwrapper#ct-teaserexhibitors .bloc-content .exhibitor-item a.itemcontent .logo .logo-photo, .dynamicbloc-contentwrapper.bloc-teaserexhibitors .bloc-content .exhibitor-item a.itemcontent .logo .logo-photo {
   max-height: 100px !important;
