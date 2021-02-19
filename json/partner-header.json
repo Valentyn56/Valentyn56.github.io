@@ -127,10 +127,6 @@
                       ],
                       "blocs": [
                         {
-                          "type": "i",
-                          "className": "icon inwink-store"
-                        },
-                        {
                           "type": "div",
                           "className": "sessionslot",
                           "blocs": [

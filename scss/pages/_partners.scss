@@ -49,11 +49,25 @@
             margin-right: 30px;
           }
           .title{
+            h1{
+              margin-bottom: 30px;
+            }
             .sessiondate{
               .room{
-                i:before{
-                  content:"\f5a0";
-                  font-family: $fontawesome;
+                width: fit-content;
+                padding: 3px 32px;
+                background: white;
+                color: black;
+                font-size: 17px;
+                border-radius: 4px;
+                font-weight: 700;
+                i{
+                  position: relative;
+                  left: -16px;
+                  &:before{
+                    content:"\f5a0";
+                    font-family: $fontawesome;
+                  }
                 }
                 .location{
 
@@ -71,7 +85,11 @@
             }
           }
           .description{
-
+            max-width: 630px;
+            p.content{
+              font-size: 15px;
+              font-weight: 500;
+            }
           }
 
         }

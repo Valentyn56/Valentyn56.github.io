@@ -288,6 +288,22 @@ button[type=button], a[role=button] {
   margin: 0;
   margin-right: 30px;
 }
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title h1 {
+  margin-bottom: 30px;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiondate .room {
+  width: fit-content;
+  padding: 3px 32px;
+  background: white;
+  color: black;
+  font-size: 17px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiondate .room i {
+  position: relative;
+  left: -16px;
+}
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiondate .room i:before {
   content: "";
   font-family: "Font Awesome 5 Pro";
@@ -298,6 +314,13 @@ button[type=button], a[role=button] {
   font-weight: 800;
   margin-top: 22px;
   margin-right: 10px;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description {
+  max-width: 630px;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description p.content {
+  font-size: 15px;
+  font-weight: 500;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions {
   flex: 2;
