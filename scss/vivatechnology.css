@@ -279,7 +279,7 @@ button[type=button], a[role=button] {
   padding-top: 30px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content {
-  flex: 7;
+  flex: 9;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .logo {
   width: 180px;
@@ -299,10 +299,17 @@ button[type=button], a[role=button] {
   margin-right: 10px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions {
-  flex: 1;
+  flex: 2;
+  display: flex;
+  align-content: baseline;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions * {
   width: 100%;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap {
+  height: 46px;
+  display: flex;
+  align-items: center;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .titlecontent {
   text-align: center;

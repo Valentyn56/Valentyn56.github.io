@@ -39,7 +39,7 @@
         align-items: center;
         padding-top: 30px;
         &.wrapper-content{
-          flex: 7;
+          flex: 9;
 
           .logo {
             width: 180px;
@@ -75,12 +75,17 @@
 
         }
         &.wrapper-actions{
-          flex: 1;
+          flex: 2;
+          display: flex;
+          align-content: baseline;
           *{
             width:100%;
           }
           .map{
             .showonmap{
+              height: 46px;
+              display: flex;
+              align-items: center;
               .titlecontent{
                 text-align: center;
                 i,p{
