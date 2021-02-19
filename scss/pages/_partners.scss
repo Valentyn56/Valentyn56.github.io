@@ -76,6 +76,21 @@
         }
         &.wrapper-actions{
           flex: 1;
+          *{
+            width:100%;
+          }
+          .map{
+            .showonmap{
+              .titlecontent{
+                text-align: center;
+                i,p{
+                  width: fit-content;
+                  display: inline-block;
+                  margin-right: 10px;
+                }
+              }
+            }
+          }
         }
 
       }
