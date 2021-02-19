@@ -294,34 +294,20 @@ button[type=button], a[role=button] {
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor {
   display: flex;
   align-items: center;
+  padding-top: 20px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor > * {
   margin-right: 20px;
+  margin-bottom: 0;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks {
   justify-content: flex-start;
   width: fit-content;
+  margin-top: 0;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title h1 {
   display: none;
   margin-bottom: 30px;
-}
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiondate .room {
-  width: fit-content;
-  padding: 3px 32px;
-  background: white;
-  color: black;
-  font-size: 17px;
-  border-radius: 4px;
-  font-weight: 700;
-}
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiondate .room i {
-  position: relative;
-  left: -16px;
-}
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiondate .room i:before {
-  content: "";
-  font-family: "Font Awesome 5 Pro";
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .tagslist .tag {
   background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
@@ -336,6 +322,23 @@ button[type=button], a[role=button] {
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description p.content {
   font-size: 15px;
   font-weight: 500;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos .room {
+  width: fit-content;
+  padding: 3px 32px;
+  background: white;
+  color: black;
+  font-size: 17px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos .room i {
+  position: relative;
+  left: -16px;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos .room i:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions {
   flex: 2;

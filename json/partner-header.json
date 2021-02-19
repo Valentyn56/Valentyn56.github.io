@@ -222,28 +222,6 @@
                                       "val": true
                                     }
                                   ]
-                                },
-                                {
-                                  "type": "div",
-                                  "className": "room",
-                                  "showIf": [
-                                    "emplacementconcat"
-                                  ],
-                                  "blocs": [
-                                    {
-                                      "type": "i",
-                                      "className": "icon inwink-placeholder"
-                                    },
-                                    {
-                                      "type": "span",
-                                      "className": "location",
-                                      "fields": [
-                                        {
-                                          "name": "emplacementconcat"
-                                        }
-                                      ]
-                                    }
-                                  ]
                                 }
                               ],
                               "collapsed": false
@@ -331,6 +309,34 @@
                       "fields": [
                         {
                           "name": "description"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "className": "practical-infos",
+                  "blocs": [
+                    {
+                      "type": "div",
+                      "className": "room",
+                      "showIf": [
+                        "emplacementconcat"
+                      ],
+                      "blocs": [
+                        {
+                          "type": "i",
+                          "className": "icon inwink-placeholder"
+                        },
+                        {
+                          "type": "span",
+                          "className": "location",
+                          "fields": [
+                            {
+                              "name": "emplacementconcat"
+                            }
+                          ]
                         }
                       ]
                     }

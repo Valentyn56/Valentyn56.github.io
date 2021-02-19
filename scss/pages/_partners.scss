@@ -55,12 +55,15 @@
             .sessiontype-exhibitor{
               display:flex;
               align-items: center;
+              padding-top: 20px;
               > * {
                 margin-right: 20px;
+                margin-bottom: 0;
               }
               .sociallinks{
                 justify-content: flex-start;
                 width: fit-content;
+                margin-top: 0;
               }
             }
             h1{
@@ -68,26 +71,7 @@
               margin-bottom: 30px;
             }
             .sessiondate{
-              .room{
-                width: fit-content;
-                padding: 3px 32px;
-                background: $white;
-                color: $black;
-                font-size: 17px;
-                border-radius: 4px;
-                font-weight: 700;
-                i{
-                  position: relative;
-                  left: -16px;
-                  &:before{
-                    content:"\f5a0";
-                    font-family: $fontawesome;
-                  }
-                }
-                .location{
 
-                }
-              }
             }
             .tagslist{
               .tag{
@@ -104,6 +88,28 @@
             p.content{
               font-size: 15px;
               font-weight: 500;
+            }
+          }
+          .practical-infos{
+            .room{
+              width: fit-content;
+              padding: 3px 32px;
+              background: $white;
+              color: $black;
+              font-size: 17px;
+              border-radius: 4px;
+              font-weight: 700;
+              i{
+                position: relative;
+                left: -16px;
+                &:before{
+                  content:"\f5a0";
+                  font-family: $fontawesome;
+                }
+              }
+              .location{
+
+              }
             }
           }
 
