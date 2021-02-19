@@ -246,6 +246,9 @@ button[type=button], a[role=button] {
 }
 
 /* Partners PAGE */
+.exhibitordetailpage .bloc-entitydetail .partner-header {
+  display: flex;
+}
 .exhibitordetailpage .bloc-entitydetail .partner-header span.overlay-partner-header {
   position: absolute;
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.87) 50%, rgba(0, 0, 0, 0.2));
