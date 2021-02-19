@@ -278,11 +278,28 @@ button[type=button], a[role=button] {
   align-items: center;
   padding-top: 30px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .logo {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content {
+  flex: 7;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .logo {
   width: 180px;
   height: 180px;
   margin: 0;
   margin-right: 30px;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiondate .room i:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .tagslist .tag {
+  background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  color: white;
+  font-weight: 800;
+  margin-top: 22px;
+  margin-right: 10px;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions {
+  flex: 1;
 }
 
 /*# sourceMappingURL=vivatechnology.css.map */

@@ -38,18 +38,46 @@
         flex-flow: wrap;
         align-items: center;
         padding-top: 30px;
-        .logo {
-          width: 180px;
-          height: 180px;
-          margin: 0;
-          margin-right: 30px;
-        }
-        .title{
+        &.wrapper-content{
+          flex: 7;
+
+          .logo {
+            width: 180px;
+            height: 180px;
+            margin: 0;
+            margin-right: 30px;
+          }
+          .title{
+            .sessiondate{
+              .room{
+                i:before{
+                  content:"\f5a0";
+                  font-family: $fontawesome;
+                }
+                .location{
+
+                }
+              }
+            }
+            .tagslist{
+              .tag{
+                background-image:$gradient;
+                color: white;
+                font-weight: 800;
+                margin-top: 22px;
+                margin-right: 10px;
+              }
+            }
+          }
+          .description{
+
+          }
 
         }
-        .description{
-
+        &.wrapper-actions{
+          flex: 1;
         }
+
       }
 
 

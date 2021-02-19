@@ -83,7 +83,7 @@
             },
             {
               "type": "div",
-              "className": "wrapper",
+              "className": "wrapper wrapper-content",
               "blocs": [
                 {
                   "type": "logo",
@@ -349,7 +349,7 @@
             },
             {
               "type": "div",
-              "className": "wrapper",
+              "className": "wrapper wrapper-actions",
               "blocs": [
                 {
                   "type": "exhibitoritemaction"
