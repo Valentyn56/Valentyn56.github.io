@@ -127,6 +127,15 @@
                       ],
                       "blocs": [
                         {
+                          "type": "tags",
+                          "doNotApplyLink": false,
+                          "fields": [
+                            {
+                              "name": "secteurdactivit"
+                            }
+                          ]
+                        },
+                        {
                           "type": "div",
                           "className": "sessionslot",
                           "blocs": [
@@ -228,15 +237,6 @@
                             }
                           ],
                           "collapsed": false
-                        },
-                        {
-                          "type": "tags",
-                          "doNotApplyLink": false,
-                          "fields": [
-                            {
-                              "name": "secteurdactivit"
-                            }
-                          ]
                         }
                       ]
                     },

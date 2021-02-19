@@ -348,6 +348,9 @@ button[type=button], a[role=button] {
   content: "";
   font-family: "Font Awesome 5 Pro";
 }
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .moreinfo-wrapper {
+  display: none;
+}
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions {
   flex: 2;
   display: flex;
