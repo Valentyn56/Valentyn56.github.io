@@ -82,22 +82,22 @@
               ]
             },
             {
-              "type": "logo",
-              "fields": [
-                {
-                  "name": "photourl300"
-                }
-              ],
-              "customfields": [
-                {
-                  "name": "name"
-                }
-              ]
-            },
-            {
               "type": "div",
               "className": "wrapper",
               "blocs": [
+                {
+                  "type": "logo",
+                  "fields": [
+                    {
+                      "name": "photourl300"
+                    }
+                  ],
+                  "customfields": [
+                    {
+                      "name": "name"
+                    }
+                  ]
+                },
                 {
                   "type": "div",
                   "className": "title",

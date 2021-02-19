@@ -268,7 +268,11 @@ button[type=button], a[role=button] {
   background-size: cover;
   z-index: -2;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .logo {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper {
+  display: flex;
+  flex-flow: wrap;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .logo {
   width: 140px;
   height: 140px;
   margin: 0;

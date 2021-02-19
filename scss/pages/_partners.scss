@@ -30,11 +30,16 @@
         z-index: -2;
       }
 
-      .logo {
-        width: 140px;
-        height: 140px;
-        margin: 0;
+      .wrapper{
+        display: flex;
+        flex-flow: wrap;
+        .logo {
+          width: 140px;
+          height: 140px;
+          margin: 0;
+        }
       }
+
 
     }
   }
