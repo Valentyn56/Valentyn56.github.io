@@ -312,10 +312,10 @@ button[type=button], a[role=button] {
   display: flex;
   align-items: center;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .titlecontent {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .title-content {
   text-align: center;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .titlecontent i, .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .titlecontent p {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .title-content i, .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .title-content p {
   width: fit-content;
   display: inline-block;
   margin-right: 10px;
