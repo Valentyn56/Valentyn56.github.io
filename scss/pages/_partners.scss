@@ -155,3 +155,12 @@
   }
 }
 
+/* RESPONSIVE Partner's page */
+
+@media screen and (max-width:601px){
+  .exhibitordetailpage .bloc-entitydetail .partner-header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
