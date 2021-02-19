@@ -250,18 +250,19 @@ button[type=button], a[role=button] {
   position: absolute;
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.87) 50%, rgba(0, 0, 0, 0.2));
   width: 100vw;
-  height: 110%;
+  height: 112%;
   left: 50%;
   transform: translatex(-50%);
   top: -16px;
   background-size: cover;
+  flex-basis: 100%;
   z-index: -1;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header span.background-partner-header {
   position: absolute;
   width: 100vw;
   background-position: center center;
-  height: 80vh;
+  height: 35vh;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -271,11 +272,14 @@ button[type=button], a[role=button] {
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper {
   display: flex;
   flex-flow: wrap;
+  align-items: center;
+  padding-top: 30px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .logo {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   margin: 0;
+  margin-right: 30px;
 }
 
 /*# sourceMappingURL=vivatechnology.css.map */
