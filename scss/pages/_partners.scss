@@ -60,10 +60,18 @@
                 margin-right: 20px;
                 margin-bottom: 0;
               }
-              .sociallinks{
+              .sociallinks {
                 justify-content: flex-start;
                 width: fit-content;
                 margin-top: 0;
+                .sociallink.clickable .icon {
+                  color: black !important;
+                  background: white !important;
+                  width: 26px;
+                  height: 26px;
+                  font-size: 16px;
+                  padding: 0;
+                }
               }
             }
             h1{
@@ -78,7 +86,7 @@
                 background-image:$gradient;
                 color: white;
                 font-weight: 800;
-                margin-top: 22px;
+                margin-top: 10px;
                 margin-right: 10px;
               }
             }

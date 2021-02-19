@@ -305,6 +305,14 @@ button[type=button], a[role=button] {
   width: fit-content;
   margin-top: 0;
 }
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable .icon {
+  color: black !important;
+  background: white !important;
+  width: 26px;
+  height: 26px;
+  font-size: 16px;
+  padding: 0;
+}
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title h1 {
   display: none;
   margin-bottom: 30px;
@@ -313,7 +321,7 @@ button[type=button], a[role=button] {
   background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
   color: white;
   font-weight: 800;
-  margin-top: 22px;
+  margin-top: 10px;
   margin-right: 10px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description {
