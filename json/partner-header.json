@@ -170,6 +170,60 @@
                                   ]
                                 },
                                 {
+                                  "type": "sociallinks",
+                                  "showIf": [
+                                    {
+                                      "or": [
+                                        {
+                                          "name": "website",
+                                          "op": "neq",
+                                          "val": ""
+                                        },
+                                        {
+                                          "name": "facebook",
+                                          "op": "neq",
+                                          "val": ""
+                                        },
+                                        {
+                                          "name": "linkedin",
+                                          "op": "neq",
+                                          "val": ""
+                                        },
+                                        {
+                                          "name": "twitter",
+                                          "op": "neq",
+                                          "val": ""
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "or": [
+                                        {
+                                          "name": "website",
+                                          "op": "isnotnull"
+                                        },
+                                        {
+                                          "name": "facebook",
+                                          "op": "isnotnull"
+                                        },
+                                        {
+                                          "name": "linkedin",
+                                          "op": "isnotnull"
+                                        },
+                                        {
+                                          "name": "twitter",
+                                          "op": "isnotnull"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "templateOptions.hideSocialLinks",
+                                      "op": "neq",
+                                      "val": true
+                                    }
+                                  ]
+                                },
+                                {
                                   "type": "div",
                                   "className": "room",
                                   "showIf": [

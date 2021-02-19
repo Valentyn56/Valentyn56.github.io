@@ -265,7 +265,7 @@ button[type=button], a[role=button] {
   position: absolute;
   width: 100vw;
   background-position: center center;
-  height: 35vh;
+  height: 110%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -281,6 +281,9 @@ button[type=button], a[role=button] {
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content {
   flex: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .logo {
   width: 180px;
@@ -288,7 +291,19 @@ button[type=button], a[role=button] {
   margin: 0;
   margin-right: 30px;
 }
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor {
+  display: flex;
+  align-items: center;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor > * {
+  margin-right: 20px;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks {
+  justify-content: flex-start;
+  width: fit-content;
+}
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title h1 {
+  display: none;
   margin-bottom: 30px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiondate .room {
@@ -325,7 +340,7 @@ button[type=button], a[role=button] {
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions {
   flex: 2;
   display: flex;
-  align-content: baseline;
+  align-content: center;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions * {
   width: 100%;
