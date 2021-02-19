@@ -276,7 +276,8 @@ button[type=button], a[role=button] {
   display: flex;
   flex-flow: wrap;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content {
   flex: 9;
