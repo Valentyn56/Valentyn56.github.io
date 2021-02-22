@@ -178,12 +178,12 @@
     margin-right: 0;
   }
   .exhibitordetailpage .bloc-teaser .bloc-singletext{
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
     text-align: center;
-    flex-direction: column;
+    flex-direction: column !important;
     padding-left: 0 !important;
-    padding: 20px 0;
+    padding: 20px 0 !important;
   }
 }
 
