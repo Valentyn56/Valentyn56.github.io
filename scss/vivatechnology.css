@@ -213,6 +213,10 @@ button[type=button], a[role=button] {
   background-image: linear-gradient(90.88deg, #F3B64B 0%, #EB6231 28.67%, #E63240 64.06%, #80358A 91.51%, #3F4C9A 117.13%) !important;
 }
 
+.homepage .dynamicbloc-contentwrapper#ct-teaserexhibitors .bloc-content .exhibitor-item, .homepage .dynamicbloc-contentwrapper.bloc-teaserexhibitors .bloc-content .exhibitor-item {
+  width: calc(20% - 0px);
+}
+
 .dynamicbloc-contentwrapper#ct-teaserexhibitors .bloc-content, .dynamicbloc-contentwrapper.bloc-teaserexhibitors .bloc-content {
   background-color: transparent !important;
   box-shadow: none !important;
@@ -221,7 +225,6 @@ button[type=button], a[role=button] {
 }
 .dynamicbloc-contentwrapper#ct-teaserexhibitors .bloc-content .exhibitor-item, .dynamicbloc-contentwrapper.bloc-teaserexhibitors .bloc-content .exhibitor-item {
   box-shadow: none;
-  width: calc(20% - 0px);
   margin: 0 !important;
   padding: 10px;
 }
