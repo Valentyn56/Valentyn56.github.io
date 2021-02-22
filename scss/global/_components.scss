@@ -1,7 +1,11 @@
 /* COMPONENTS */
 
-.dynamicbloc-contentwrapper{
+/* Light Grey Block with Gradient */
+.bloctheme-duplicate-lightgreybloc-7{
+  background-image: $blankgradient !important;
+}
 
+.dynamicbloc-contentwrapper{
   &#ct-teaserexhibitors,&.bloc-teaserexhibitors{
     .bloc-content{
       background-color: transparent !important;
