@@ -60,4 +60,32 @@
       }
     }
   }
+
+  &.bloc-teasereventinfos{
+    text-align: center;
+    .inwink-item{
+      flex-direction: column;
+      box-shadow: $lilshadow !important;
+      .detail{
+        flex-direction: column;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+        h4{
+          font-size:20px;
+          text-transform: uppercase;
+        }
+      }
+      &:before{
+        color: $pink;
+        text-transform: lowercase;
+        font-size: 14px;
+        position: relative;
+        top: 7px;
+      }
+      &:hover{
+        box-shadow: $lilshadowhover !important;
+      }
+    }
+  }
 }

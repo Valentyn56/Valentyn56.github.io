@@ -254,6 +254,33 @@ button[type=button], a[role=button] {
   font-size: 22px;
   font-weight: 600;
 }
+.dynamicbloc-contentwrapper.bloc-teasereventinfos {
+  text-align: center;
+}
+.dynamicbloc-contentwrapper.bloc-teasereventinfos .inwink-item {
+  flex-direction: column;
+  box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34) !important;
+}
+.dynamicbloc-contentwrapper.bloc-teasereventinfos .inwink-item .detail {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.dynamicbloc-contentwrapper.bloc-teasereventinfos .inwink-item .detail h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.dynamicbloc-contentwrapper.bloc-teasereventinfos .inwink-item:before {
+  color: #f5255d;
+  text-transform: lowercase;
+  font-size: 14px;
+  position: relative;
+  top: 7px;
+}
+.dynamicbloc-contentwrapper.bloc-teasereventinfos .inwink-item:hover {
+  box-shadow: 0 3px 10px rgba(215, 204, 203, 0.84) !important;
+}
 
 /* Partners PAGE */
 .exhibitordetailpage .bloc-entitydetail .partner-header {
