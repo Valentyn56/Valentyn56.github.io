@@ -260,12 +260,14 @@ button[type=button], a[role=button] {
 .dynamicbloc-contentwrapper.bloc-teasereventinfos .inwink-item {
   flex-direction: column;
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34) !important;
+  background-color: white;
 }
 .dynamicbloc-contentwrapper.bloc-teasereventinfos .inwink-item .detail {
   flex-direction: column;
   display: flex;
-  justify-content: flex-end;
-  margin-bottom: 10px;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 .dynamicbloc-contentwrapper.bloc-teasereventinfos .inwink-item .detail h4 {
   font-size: 20px;
@@ -275,8 +277,11 @@ button[type=button], a[role=button] {
   color: #f5255d;
   text-transform: lowercase;
   font-size: 14px;
-  position: relative;
+  position: absolute;
   top: 7px;
+  display: block;
+  width: 100%;
+  margin: auto;
 }
 .dynamicbloc-contentwrapper.bloc-teasereventinfos .inwink-item:hover {
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.84) !important;
