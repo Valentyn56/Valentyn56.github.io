@@ -208,6 +208,11 @@ button[type=button], a[role=button] {
   background-image: linear-gradient(180deg, #f7f8fa, #fff) !important;
 }
 
+/* Primary bloc Color with Gradient Big Blue */
+.bloctheme-duplicate-primarycolorbloc-6 {
+  background-image: linear-gradient(90.88deg, #F3B64B 0%, #EB6231 28.67%, #E63240 64.06%, #80358A 91.51%, #3F4C9A 117.13%) !important;
+}
+
 .dynamicbloc-contentwrapper#ct-teaserexhibitors .bloc-content, .dynamicbloc-contentwrapper.bloc-teaserexhibitors .bloc-content {
   background-color: transparent !important;
   box-shadow: none !important;
@@ -257,7 +262,7 @@ button[type=button], a[role=button] {
 .exhibitordetailpage .bloc-entitydetail .partner-header span.overlay-partner-header {
   position: absolute;
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.87) 50%, rgba(0, 0, 0, 0.2));
-  width: 100vw;
+  width: 102vw;
   height: 112%;
   left: 50%;
   transform: translatex(-50%);
