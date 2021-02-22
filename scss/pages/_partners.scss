@@ -177,5 +177,13 @@
   .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor > *{
     margin-right: 0;
   }
+  .exhibitordetailpage .bloc-teaser .bloc-singletext{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-left: 0 !important;
+    padding: 20px 0;
+  }
 }
 
