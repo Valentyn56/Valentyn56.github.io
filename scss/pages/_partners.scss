@@ -163,4 +163,12 @@
     flex-direction: column;
   }
 }
+@media screen and (max-width: 480px){
+  .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content{
+    align-items: center;
+  }
+  .partner-header .sessiontype-exhibitor.sessiontype-exhibitor {
+    flex-direction: column;
+  }
+}
 
