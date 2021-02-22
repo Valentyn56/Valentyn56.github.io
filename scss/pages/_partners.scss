@@ -166,9 +166,16 @@
 @media screen and (max-width: 480px){
   .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content{
     align-items: center;
+    text-align: center;
   }
   .partner-header .sessiontype-exhibitor.sessiontype-exhibitor {
     flex-direction: column;
+  }
+  .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .logo{
+    margin-right: 0;
+  }
+  .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor > *{
+    margin-right: 0;
   }
 }
 
