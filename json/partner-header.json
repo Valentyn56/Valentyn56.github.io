@@ -18,13 +18,7 @@
           "blocs": [
             {
               "type": "span",
-              "className": "overlay-partner-header",
-              "showIf": [
-                {
-                  "name": "background",
-                  "op": "isnotnull"
-                }
-              ]
+              "className": "overlay-partner-header"
             },
             {
               "type": "span",
