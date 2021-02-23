@@ -443,22 +443,23 @@ button[type=button], a[role=button] {
   content: "#";
   font-weight: 500;
 }
-.exhibitordetailpage header.bloc-header {
+.exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header {
+  padding-top: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #DDDEDF;
 }
-.exhibitordetailpage header.bloc-header h2.bloc-title .bloc-accent {
+.exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloc-accent {
   font-size: 18px;
   font-weight: 500;
 }
-.exhibitordetailpage header.bloc-header h2.bloc-title .bloctitle {
+.exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloctitle {
   text-transform: uppercase;
   font-size: 29px;
   color: #202020 !important;
   border: none !important;
   padding-bottom: 0 !important;
 }
-.exhibitordetailpage header.bloc-header .description {
+.exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header .description {
   color: black !important;
   opacity: 0.4;
   font-weight: 500;
