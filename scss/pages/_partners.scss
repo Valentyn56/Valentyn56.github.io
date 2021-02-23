@@ -1,7 +1,7 @@
 /* Partners PAGE */
 
 .exhibitordetailpage{
-
+  /* Partner's Header */
   .bloc-entitydetail{
 
     .partner-header{
@@ -153,6 +153,19 @@
 
     }
   }
+
+  h2.bloc-title{
+    .bloc-accent{
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .bloctitle{
+      text-transform: uppercase;
+      font-size: 29px;
+      color: $blackText !important;
+    }
+  }
+
 }
 
 /* RESPONSIVE Partner's page */

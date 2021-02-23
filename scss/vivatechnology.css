@@ -300,6 +300,9 @@ button[type=button], a[role=button] {
 }
 
 /* Partners PAGE */
+.exhibitordetailpage {
+  /* Partner's Header */
+}
 .exhibitordetailpage .bloc-entitydetail .partner-header {
   display: flex;
 }
@@ -425,6 +428,15 @@ button[type=button], a[role=button] {
   width: fit-content;
   display: inline-block;
   margin-right: 10px;
+}
+.exhibitordetailpage h2.bloc-title .bloc-accent {
+  font-size: 18px;
+  font-weight: 500;
+}
+.exhibitordetailpage h2.bloc-title .bloctitle {
+  text-transform: uppercase;
+  font-size: 29px;
+  color: #202020 !important;
 }
 
 /* RESPONSIVE Partner's page */
