@@ -25,6 +25,14 @@ h6{
   font-weight: 800;
 }
 
+.bloc-footer{
+  .dynamicbloc-wrapper-contentblocs{
+    padding-top: 17px;
+    .description {
+      display: none;
+    }
+  }
+}
 
 @media screen and (min-width: 1260px){
   .h1, h1 {
