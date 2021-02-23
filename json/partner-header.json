@@ -343,6 +343,24 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "div",
+                      "className": "type room",
+                      "showIf": [
+                        "presence"
+                      ],
+                      "blocs": [
+                        {
+                          "type": "span",
+                          "className": "location",
+                          "fields": [
+                            {
+                              "name": "presence"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
