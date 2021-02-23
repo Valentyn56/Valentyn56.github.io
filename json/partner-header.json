@@ -309,6 +309,16 @@
                   ]
                 },
                 {
+                  "type": "tags",
+                  "className": "partner-themes",
+                  "doNotApplyLink": false,
+                  "fields": [
+                    {
+                      "name": "tags"
+                    }
+                  ]
+                },
+                {
                   "type": "div",
                   "className": "practical-infos",
                   "blocs": [
@@ -333,16 +343,6 @@
                           ]
                         }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "tags",
-                  "className": "partner-themes",
-                  "doNotApplyLink": false,
-                  "fields": [
-                    {
-                      "name": "tags"
                     }
                   ]
                 },

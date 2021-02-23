@@ -147,6 +147,20 @@
             }
           }
         }
+        .partner-themes{
+          .tagslist-items{
+            .tag{
+              background: transparent;
+              color: white;
+              padding-left: 0;
+              font-size: 19px;
+              &:before{
+                content: "#";
+                font-weight: 500;
+              }
+            }
+          }
+        }
 
       }
 

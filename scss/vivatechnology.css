@@ -429,6 +429,16 @@ button[type=button], a[role=button] {
   display: inline-block;
   margin-right: 10px;
 }
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag {
+  background: transparent;
+  color: white;
+  padding-left: 0;
+  font-size: 19px;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag:before {
+  content: "#";
+  font-weight: 500;
+}
 .exhibitordetailpage h2.bloc-title .bloc-accent {
   font-size: 18px;
   font-weight: 500;
