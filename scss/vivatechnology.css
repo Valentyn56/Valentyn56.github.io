@@ -278,7 +278,7 @@ button[type=button], a[role=button] {
   flex-direction: column;
   display: flex;
   justify-content: center;
-  margin-top: 16px;
+  margin-top: 21px;
   margin-bottom: 16px;
 }
 .bloctheme:not(.bloc-footer) .bloc-teasereventinfos .inwink-item .detail h4 {
@@ -286,11 +286,11 @@ button[type=button], a[role=button] {
   text-transform: uppercase;
 }
 .bloctheme:not(.bloc-footer) .bloc-teasereventinfos .inwink-item:before {
-  color: #f5255d;
-  text-transform: lowercase;
-  font-size: 14px;
-  position: absolute;
-  top: 23px;
+  color: #f5255d !important;
+  text-transform: lowercase !important;
+  font-size: 14px !important;
+  position: absolute !important;
+  top: 9px !important;
   display: block;
   width: 100%;
   margin: auto;
