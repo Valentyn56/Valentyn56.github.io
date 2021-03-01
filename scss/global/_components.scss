@@ -104,12 +104,7 @@
       }
     }
   }
-
-
-}
-
-.blocpicturegaleryfull{
-
+  .picturegalleryitem{
     .player {
       background: transparent !important;
       box-shadow: none !important;
@@ -127,6 +122,11 @@
       font-weight: 600;
       font-size: 18px;
     }
+  }
+
+}
+
+.blocpicturegaleryfull{
     .blocpicturegaleryfull-wrapper{
       button{
         background: transparent !important;
