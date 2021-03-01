@@ -104,4 +104,21 @@
       }
     }
   }
+
+  .picturegalleryitem{
+    .player {
+      background: transparent !important;
+      box-shadow: none !important;
+      i::before {
+        content: "\f144" !important;
+        color: white !important;
+        font-family: $fontawesome;
+        font-weight: bold;
+        font-size: 60px;
+        text-shadow: 0px 0px 8px #00000024;
+      }
+    }
+  }
+
+
 }

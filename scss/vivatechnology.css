@@ -298,6 +298,18 @@ button[type=button], a[role=button] {
 .bloctheme:not(.bloc-footer) .bloc-teasereventinfos .inwink-item:hover {
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.84) !important;
 }
+.bloctheme:not(.bloc-footer) .picturegalleryitem .player {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.bloctheme:not(.bloc-footer) .picturegalleryitem .player i::before {
+  content: "" !important;
+  color: white !important;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 0px 0px 8px #00000024;
+}
 
 /* Partners PAGE */
 .exhibitordetailpage {
