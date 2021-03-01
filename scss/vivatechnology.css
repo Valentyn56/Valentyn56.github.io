@@ -317,15 +317,28 @@ button[type=button], a[role=button] {
 }
 .bloctheme:not(.bloc-footer) .picturegalleryitem .blocpicturegaleryfull-wrapper button {
   background: transparent !important;
+  border: none !important;
 }
 .bloctheme:not(.bloc-footer) .picturegalleryitem .blocpicturegaleryfull-wrapper .blocpicturegaleryfull-close i::before {
   content: "" !important;
   font-family: "Font Awesome 5 Pro";
   font-weight: bold;
-  font-size: 25px;
+  font-size: 35px;
+  position: relative;
+  right: 20px;
   transform: rotate(90deg);
 }
-
+.bloctheme:not(.bloc-footer) .picturegalleryitem .blocpicturegaleryfull-wrapper .blocpicturegaleryfull-content .description-panel h2 {
+  color: white !important;
+  font-size: 35px;
+}
+.bloctheme:not(.bloc-footer) .picturegalleryitem .blocpicturegaleryfull-wrapper .blocpicturegaleryfull-content .description-panel .description {
+  font-size: 16px;
+}
+.bloctheme:not(.bloc-footer) .picturegalleryitem .blocpicturegaleryfull-wrapper .blocpicturegaleryfull-content .btnnav {
+  background: transparent !important;
+  border: none !important;
+}
 /* Partners PAGE */
 .exhibitordetailpage {
   /* Partner's Header */
