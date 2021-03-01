@@ -299,11 +299,11 @@ button[type=button], a[role=button] {
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.84) !important;
 }
 
-.blocpicturegaleryfull .picturegalleryitem .player {
+.blocpicturegaleryfull .player {
   background: transparent !important;
   box-shadow: none !important;
 }
-.blocpicturegaleryfull .picturegalleryitem .player i::before {
+.blocpicturegaleryfull .player i::before {
   content: "" !important;
   color: white !important;
   font-family: "Font Awesome 5 Pro";
@@ -311,16 +311,16 @@ button[type=button], a[role=button] {
   font-size: 60px;
   text-shadow: 0px 0px 8px #00000024;
 }
-.blocpicturegaleryfull .picturegalleryitem .title-layer {
+.blocpicturegaleryfull .title-layer {
   background: #0000004f !important;
   font-weight: 600;
   font-size: 18px;
 }
-.blocpicturegaleryfull .picturegalleryitem .blocpicturegaleryfull-wrapper button {
+.blocpicturegaleryfull .blocpicturegaleryfull-wrapper button {
   background: transparent !important;
   border: none !important;
 }
-.blocpicturegaleryfull .picturegalleryitem .blocpicturegaleryfull-wrapper .blocpicturegaleryfull-close i::before {
+.blocpicturegaleryfull .blocpicturegaleryfull-wrapper .blocpicturegaleryfull-close i::before {
   content: "" !important;
   font-family: "Font Awesome 5 Pro";
   font-weight: bold;
@@ -329,14 +329,14 @@ button[type=button], a[role=button] {
   right: 20px;
   transform: rotate(90deg);
 }
-.blocpicturegaleryfull .picturegalleryitem .blocpicturegaleryfull-wrapper .blocpicturegaleryfull-content .description-panel h2 {
+.blocpicturegaleryfull .blocpicturegaleryfull-wrapper .blocpicturegaleryfull-content .description-panel h2 {
   color: white !important;
   font-size: 35px;
 }
-.blocpicturegaleryfull .picturegalleryitem .blocpicturegaleryfull-wrapper .blocpicturegaleryfull-content .description-panel .description {
+.blocpicturegaleryfull .blocpicturegaleryfull-wrapper .blocpicturegaleryfull-content .description-panel .description {
   font-size: 16px;
 }
-.blocpicturegaleryfull .picturegalleryitem .blocpicturegaleryfull-wrapper .blocpicturegaleryfull-content .btnnav {
+.blocpicturegaleryfull .blocpicturegaleryfull-wrapper .blocpicturegaleryfull-content .btnnav {
   background: transparent !important;
   border: none !important;
 }
