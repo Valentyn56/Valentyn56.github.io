@@ -315,6 +315,16 @@ button[type=button], a[role=button] {
   font-weight: 600;
   font-size: 18px;
 }
+.bloctheme:not(.bloc-footer) .picturegalleryitem .blocpicturegaleryfull-wrapper button {
+  background: transparent !important;
+}
+.bloctheme:not(.bloc-footer) .picturegalleryitem .blocpicturegaleryfull-wrapper .blocpicturegaleryfull-close i::before {
+  content: "" !important;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: bold;
+  font-size: 25px;
+  transform: rotate(90deg);
+}
 
 /* Partners PAGE */
 .exhibitordetailpage {

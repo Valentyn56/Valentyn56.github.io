@@ -123,6 +123,18 @@
       font-weight: 600;
       font-size: 18px;
     }
+    .blocpicturegaleryfull-wrapper{
+      button{
+        background: transparent !important;
+      }
+      .blocpicturegaleryfull-close i::before {
+        content: "\f2ee" !important;
+        font-family: $fontawesome;
+        font-weight: bold;
+        font-size: 25px;
+        transform: rotate(90deg);
+      }
+    }
   }
 
 
