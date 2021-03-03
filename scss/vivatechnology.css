@@ -302,8 +302,11 @@ button[type=button], a[role=button] {
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34);
 }
 .bloctheme:not(.bloc-footer) .picturegalleryitem .player {
-  background: transparent !important;
+  width: 55px !important;
+  height: 55px !important;
   box-shadow: none !important;
+  opacity: 1 !important;
+  background: #000000b0 !important;
 }
 .bloctheme:not(.bloc-footer) .picturegalleryitem .player i::before {
   content: "" !important;
