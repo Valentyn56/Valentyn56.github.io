@@ -105,6 +105,7 @@
     }
   }
   .picturegalleryitem{
+    box-shadow: $lilshadow;
     .player {
       background: transparent !important;
       box-shadow: none !important;
@@ -121,6 +122,11 @@
       background: #0000004f !important;
       font-weight: 600;
       font-size: 18px;
+      span{
+        position: absolute;
+        bottom: 5px;
+
+      }
     }
   }
 

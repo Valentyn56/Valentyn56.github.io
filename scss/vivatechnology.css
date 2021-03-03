@@ -298,6 +298,9 @@ button[type=button], a[role=button] {
 .bloctheme:not(.bloc-footer) .bloc-teasereventinfos .inwink-item:hover {
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.84) !important;
 }
+.bloctheme:not(.bloc-footer) .picturegalleryitem {
+  box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34);
+}
 .bloctheme:not(.bloc-footer) .picturegalleryitem .player {
   background: transparent !important;
   box-shadow: none !important;
@@ -314,6 +317,10 @@ button[type=button], a[role=button] {
   background: #0000004f !important;
   font-weight: 600;
   font-size: 18px;
+}
+.bloctheme:not(.bloc-footer) .picturegalleryitem .title-layer span {
+  position: absolute;
+  bottom: 5px;
 }
 
 .blocpicturegaleryfull .blocpicturegaleryfull-wrapper button {
