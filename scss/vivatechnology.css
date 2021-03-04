@@ -495,9 +495,22 @@ inwink-items, .inwink-items .inwink-item {
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i {
   flex: 1;
+  font-family: "Font Awesome 5 Pro" !important;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i.inwink-bookmark:before {
+  content: "";
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i.inwink-calendar:before {
+  content: "";
+  font-size: 16px;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i.inwink-chat:before {
+  content: "";
+  font-size: 16px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap {
-  height: 46px;
+  height: 42px;
+  font-size: 12px;
   display: flex;
   align-items: center;
 }

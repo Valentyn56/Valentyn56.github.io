@@ -143,12 +143,31 @@
               align-items: center;
               i{
                 flex: 1;
+                font-family: $fontawesome !important;
+                &.inwink-bookmark{
+                  &:before{
+                    content: "\f005";
+                  }
+                }
+                &.inwink-calendar{
+                  &:before{
+                    content: "\f271";
+                    font-size: 16px;
+                  }
+                }
+                &.inwink-chat{
+                  &:before{
+                    content: "\f086";
+                    font-size: 16px;
+                  }
+                }
               }
             }
           }
           .map{
             .showonmap{
-              height: 46px;
+              height: 42px;
+              font-size: 12px;
               display: flex;
               align-items: center;
               .title-content{
