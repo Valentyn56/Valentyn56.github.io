@@ -217,6 +217,11 @@ inwink-items, .inwink-items .inwink-item, .picturegalleryitem {
   overflow: hidden !important;
 }
 
+/* Items list */
+.itemslist button.asyncbtn.requestmeeting {
+  display: none;
+}
+
 /* Light Grey Block with Gradient */
 .bloctheme-duplicate-lightgreybloc-7 {
   background-image: linear-gradient(180deg, #f7f8fa, #fff) !important;
