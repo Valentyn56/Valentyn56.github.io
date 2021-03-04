@@ -1,5 +1,12 @@
 /* COMPONENTS */
 
+/* Inwink items & cards */
+
+inwink-items, .inwink-items .inwink-item, .picturegalleryitem {
+  border-radius: 8px !important;
+  overflow: hidden !important;
+}
+
 /* Light Grey Block with Gradient */
 .bloctheme-duplicate-lightgreybloc-7{
   background-image: $blankgradient !important;
