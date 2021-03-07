@@ -11,31 +11,6 @@
       margin-right: 30px;
     }
 
-    .startup-header{
-      .logo{
-        flex: 2;
-      }
-      .wrapper-content{
-        flex:1;
-        .practical-infos {
-          .room{
-            width: fit-content;
-            margin-right: 10px;
-            padding: 3px 32px;
-            background: #1d6ff7;
-            color: white;
-            font-size: 17px;
-            border-radius: 4px;
-            font-weight: 700;
-          }
-        }
-      }
-      .wrapper-actions{
-        flex: 1;
-      }
-
-    }
-
     .partner-header{
 
       display: flex;
@@ -227,6 +202,32 @@
 
 
     }
+
+    .startup-header{
+      .logo{
+        flex: 2;
+      }
+      .wrapper-content{
+        flex:1;
+        .practical-infos {
+          .room{
+            width: fit-content;
+            margin-right: 10px;
+            padding: 3px 32px;
+            background: #1d6ff7;
+            color: white;
+            font-size: 17px;
+            border-radius: 4px;
+            font-weight: 700;
+          }
+        }
+      }
+      .wrapper-actions{
+        flex: 1;
+      }
+
+    }
+
   }
   .bloctheme:not(.bloc-footer){
     header.bloc-header{
