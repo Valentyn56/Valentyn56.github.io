@@ -533,10 +533,10 @@ inwink-items, .inwink-items .inwink-item {
   font-weight: 500;
 }
 .exhibitordetailpage .bloc-entitydetail .startup-header .logo {
-  flex: 2;
+  flex: 2 !important;
 }
 .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content {
-  flex: 1;
+  flex: 1 !important;
 }
 .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .practical-infos .room {
   width: fit-content;
@@ -564,7 +564,7 @@ inwink-items, .inwink-items .inwink-item {
   background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vectorwed_black.png");
 }
 .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-actions {
-  flex: 1;
+  flex: 1 !important;
 }
 .exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header {
   padding-top: 20px;

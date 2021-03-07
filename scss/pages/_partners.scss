@@ -205,10 +205,10 @@
 
     .startup-header{
       .logo{
-        flex: 2;
+        flex: 2 !important;
       }
       .wrapper-content{
-        flex:1;
+        flex:1 !important;
         .practical-infos {
           .room{
             width: fit-content;
@@ -244,7 +244,7 @@
         }
       }
       .wrapper-actions{
-        flex: 1;
+        flex: 1 !important;
       }
 
     }
