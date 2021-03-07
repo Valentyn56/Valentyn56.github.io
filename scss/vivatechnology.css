@@ -548,6 +548,21 @@ inwink-items, .inwink-items .inwink-item {
   border-radius: 4px;
   font-weight: 700;
 }
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  color: black;
+  width: 50px;
+  height: 50px;
+  padding-top: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+  background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vectorwed_black.png");
+}
 .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-actions {
   flex: 1;
 }
