@@ -238,6 +238,30 @@
                 font-size: 11px;
                 font-weight: 500;
                 background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vectorwed_black.png");
+
+                &:after{
+                  content: "";
+                  display: block;
+                  font-size: 20px;
+                  position: relative;
+                  top: -9px;
+                  font-weight: bold;
+                }
+
+                &.day-wed:after {
+                  content: "16";
+                }
+                &.day-thu:after {
+                  content: "17";
+                }
+                &.day-fri:after {
+                  content: "18";
+                }
+                &.day-sat:after {
+                  content: "19";
+                }
+
+
               }
             }
           }

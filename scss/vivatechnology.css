@@ -563,6 +563,26 @@ inwink-items, .inwink-items .inwink-item {
   font-weight: 500;
   background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vectorwed_black.png");
 }
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable:after {
+  content: "";
+  display: block;
+  font-size: 20px;
+  position: relative;
+  top: -9px;
+  font-weight: bold;
+}
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-wed:after {
+  content: "16";
+}
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-thu:after {
+  content: "17";
+}
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-fri:after {
+  content: "18";
+}
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-sat:after {
+  content: "19";
+}
 .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-actions {
   flex: 1 !important;
 }
