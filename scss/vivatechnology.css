@@ -542,8 +542,8 @@ inwink-items, .inwink-items .inwink-item {
   width: fit-content;
   margin-right: 10px;
   padding: 3px 32px;
-  background: #1d6ff7;
-  color: white;
+  background: #1d6ff7 !important;
+  color: white !important;
   font-size: 17px;
   border-radius: 4px;
   font-weight: 700;
