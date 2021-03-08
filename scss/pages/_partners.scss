@@ -88,11 +88,17 @@
             }
             .tagslist{
               .tag{
-                background-image:$gradient;
+                /*background-image:$gradient;
                 color: white;
                 font-weight: 800;
                 margin-top: 10px;
-                margin-right: 10px;
+                margin-right: 10px;*/
+
+                background: transparent;
+                color: white;
+                padding-left: 0;
+                font-size: 19px;
+
               }
             }
           }
@@ -189,10 +195,13 @@
         .partner-themes{
           .tagslist-items{
             .tag{
-              background: transparent;
+
+              background-image: $gradient;
               color: white;
-              padding-left: 0;
-              font-size: 19px;
+              font-weight: 800;
+              margin-top: 10px;
+              margin-right: 10px;
+
               &:before{
                 content: "#";
                 font-weight: 500;
