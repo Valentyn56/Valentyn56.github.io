@@ -436,6 +436,9 @@ inwink-items, .inwink-items .inwink-item {
   width: fit-content;
   margin-top: 0;
 }
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink:first-child {
+  display: none;
+}
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable .icon {
   color: black !important;
   background: white !important;
@@ -546,6 +549,9 @@ inwink-items, .inwink-items .inwink-item {
 .exhibitordetailpage .bloc-entitydetail .startup-header .logo {
   flex: 2 !important;
   height: 210px !important;
+}
+.exhibitordetailpage .bloc-entitydetail .startup-header .sociallinks .sociallink:first-child {
+  display: none;
 }
 .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content {
   flex: 1 !important;

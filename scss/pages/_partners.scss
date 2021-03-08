@@ -66,6 +66,9 @@
                 justify-content: flex-start;
                 width: fit-content;
                 margin-top: 0;
+                .sociallink:first-child{
+                  display: none;
+                }
                 .sociallink.clickable .icon {
                   color: black !important;
                   background: white !important;
@@ -207,6 +210,11 @@
       .logo{
         flex: 2 !important;
         height: 210px !important;
+      }
+      .sociallinks{
+        .sociallink:first-child{
+          display: none;
+        }
       }
       .wrapper-content{
         flex:1 !important;
