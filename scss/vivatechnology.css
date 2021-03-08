@@ -176,10 +176,10 @@ button[type=button], a[role=button] {
   font-family: "Font Awesome 5 Pro";
 }
 
-.has-button:after {
+.has-button a[role=button]:after {
   content: " more";
 }
-.has-button.opened:after {
+.has-button a[role=button].opened:after {
   content: " less";
 }
 
