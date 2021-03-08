@@ -27,6 +27,15 @@ button[type="button"], a[role="button"] {
   }
 }
 
+.has-button{
+  &:after{
+    content:" more";
+  }
+  &.opened:after{
+    content:" less";
+  }
+}
+
 .explore-btn{
   .buttontitle{
     border:none !important;

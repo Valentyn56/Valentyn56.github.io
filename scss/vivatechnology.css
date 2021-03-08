@@ -176,6 +176,13 @@ button[type=button], a[role=button] {
   font-family: "Font Awesome 5 Pro";
 }
 
+.has-button:after {
+  content: " more";
+}
+.has-button.opened:after {
+  content: " less";
+}
+
 .explore-btn .buttontitle {
   border: none !important;
 }
