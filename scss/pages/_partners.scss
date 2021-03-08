@@ -97,7 +97,14 @@
                 background: transparent;
                 color: white;
                 padding-left: 0;
-                font-size: 19px;
+                padding-bottom: 0;
+                font-size: 17px;
+
+                &:before {
+                  content: "\f1ad";
+                  font-family: $fontawesome;
+                  margin-right: 5px;
+                }
 
               }
             }
@@ -196,10 +203,18 @@
           .tagslist-items{
             .tag{
 
-              background-image: $gradient;
+              /*background-image: $gradient;
               color: white;
               font-weight: 800;
               margin-top: 10px;
+              margin-right: 10px;*/
+
+              color: $white;
+              font-weight: 800;
+              margin-top: 10px;
+              background: transparent;
+              font-size: 15px;
+              padding-left: 0;
               margin-right: 10px;
 
               &:before{

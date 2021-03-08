@@ -467,7 +467,13 @@ inwink-items, .inwink-items .inwink-item {
   background: transparent;
   color: white;
   padding-left: 0;
-  font-size: 19px;
+  padding-bottom: 0;
+  font-size: 17px;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .tagslist .tag:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  margin-right: 5px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description {
   max-width: 630px;
@@ -548,10 +554,17 @@ inwink-items, .inwink-items .inwink-item {
   margin-right: 10px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag {
-  background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  /*background-image: $gradient;
   color: white;
   font-weight: 800;
   margin-top: 10px;
+  margin-right: 10px;*/
+  color: white;
+  font-weight: 800;
+  margin-top: 10px;
+  background: transparent;
+  font-size: 15px;
+  padding-left: 0;
   margin-right: 10px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag:before {
