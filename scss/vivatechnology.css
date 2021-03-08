@@ -217,6 +217,10 @@ inwink-items, .inwink-items .inwink-item {
   overflow: hidden !important;
 }
 
+.inwink-items .inwink-item .card .requestmeeting {
+  display: none;
+}
+
 /* Items list */
 .itemslist button.asyncbtn.requestmeeting {
   display: none;
