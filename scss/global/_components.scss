@@ -198,3 +198,11 @@ inwink-items, .inwink-items .inwink-item /*, .picturegalleryitem */ {
 
   }
 }
+
+/* RESPONSIVE COMPONENT*/
+
+@media screen and (min-width:601px){
+  .dynamicbloc-contentwrapper {
+    margin-top: 0 !important;
+  }
+}
