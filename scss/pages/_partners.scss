@@ -11,6 +11,14 @@
       margin-right: 30px;
     }
 
+    .partner-header:not(.startup-header){
+      .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before{
+        content: "\f1ad";
+        font-family: $fontawesome;
+        margin-right: 5px;
+      }
+    }
+
     .partner-header{
 
       display: flex;
@@ -68,11 +76,6 @@
                   padding-bottom: 0;
                   font-size: 17px;
 
-                  &:before {
-                    content: "\f1ad";
-                    font-family: $fontawesome;
-                    margin-right: 5px;
-                  }
 
                 }
               }

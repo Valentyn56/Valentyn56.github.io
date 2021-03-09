@@ -390,6 +390,11 @@ inwink-items, .inwink-items .inwink-item {
   margin: 0;
   margin-right: 30px;
 }
+.exhibitordetailpage .bloc-entitydetail .partner-header:not(.startup-header) .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  margin-right: 5px;
+}
 .exhibitordetailpage .bloc-entitydetail .partner-header {
   display: flex;
 }
@@ -440,11 +445,6 @@ inwink-items, .inwink-items .inwink-item {
   padding-left: 0;
   padding-bottom: 0;
   font-size: 17px;
-}
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before {
-  content: "";
-  font-family: "Font Awesome 5 Pro";
-  margin-right: 5px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor {
   display: flex;
