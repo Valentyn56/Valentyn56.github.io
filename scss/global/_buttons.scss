@@ -36,6 +36,10 @@ button[type="button"], a[role="button"] {
   }
 }
 
+.dynamicbloc-wrapper .bloc-actions a[role=button].no-link {
+  pointer-events: auto !important;
+}
+
 .explore-btn{
   .buttontitle{
     border:none !important;

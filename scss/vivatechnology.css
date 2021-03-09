@@ -183,6 +183,10 @@ button[type=button], a[role=button] {
   content: " less";
 }
 
+.dynamicbloc-wrapper .bloc-actions a[role=button].no-link {
+  pointer-events: auto !important;
+}
+
 .explore-btn .buttontitle {
   border: none !important;
 }
