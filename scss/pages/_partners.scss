@@ -62,7 +62,7 @@
                 border-radius: 0;
                 padding: 0;
                 padding-top: 13px;
-                margin-right: 5px;
+                margin-right: 12px;
                 text-align: center;
                 text-transform: uppercase;
                 font-size: 11px;
@@ -110,6 +110,7 @@
           > .title{
             .sessiontype-exhibitor{
               .tagslist{
+                padding-top: 5px;
                 .tag{
                   /*background-image:$gradient;
                   color: white;
@@ -172,8 +173,10 @@
           }
           .practical-infos{
             display: inline-flex;
+            align-items: center;
             .room{
               width: fit-content;
+              height: fit-content;
               margin-right: 10px;
               padding: 3px 32px;
               background: $white;
