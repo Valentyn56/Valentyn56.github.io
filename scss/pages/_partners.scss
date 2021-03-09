@@ -48,6 +48,55 @@
         z-index: -2;
       }
 
+      .sessiontype-exhibitor{
+        .sessionslot{
+          .sessiondate{
+            .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable {
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center center;
+              background-color: transparent;
+              color: $white;
+              width: 40px;
+              height: 50px;
+              border-radius: 0;
+              padding: 0;
+              padding-top: 13px;
+              margin-right: 5px;
+              text-align: center;
+              text-transform: uppercase;
+              font-size: 11px;
+              font-weight: 500;
+              background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vector.png");
+
+              &:after{
+                content: "";
+                display: block;
+                font-size: 20px;
+                position: relative;
+                top: -9px;
+                font-weight: bold;
+              }
+
+              &.day-Wed:after {
+                content: "16";
+              }
+              &.day-Thu:after {
+                content: "17";
+              }
+              &.day-Fri:after {
+                content: "18";
+              }
+              &.day-Sat:after {
+                content: "19";
+              }
+
+
+            }
+          }
+        }
+      }
+
       .wrapper{
         display: flex;
         flex-flow: wrap;
