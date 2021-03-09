@@ -429,6 +429,23 @@ inwink-items, .inwink-items .inwink-item {
   flex-direction: column;
   align-items: end;
 }
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content > .title .tagslist .tag {
+  /*background-image:$gradient;
+  color: white;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-right: 10px;*/
+  background: transparent;
+  color: white;
+  padding-left: 0;
+  padding-bottom: 0;
+  font-size: 17px;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content > .title .tagslist .tag:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  margin-right: 5px;
+}
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor {
   display: flex;
   align-items: center;
@@ -457,23 +474,6 @@ inwink-items, .inwink-items .inwink-item {
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title h1 {
   display: none;
   margin-bottom: 30px;
-}
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .tagslist .tag {
-  /*background-image:$gradient;
-  color: white;
-  font-weight: 800;
-  margin-top: 10px;
-  margin-right: 10px;*/
-  background: transparent;
-  color: white;
-  padding-left: 0;
-  padding-bottom: 0;
-  font-size: 17px;
-}
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .tagslist .tag:before {
-  content: "";
-  font-family: "Font Awesome 5 Pro";
-  margin-right: 5px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description {
   max-width: 630px;
