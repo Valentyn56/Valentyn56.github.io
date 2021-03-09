@@ -426,7 +426,7 @@ inwink-items, .inwink-items .inwink-item {
   background-size: cover;
   z-index: -2;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable {
+.exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -444,7 +444,7 @@ inwink-items, .inwink-items .inwink-item {
   font-weight: 500;
   background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vector.png");
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable:after {
+.exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable:after {
   content: "";
   display: block;
   font-size: 20px;
@@ -452,16 +452,16 @@ inwink-items, .inwink-items .inwink-item {
   top: -9px;
   font-weight: bold;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:after {
+.exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:after {
   content: "16";
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Thu:after {
+.exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Thu:after {
   content: "17";
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Fri:after {
+.exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Fri:after {
   content: "18";
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Sat:after {
+.exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Sat:after {
   content: "19";
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper {
