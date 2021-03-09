@@ -12,7 +12,7 @@
     }
 
     .partner-header:not(.startup-header){
-      .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before{
+      .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before{
         content: "\f1ad";
         font-family: $fontawesome;
         margin-right: 5px;
