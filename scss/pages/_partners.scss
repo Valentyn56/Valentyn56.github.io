@@ -53,26 +53,28 @@
           align-items: end;
 
           > .title{
-            .tagslist{
-              .tag{
-                /*background-image:$gradient;
-                color: white;
-                font-weight: 800;
-                margin-top: 10px;
-                margin-right: 10px;*/
+            .sessiontype-exhibitor{
+              .tagslist{
+                .tag{
+                  /*background-image:$gradient;
+                  color: white;
+                  font-weight: 800;
+                  margin-top: 10px;
+                  margin-right: 10px;*/
 
-                background: transparent;
-                color: white;
-                padding-left: 0;
-                padding-bottom: 0;
-                font-size: 17px;
+                  background: transparent;
+                  color: white;
+                  padding-left: 0;
+                  padding-bottom: 0;
+                  font-size: 17px;
 
-                &:before {
-                  content: "\f1ad";
-                  font-family: $fontawesome;
-                  margin-right: 5px;
+                  &:before {
+                    content: "\f1ad";
+                    font-family: $fontawesome;
+                    margin-right: 5px;
+                  }
+
                 }
-
               }
             }
           }
