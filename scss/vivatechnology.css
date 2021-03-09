@@ -426,6 +426,9 @@ inwink-items, .inwink-items .inwink-item {
   background-size: cover;
   z-index: -2;
 }
+.exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .tagslist.day {
+  margin-bottom: 0 !important;
+}
 .exhibitordetailpage .bloc-entitydetail .partner-header .sessiontype-exhibitor .sessionslot .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable {
   background-size: contain;
   background-repeat: no-repeat;
