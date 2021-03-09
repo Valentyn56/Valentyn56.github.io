@@ -50,6 +50,7 @@ inwink-items, .inwink-items .inwink-item /*, .picturegalleryitem */ {
         box-shadow: none;
         margin:0 !important;
         padding: 10px;
+        overflow: visible !important;
         &:first-child{
           padding-left: 0 !important;
         }
@@ -71,7 +72,7 @@ inwink-items, .inwink-items .inwink-item /*, .picturegalleryitem */ {
         }
         &:hover{
           a.itemcontent{
-            box-shadow: $lilshadowhover;
+            box-shadow: $lilshadowhover !important;
           }
         }
 
