@@ -48,12 +48,10 @@
         z-index: -2;
       }
 
-      .sessiontype-exhibitor{
-        .sessionslot{
 
             .tagslist.day {
               margin-bottom: 0 !important;
-              .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable {
+              .tag.keywordbubble.clickable {
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: center center;
@@ -96,9 +94,6 @@
 
               }
             }
-
-        }
-      }
 
       .wrapper{
         display: flex;
