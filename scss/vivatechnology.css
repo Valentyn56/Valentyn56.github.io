@@ -622,6 +622,64 @@ inwink-items, .inwink-items .inwink-item {
   content: "#";
   font-weight: 500;
 }
+.exhibitordetailpage .bloc-entitydetail .innovation-header .logo {
+  flex: 2 !important;
+  height: 210px !important;
+}
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content {
+  flex: 1 !important;
+}
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .practical-infos .room {
+  width: fit-content;
+  margin-right: 10px;
+  padding: 3px 24px;
+  background: #f7f8fa !important;
+  box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34);
+  font-size: 17px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  color: black;
+  width: 40px;
+  height: 50px;
+  border-radius: 0;
+  padding: 0;
+  padding-top: 13px;
+  margin-right: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+  background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vectorwed_black.png");
+}
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable:after {
+  content: "";
+  display: block;
+  font-size: 20px;
+  position: relative;
+  top: -9px;
+  font-weight: bold;
+}
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:after {
+  content: "16";
+}
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Thu:after {
+  content: "17";
+}
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Fri:after {
+  content: "18";
+}
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Sat:after {
+  content: "19";
+}
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-actions {
+  flex: 1 !important;
+}
 .exhibitordetailpage .bloc-entitydetail .startup-header .logo {
   flex: 2 !important;
   height: 210px !important;
