@@ -380,7 +380,7 @@ inwink-items, .inwink-items .inwink-item {
 }
 /* RESPONSIVE COMPONENT*/
 @media screen and (min-width: 601px) {
-  .dynamicbloc-contentwrapper {
+  .exhibitordetailpage .dynamicbloc-contentwrapper {
     margin-top: 0 !important;
     margin-bottom: 30px !important;
   }
