@@ -288,6 +288,9 @@
     }
 
     .innovation-header{
+      .wrapper.wrapper-content .title h1{
+        display: block;
+      }
       .logo{
         flex: 2 !important;
         height: 320px !important;

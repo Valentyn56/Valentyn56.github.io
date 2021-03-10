@@ -622,6 +622,9 @@ inwink-items, .inwink-items .inwink-item {
   content: "#";
   font-weight: 500;
 }
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper.wrapper-content .title h1 {
+  display: block;
+}
 .exhibitordetailpage .bloc-entitydetail .innovation-header .logo {
   flex: 2 !important;
   height: 320px !important;
