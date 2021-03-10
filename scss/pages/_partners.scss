@@ -288,8 +288,11 @@
     }
 
     .innovation-header{
+      align-items: center;
       .wrapper.wrapper-content .title h1{
         display: block;
+        font-size: 30px;
+        color: black;
       }
       .logo{
         flex: 2 !important;
