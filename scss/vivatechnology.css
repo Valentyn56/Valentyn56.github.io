@@ -645,6 +645,9 @@ inwink-items, .inwink-items .inwink-item {
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34);
   border-radius: 6px;
 }
+.exhibitordetailpage .bloc-entitydetail .innovation-header .partner-themes .tagslist-items {
+  display: flex !important;
+}
 .exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content {
   flex: 1 !important;
 }
