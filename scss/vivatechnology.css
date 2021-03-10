@@ -625,11 +625,25 @@ inwink-items, .inwink-items .inwink-item {
 .exhibitordetailpage .bloc-entitydetail .innovation-header .logo {
   flex: 2 !important;
   height: 320px !important;
+  overflow: visible;
+  margin-top: 30px;
+}
+.exhibitordetailpage .bloc-entitydetail .innovation-header .logo:after {
+  content: "";
+  width: 130px;
+  height: 179px;
+  position: absolute;
+  top: 150px;
+  right: 64px;
+  background: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  z-index: -1;
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .logo .logo-photo {
   max-width: 480px;
   left: 50% !important;
   transform: translateX(-50%);
+  box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34);
+  border-radius: 6px;
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content {
   flex: 1 !important;

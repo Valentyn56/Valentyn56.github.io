@@ -291,10 +291,24 @@
       .logo{
         flex: 2 !important;
         height: 320px !important;
+        overflow: visible;
+        margin-top: 30px;
+        &:after {
+          content: "";
+          width: 130px;
+          height: 179px;
+          position: absolute;
+          top: 150px;
+          right: 64px;
+          background: $gradient;
+          z-index: -1;
+        }
         .logo-photo {
           max-width: 480px;
           left: 50% !important;
           transform: translateX(-50%);
+          box-shadow: $lilshadow;
+          border-radius: 6px;
         }
       }
       .wrapper-content{
