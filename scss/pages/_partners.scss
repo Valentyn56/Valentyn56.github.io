@@ -290,7 +290,12 @@
     .innovation-header{
       .logo{
         flex: 2 !important;
-        height: 210px !important;
+        height: 320px !important;
+        .logo-photo {
+          max-width: 480px;
+          left: 50% !important;
+          transform: translateX(-50%);
+        }
       }
       .wrapper-content{
         flex:1 !important;
