@@ -320,9 +320,12 @@
         .logo-photo {
           max-width: 385px;
           left: 50% !important;
+          background-size: cover;
           transform: translateX(-50%);
           box-shadow: $lilshadow;
-          border-radius: 6px;
+          border: 10px solid;
+          border-image-source: $bigbluegradient;
+          border-image-slice: 1;
         }
       }
       .partner-themes{
