@@ -632,7 +632,7 @@ inwink-items, .inwink-items .inwink-item {
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .logo {
   flex: 2 !important;
-  height: 320px !important;
+  height: 255px !important;
   overflow: visible;
   margin-top: 30px;
 }
@@ -647,7 +647,7 @@ inwink-items, .inwink-items .inwink-item {
   z-index: -1;
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .logo .logo-photo {
-  max-width: 480px;
+  max-width: 385px;
   left: 50% !important;
   transform: translateX(-50%);
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34);
