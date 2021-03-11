@@ -630,10 +630,11 @@ inwink-items, .inwink-items .inwink-item {
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .sessiontype-exhibitor .date {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper.wrapper-content .title h1 {
   display: block;
-  font-size: 30px;
+  font-size: 40px;
   color: black;
   margin-bottom: 0 !important;
   margin-top: 50px;
