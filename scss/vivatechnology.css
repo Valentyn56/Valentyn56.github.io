@@ -629,6 +629,8 @@ inwink-items, .inwink-items .inwink-item {
   display: block;
   font-size: 30px;
   color: black;
+  margin-bottom: 0 !important;
+  margin-top: 50px;
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .logo {
   flex: 2 !important;
