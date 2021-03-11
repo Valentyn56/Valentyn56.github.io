@@ -645,14 +645,14 @@ inwink-items, .inwink-items .inwink-item {
   margin-top: 30px;
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .logo:after {
-  content: "";
+  /*content: "";
   width: 130px;
   height: 179px;
   position: absolute;
   top: 150px;
   right: 64px;
-  background: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
-  z-index: -1;
+  background: $gradient;
+  z-index: -1;*/
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .logo .logo-photo {
   max-width: 385px;

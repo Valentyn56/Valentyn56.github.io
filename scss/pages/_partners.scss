@@ -308,14 +308,14 @@
         overflow: visible;
         margin-top: 30px;
         &:after {
-          content: "";
+          /*content: "";
           width: 130px;
           height: 179px;
           position: absolute;
           top: 150px;
           right: 64px;
           background: $gradient;
-          z-index: -1;
+          z-index: -1;*/
         }
         .logo-photo {
           max-width: 385px;
