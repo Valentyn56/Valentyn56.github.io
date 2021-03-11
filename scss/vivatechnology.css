@@ -664,9 +664,8 @@ inwink-items, .inwink-items .inwink-item {
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .logo .logo-photo {
   max-width: 385px;
-  left: 50% !important;
   background-size: cover;
-  transform: translateX(-50%);
+  position: relative !important;
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34);
   border: 10px solid;
   border-image-source: linear-gradient(90.88deg, #F3B64B 0%, #EB6231 28.67%, #E63240 64.06%, #80358A 91.51%, #3F4C9A 117.13%);

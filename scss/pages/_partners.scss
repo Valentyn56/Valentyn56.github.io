@@ -320,9 +320,10 @@
         }
         .logo-photo {
           max-width: 385px;
-          left: 50% !important;
+          //left: 50% !important;
           background-size: cover;
-          transform: translateX(-50%);
+          position: relative !important;
+          //transform: translateX(-50%);
           box-shadow: $lilshadow;
           border: 10px solid;
           border-image-source: $bigbluegradient;
