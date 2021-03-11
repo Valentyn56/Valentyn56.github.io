@@ -625,6 +625,12 @@ inwink-items, .inwink-items .inwink-item {
 .exhibitordetailpage .bloc-entitydetail .innovation-header {
   align-items: center;
 }
+.exhibitordetailpage .bloc-entitydetail .innovation-header .sessiontype-exhibitor {
+  padding-top: 0 !important;
+}
+.exhibitordetailpage .bloc-entitydetail .innovation-header .sessiontype-exhibitor .date {
+  padding-top: 30px;
+}
 .exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper.wrapper-content .title h1 {
   display: block;
   font-size: 30px;
@@ -633,7 +639,7 @@ inwink-items, .inwink-items .inwink-item {
   margin-top: 50px;
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .logo {
-  flex: 2 !important;
+  flex: 1 !important;
   height: 255px !important;
   overflow: visible;
   margin-top: 30px;
@@ -798,6 +804,11 @@ inwink-items, .inwink-items .inwink-item {
 }
 
 /* RESPONSIVE Partner's page */
+@media screen and (min-width: 601px) {
+  .innovation-header .wrapper-actions .entity-actions {
+    padding-left: 100px;
+  }
+}
 @media screen and (max-width: 768px) {
   .exhibitordetailpage .bloc-entitydetail .partner-header {
     display: flex;
