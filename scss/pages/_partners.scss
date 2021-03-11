@@ -11,7 +11,7 @@
       margin-right: 30px;
     }
 
-    .partner-header:not(.startup-header){
+    .partner-header:not(.startup-header):not(.innovation-header){
       .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before{
         content: "\f1ad";
         font-family: $fontawesome;

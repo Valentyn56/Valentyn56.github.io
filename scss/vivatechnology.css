@@ -395,7 +395,7 @@ inwink-items, .inwink-items .inwink-item {
   margin: 0;
   margin-right: 30px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header:not(.startup-header) .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before {
+.exhibitordetailpage .bloc-entitydetail .partner-header:not(.startup-header):not(.innovation-header) .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before {
   content: "";
   font-family: "Font Awesome 5 Pro";
   margin-right: 5px;
