@@ -831,10 +831,6 @@ inwink-items, .inwink-items .inwink-item {
     margin: auto !important;
   }
 
-  .exhibitordetailpage .bloc-entitydetail .innovation-header .logo {
-    width: 380px !important;
-  }
-
   .exhibitordetailpage .bloc-entitydetail .partner-themes .title {
     align-self: center !important;
   }
@@ -858,6 +854,10 @@ inwink-items, .inwink-items .inwink-item {
   .exhibitordetailpage .bloc-entitydetail .partner-header {
     display: flex;
     flex-direction: column;
+  }
+
+  .exhibitordetailpage .bloc-entitydetail .innovation-header .logo {
+    width: 380px !important;
   }
 }
 @media screen and (max-width: 480px) {
