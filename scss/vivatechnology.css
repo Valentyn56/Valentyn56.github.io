@@ -832,13 +832,13 @@ inwink-items, .inwink-items .inwink-item {
   }
 
   .exhibitordetailpage .bloc-entitydetail .partner-themes .title {
-    align-self: center;
+    align-self: center !important;
   }
   .exhibitordetailpage .bloc-entitydetail .partner-themes .description {
     text-align: center !important;
   }
   .exhibitordetailpage .bloc-entitydetail .partner-themes .partner-themes {
-    align-self: center;
+    align-self: center !important;
   }
 
   .exhibitordetailpage .bloc-entitydetail .partner-header .practical-infos {
