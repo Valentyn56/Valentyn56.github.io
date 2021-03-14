@@ -89,3 +89,11 @@ button[type="button"], a[role="button"] {
   }
 }
 
+@media screen and (max-width: 768px){
+  .bloc-actions button, .bloc-actions a[role="button"] {
+    max-width: 380px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+}
+

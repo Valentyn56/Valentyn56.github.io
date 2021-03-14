@@ -228,6 +228,13 @@ button[type=button], a[role=button] {
   border-color: #0a50c4;
 }
 
+@media screen and (max-width: 768px) {
+  .bloc-actions button, .bloc-actions a[role=button] {
+    max-width: 380px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+}
 /* COMPONENTS */
 /* Inwink items & cards */
 inwink-items, .inwink-items .inwink-item {
@@ -817,6 +824,30 @@ inwink-items, .inwink-items .inwink-item {
 @media screen and (min-width: 601px) {
   .innovation-header .wrapper-actions .entity-actions {
     padding-left: 100px;
+  }
+}
+@media screen and (max-width: 601px) {
+  .exhibitordetailpage .bloc-entitydetail .logo {
+    margin: auto !important;
+  }
+
+  .exhibitordetailpage .bloc-entitydetail .partner-themes .title {
+    align-self: center;
+  }
+  .exhibitordetailpage .bloc-entitydetail .partner-themes .description {
+    text-align: center !important;
+  }
+  .exhibitordetailpage .bloc-entitydetail .partner-themes .partner-themes {
+    align-self: center;
+  }
+
+  .exhibitordetailpage .bloc-entitydetail .partner-header .practical-infos {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  .exhibitordetailpage .bloc-entitydetail .partner-header .practical-infos .room {
+    margin-bottom: 8px;
   }
 }
 @media screen and (max-width: 768px) {

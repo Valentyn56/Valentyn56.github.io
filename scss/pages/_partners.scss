@@ -528,7 +528,30 @@
     }
   }
 }
-
+@media screen and (max-width:601px) {
+  .exhibitordetailpage .bloc-entitydetail .logo{
+    margin:auto !important;
+  }
+  .exhibitordetailpage .bloc-entitydetail .partner-themes{
+    .title{
+      align-self: center;
+    }
+    .description{
+      text-align: center !important;
+    }
+    .partner-themes{
+      align-self: center;
+    }
+  }
+  .exhibitordetailpage .bloc-entitydetail .partner-header .practical-infos{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    .room{
+      margin-bottom: 8px;
+    }
+  }
+}
 @media screen and (max-width:768px){
   .exhibitordetailpage .bloc-entitydetail .partner-header {
     display: flex;
