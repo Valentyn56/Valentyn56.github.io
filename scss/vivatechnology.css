@@ -831,6 +831,19 @@ inwink-items, .inwink-items .inwink-item {
     padding: 10px;
     background: white;
     box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+  }
+
+  .entitylistpage .dynamicbloc-wrapper .dynamicbloc-contentwrapper.entitylist {
+    overflow: visible !important;
+    margin-top: 0 !important;
+    padding-top: 60px !important;
+  }
+
+  .entitylistpage .dynamicbloc-wrapper {
+    overflow: visible !important;
   }
 }
 /* RESPONSIVE Partner's page */
