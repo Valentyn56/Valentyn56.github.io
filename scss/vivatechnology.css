@@ -825,13 +825,14 @@ inwink-items, .inwink-items .inwink-item {
 }
 
 /* LISTS PARTNERS */
-.entitylistpage #ct-exhibitorsearch .bloc-header {
-  height: fit-content;
-  padding: 10px;
-  background: white;
-  box-shadow: 0 16px 24px 0 #d8cdcc;
+@media screen and (min-width: 601px) {
+  .entitylistpage #ct-exhibitorsearch .bloc-header {
+    height: fit-content;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34);
+  }
 }
-
 /* RESPONSIVE Partner's page */
 @media screen and (min-width: 601px) {
   .innovation-header .wrapper-actions .entity-actions {
