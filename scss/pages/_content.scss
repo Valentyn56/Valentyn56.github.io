@@ -1,0 +1,29 @@
+.eventcontentpage{
+  .bloctheme:not(.bloc-footer){
+    header.bloc-header{
+      padding-top: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #DDDEDF;
+      h2.bloc-title{
+        .bloc-accent{
+          font-size: 18px;
+          font-weight: 500;
+        }
+        .bloctitle{
+          text-transform: uppercase;
+          font-size: 29px;
+          color: $blackText !important;
+          border: none !important;
+          padding-bottom: 0 !important;
+        }
+      }
+      .description{
+        color:$black !important;
+        opacity: 0.4;
+        font-weight: 500;
+        font-size: 17px;
+        margin-top: 0px !important;
+      }
+    }
+  }
+}
