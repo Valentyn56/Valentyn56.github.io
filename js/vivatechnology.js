@@ -17,6 +17,13 @@ for (var i = 0; i < menulinks.length; i++){
     document.getElementById(str).addEventListener("click",toggleMenu);
 }
 
+logo.addEventListener("click",function () {
+    console.log("logo click");
+    nav.classList.remove("scrolled");
+    burgermenu.classList.remove("scrolled");
+    toggleMenu();
+});
+
 toggleMenu();
 
 function toggleMenu(){
@@ -36,12 +43,6 @@ function toggleMenu(){
     }else{
         nav.classList.add("scrolled");
         burgermenu.classList.add("scrolled");
-        logo.addEventListener("click",function () {
-            console.log("logo click");
-            nav.classList.remove("scrolled");
-            burgermenu.classList.remove("scrolled");
-            toggleMenu();
-        });
     }
 }
 
