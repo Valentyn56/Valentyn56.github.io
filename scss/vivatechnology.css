@@ -154,6 +154,13 @@ button[type=button], a[role=button] {
   font-size: 12px;
 }
 
+.bloctheme button.checked, .bloctheme input[type=submit].checked, .bloctheme a[role=button].checked {
+  border-radius: 0 !important;
+}
+.bloctheme button.checked i.inwink-bookmark:before, .bloctheme input[type=submit].checked i.inwink-bookmark:before, .bloctheme a[role=button].checked i.inwink-bookmark:before {
+  font-weight: bold !important;
+}
+
 /* Inwink buttons */
 .inwink-account:before {
   content: "";
