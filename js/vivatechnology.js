@@ -8,15 +8,16 @@ var burgermenu = document.getElementById("burger-menu");
 var menulinks = document.getElementsByClassName("headline");
 
 
-toggleMenu();
 
-/*for (var i = 0; i < menulinks.length; i++){
+
+for (var i = 0; i < menulinks.length; i++){
     var str = "lien"+i;
     console.log(str);
     menulinks[i].setAttribute("id",str);
     document.getElementById(str).addEventListener("click",toggleMenu);
-}*/
+}
 
+toggleMenu();
 
 function toggleMenu(){
 
