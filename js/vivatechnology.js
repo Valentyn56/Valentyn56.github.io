@@ -41,8 +41,12 @@ function toggleMenu(){
             }
         });
     }else{
-        nav.classList.add("scrolled");
-        burgermenu.classList.add("scrolled");
+        if(nav.classList.contains("scrolled")){
+            console.log("déja scrolled");
+        }else{
+            nav.classList.add("scrolled");
+            burgermenu.classList.add("scrolled");
+        }
     }
 }
 
