@@ -35,12 +35,12 @@ function toggleMenu(){
     }else{
         nav.classList.add("scrolled");
         burgermenu.classList.add("scrolled");
-        /*logo.addEventListener("click",function () {
+        logo.addEventListener("click",function () {
             console.log("logo click");
             nav.classList.remove("scrolled");
             burgermenu.classList.remove("scrolled");
             toggleMenu();
-        });*/
+        });
     }
 }
 
