@@ -924,6 +924,10 @@ inwink-items, .inwink-items .inwink-item {
     padding: 20px 0 !important;
   }
 }
+.eventcontentpage .dynamicpage-parks-showrooms {
+  padding-top: 30px !important;
+  padding-bottom: 50px !important;
+}
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
   padding-top: 20px;
   border-bottom: 1px solid #DDDEDF;
