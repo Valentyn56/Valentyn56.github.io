@@ -924,23 +924,23 @@ inwink-items, .inwink-items .inwink-item {
     padding: 20px 0 !important;
   }
 }
-.eventcontentpage .bloctheme:not(.bloc-footer) header.bloc-header {
+.eventcontentpage .bloctheme:not(.bloc-footer) .bloc-header {
   padding-top: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #DDDEDF;
 }
-.eventcontentpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloc-accent {
+.eventcontentpage .bloctheme:not(.bloc-footer) .bloc-header .bloc-title .bloc-accent {
   font-size: 18px;
   font-weight: 500;
 }
-.eventcontentpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloctitle {
+.eventcontentpage .bloctheme:not(.bloc-footer) .bloc-header .bloc-title .bloctitle {
   text-transform: uppercase;
   font-size: 29px;
   color: #202020 !important;
   border: none !important;
   padding-bottom: 0 !important;
 }
-.eventcontentpage .bloctheme:not(.bloc-footer) header.bloc-header .description {
+.eventcontentpage .bloctheme:not(.bloc-footer) .bloc-header .description {
   color: black !important;
   opacity: 0.4;
   font-weight: 500;

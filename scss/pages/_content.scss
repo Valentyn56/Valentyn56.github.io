@@ -1,10 +1,10 @@
 .eventcontentpage{
   .bloctheme:not(.bloc-footer){
-    header.bloc-header{
+    .bloc-header{
       padding-top: 20px;
       padding-bottom: 10px;
       border-bottom: 1px solid #DDDEDF;
-      h2.bloc-title{
+      .bloc-title{
         .bloc-accent{
           font-size: 18px;
           font-weight: 500;
