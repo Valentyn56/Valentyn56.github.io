@@ -23,7 +23,6 @@ logo.addEventListener("click",function () {
         nav.classList.remove("scrolled");
         burgermenu.classList.remove("scrolled");
     }
-    toggleMenu();
 });
 
 toggleMenu();
