@@ -19,8 +19,10 @@ for (var i = 0; i < menulinks.length; i++){
 
 logo.addEventListener("click",function () {
     console.log("logo click");
-    nav.classList.remove("scrolled");
-    burgermenu.classList.remove("scrolled");
+    if(nav.classList.contains("scrolled")){
+        nav.classList.remove("scrolled");
+        burgermenu.classList.remove("scrolled");
+    }
     toggleMenu();
 });
 
