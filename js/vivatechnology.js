@@ -12,13 +12,11 @@ var menulinks = document.getElementsByClassName("headline");
 
 for (var i = 0; i < menulinks.length; i++){
     var str = "lien"+i;
-    console.log(str);
     menulinks[i].setAttribute("id",str);
     document.getElementById(str).addEventListener("click",toggleMenu);
 }
 
 logo.addEventListener("click",function () {
-    console.log("logo click");
     if(nav.classList.contains("scrolled")){
         nav.classList.remove("scrolled");
         burgermenu.classList.remove("scrolled");
