@@ -5,6 +5,10 @@
 inwink-items, .inwink-items .inwink-item /*, .picturegalleryitem */ {
   border-radius: 5px !important;
   overflow: hidden !important;
+  .content-wrapper{
+    max-width: 100%;
+
+  }
   .content-wrapper.content-wrapper > * {
     flex: 1;
     min-width: 0;
