@@ -59,6 +59,9 @@
                 background-color: #ffffff1f;
                 display: none;
               }
+              .inwink-bookmark{
+                display: none !important;
+              }
               .exhibitoritemactions button:after{
                 box-shadow: none;
               }
@@ -77,13 +80,15 @@
                 height: 120px !important;
                 border-radius: 3px;
               }
-              h4,i,.tag,p{
+              h4,i:after,.tag,p{
                 color:white !important;
               }
 
               &:hover{
                 border-image:$gradient;
+                border-image-slice: 1;
                 background: linear-gradient(135deg, rgb(247 215 0 / 50%), rgb(255 89 0 / 50%), rgb(245 37 93 / 50%));
+
               }
 
             }

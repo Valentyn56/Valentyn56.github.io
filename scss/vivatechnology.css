@@ -975,6 +975,9 @@ inwink-items, .inwink-items .inwink-item {
   background-color: #ffffff1f;
   display: none;
 }
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card .inwink-bookmark {
+  display: none !important;
+}
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card .exhibitoritemactions button:after {
   box-shadow: none;
 }
@@ -993,11 +996,12 @@ inwink-items, .inwink-items .inwink-item {
   height: 120px !important;
   border-radius: 3px;
 }
-.eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card h4, .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card i, .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card .tag, .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card p {
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card h4, .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card i:after, .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card .tag, .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card p {
   color: white !important;
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card:hover {
   border-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  border-image-slice: 1;
   background: linear-gradient(135deg, rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
 }
 
