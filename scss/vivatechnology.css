@@ -924,10 +924,6 @@ inwink-items, .inwink-items .inwink-item {
     padding: 20px 0 !important;
   }
 }
-.eventcontentpage .dynamicpage-parks-showrooms .bloctheme:first-child {
-  margin-top: 18px;
-  margin-bottom: 18px;
-}
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) {
   padding-top: 30px !important;
   padding-bottom: 50px !important;
@@ -953,6 +949,13 @@ inwink-items, .inwink-items .inwink-item {
   font-weight: 500;
   font-size: 17px;
   margin-top: 0px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:first-child {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
 }
 
 /*# sourceMappingURL=vivatechnology.css.map */
