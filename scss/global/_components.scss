@@ -9,6 +9,7 @@ inwink-items, .inwink-items .inwink-item /*, .picturegalleryitem */ {
     flex: 1;
     min-width: 0;
     text-overflow: clip;
+    max-width: 100%;
     *{
       text-overflow: clip !important;
     }

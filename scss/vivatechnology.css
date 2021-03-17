@@ -252,6 +252,7 @@ inwink-items .content-wrapper.content-wrapper > *, .inwink-items .inwink-item .c
   flex: 1;
   min-width: 0;
   text-overflow: clip;
+  max-width: 100%;
 }
 inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item .content-wrapper.content-wrapper > * * {
   text-overflow: clip !important;
