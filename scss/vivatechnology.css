@@ -251,6 +251,10 @@ inwink-items, .inwink-items .inwink-item {
 inwink-items .content-wrapper.content-wrapper > *, .inwink-items .inwink-item .content-wrapper.content-wrapper > * {
   flex: 1;
   min-width: 0;
+  text-overflow: clip;
+}
+inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item .content-wrapper.content-wrapper > * * {
+  text-overflow: clip !important;
 }
 
 .inwink-items .inwink-item .card .requestmeeting {
