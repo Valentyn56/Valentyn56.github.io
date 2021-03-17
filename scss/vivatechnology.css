@@ -927,6 +927,7 @@ inwink-items, .inwink-items .inwink-item {
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) {
   padding-top: 30px !important;
   padding-bottom: 50px !important;
+  margin: 0;
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
   padding-top: 20px;
