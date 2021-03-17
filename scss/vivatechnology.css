@@ -248,6 +248,10 @@ inwink-items, .inwink-items .inwink-item {
   border-radius: 5px !important;
   overflow: hidden !important;
 }
+inwink-items .content-wrapper.content-wrapper > *, .inwink-items .inwink-item .content-wrapper.content-wrapper > * {
+  flex: 1;
+  min-width: 0;
+}
 
 .inwink-items .inwink-item .card .requestmeeting {
   display: none;
