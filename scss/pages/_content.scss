@@ -53,6 +53,7 @@
                 border: 3px solid;
                 border-image: linear-gradient(rgb(247 215 0 / 50%), rgb(255 89 0 / 50%), rgb(245 37 93 / 50%));
                 border-image-slice: 1;
+                @include normal-transition;
                 .sessionslot{
                   background-color: #ffffff1f;
                   display: none;
