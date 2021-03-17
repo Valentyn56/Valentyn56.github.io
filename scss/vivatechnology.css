@@ -965,11 +965,7 @@ inwink-items, .inwink-items .inwink-item {
   color: white !important;
   border: 3px solid;
   border-image: linear-gradient(rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
-  border-image-slice: 1;
-  transition: all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
+  border-image-slice: 1 !important;
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card .sessionslot {
   background-color: #ffffff1f;
@@ -979,20 +975,17 @@ inwink-items, .inwink-items .inwink-item {
   display: none !important;
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card .exhibitoritemactions button:after {
-  box-shadow: none;
+  box-shadow: none !important;
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card .logo {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  padding: 10px;
+  padding: 10px !important;
   color: black;
   background: white;
   margin: 10px !important;
-  max-width: 120px;
+  max-width: 120px !important;
   min-width: 120px;
   width: 120px !important;
-  max-height: 120px;
+  max-height: 120px !important;
   height: 120px !important;
   border-radius: 3px;
 }
@@ -1001,7 +994,6 @@ inwink-items, .inwink-items .inwink-item {
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card:hover {
   border-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
-  border-image-slice: 1;
   background: linear-gradient(135deg, rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
 }
 
