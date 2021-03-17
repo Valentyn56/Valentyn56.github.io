@@ -16,6 +16,7 @@
             .bloctitle{
               /* text-transform: uppercase; */
               font-size: 25px;
+              font-weight: bold !important;
               color: $blackText !important;
               border: none !important;
               padding-bottom: 0 !important;
@@ -27,6 +28,17 @@
             font-weight: 500;
             font-size: 17px;
             margin-top: 0px !important;
+          }
+        }
+      }
+    }
+    .bloctheme.bloctheme-darkbloc{
+      .dynamicbloc-contentwrapper:not(.bloc-teaser){
+        .bloc-header{
+          .bloc-title{
+            .bloc-title{
+              color: $white !important;
+            }
           }
         }
       }
