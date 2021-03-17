@@ -43,6 +43,44 @@
             }
           }
         }
+        .bloc-exhibitorslist{
+          .inwink-items{
+            .exhibitor-item{
+              .card{
+                background-color: #ffffff1f;
+                color: white !important;
+                border: 3px solid;
+                border-image: $gradient;
+                border-image-slice: 1;
+                .sessionslot{
+                  background-color: #ffffff1f;
+                  display: none;
+                }
+                .exhibitoritemactions button:after{
+                  box-shadow: none;
+                }
+                .logo{
+                  display: flex;
+                  flex: 1;
+                  align-items: center;
+                  padding: 10px;
+                  color: black;
+                  background: white;
+                  margin: 10px !important;
+                  max-width: 120px;
+                  width: 120px !important;
+                  margin: inherit;
+                  max-height: 120px;
+                  height: 120px !important;
+                  border-radius: 3px;
+                }
+                h4,i,.tag,p{
+                  color:white !important;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

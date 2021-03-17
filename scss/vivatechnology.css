@@ -957,6 +957,38 @@ inwink-items, .inwink-items .inwink-item {
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header .bloc-title .bloctitle {
   color: white !important;
 }
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-exhibitorslist .inwink-items .exhibitor-item .card {
+  background-color: #ffffff1f;
+  color: white !important;
+  border: 3px solid;
+  border-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  border-image-slice: 1;
+}
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .sessionslot {
+  background-color: #ffffff1f;
+  display: none;
+}
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .exhibitoritemactions button:after {
+  box-shadow: none;
+}
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .logo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 10px;
+  color: black;
+  background: white;
+  margin: 10px !important;
+  max-width: 120px;
+  width: 120px !important;
+  margin: inherit;
+  max-height: 120px;
+  height: 120px !important;
+  border-radius: 3px;
+}
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-exhibitorslist .inwink-items .exhibitor-item .card h4, .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-exhibitorslist .inwink-items .exhibitor-item .card i, .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .tag, .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-exhibitorslist .inwink-items .exhibitor-item .card p {
+  color: white !important;
+}
 
 @media screen and (min-width: 768px) {
   .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:first-child {
