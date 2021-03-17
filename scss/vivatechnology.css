@@ -258,6 +258,7 @@ inwink-items .content-wrapper.content-wrapper > *, .inwink-items .inwink-item .c
   max-width: 100%;
 }
 inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item .content-wrapper.content-wrapper > * * {
+  max-width: 100%;
   text-overflow: ellipsis !important;
 }
 

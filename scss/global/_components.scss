@@ -15,6 +15,7 @@ inwink-items, .inwink-items .inwink-item /*, .picturegalleryitem */ {
     text-overflow: ellipsis;
     max-width: 100%;
     *{
+      max-width:100%;
       text-overflow: ellipsis !important;
     }
   }
