@@ -961,7 +961,7 @@ inwink-items, .inwink-items .inwink-item {
   background-color: #ffffff1f;
   color: white !important;
   border: 3px solid;
-  border-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  border-image: linear-gradient(rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
   border-image-slice: 1;
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .sessionslot {
