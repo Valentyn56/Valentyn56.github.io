@@ -46,6 +46,7 @@
         .bloc-exhibitorslist{
           .inwink-items{
             .exhibitor-item{
+              box-shadow:none !important;
               .card{
                 background-color: #ffffff1f;
                 color: white !important;
@@ -68,8 +69,8 @@
                   background: white;
                   margin: 10px !important;
                   max-width: 120px;
+                  min-width: 120px;
                   width: 120px !important;
-                  margin: inherit;
                   max-height: 120px;
                   height: 120px !important;
                   border-radius: 3px;
@@ -77,6 +78,12 @@
                 h4,i,.tag,p{
                   color:white !important;
                 }
+
+                &:hover{
+                  border-image:$gradient;
+                  background: linear-gradient(135deg, rgb(247 215 0 / 50%), rgb(255 89 0 / 50%), rgb(245 37 93 / 50%));
+                }
+
               }
             }
           }
