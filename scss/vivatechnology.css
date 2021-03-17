@@ -952,7 +952,7 @@ inwink-items, .inwink-items .inwink-item {
   font-size: 17px;
   margin-top: 0px !important;
 }
-.eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header .bloc-title .bloc-title {
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header .bloc-title .bloctitle {
   color: white !important;
 }
 
