@@ -941,12 +941,10 @@ inwink-items, .inwink-items .inwink-item {
   /* text-transform: uppercase; */
   font-size: 25px;
   font-weight: bold !important;
-  color: #202020 !important;
   border: none !important;
   padding-bottom: 0 !important;
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header .description {
-  color: black !important;
   opacity: 0.4;
   font-weight: 500;
   font-size: 17px;
