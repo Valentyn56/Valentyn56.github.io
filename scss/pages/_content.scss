@@ -35,6 +35,8 @@
     .bloctheme.bloctheme-darkbloc{
       .dynamicbloc-contentwrapper:not(.bloc-teaser){
         .bloc-header{
+          border-bottom: 1px solid #dddedf61 !important;
+          padding-bottom: 10px !important;
           .bloc-title{
             .bloctitle{
               color: $white !important;
