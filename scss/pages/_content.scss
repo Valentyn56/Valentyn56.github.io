@@ -1,10 +1,10 @@
 .eventcontentpage{
   .dynamicpage-parks-showrooms{
+    .bloctheme:first-child{
+      margin-top: 18px;
+      margin-bottom: 18px;
+    }
     .bloctheme:not(.bloc-footer){
-      .dynamicbloc-contentwrapper.bloc-teaser{
-        margin-top: 18px;
-        margin-bottom: 18px;
-      }
       .dynamicbloc-contentwrapper:not(.bloc-teaser){
         padding-top: 30px !important;
         padding-bottom: 50px !important;

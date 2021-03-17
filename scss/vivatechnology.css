@@ -924,7 +924,7 @@ inwink-items, .inwink-items .inwink-item {
     padding: 20px 0 !important;
   }
 }
-.eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper.bloc-teaser {
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme:first-child {
   margin-top: 18px;
   margin-bottom: 18px;
 }
