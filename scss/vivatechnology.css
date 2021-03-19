@@ -420,24 +420,24 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   }
 }
 /* Partners PAGE */
-.exhibitordetailpage {
+.exhibitordetailpage, .sessiondetailpage {
   /* Partner's Header */
 }
-.exhibitordetailpage .bloc-entitydetail .logo {
+.exhibitordetailpage .bloc-entitydetail .logo, .sessiondetailpage .bloc-entitydetail .logo {
   width: 180px;
   height: 180px;
   margin: 0;
   margin-right: 30px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header:not(.startup-header):not(.innovation-header) .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before {
+.exhibitordetailpage .bloc-entitydetail .partner-header:not(.startup-header):not(.innovation-header) .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before, .sessiondetailpage .bloc-entitydetail .partner-header:not(.startup-header):not(.innovation-header) .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before {
   content: "";
   font-family: "Font Awesome 5 Pro";
   margin-right: 5px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header {
+.exhibitordetailpage .bloc-entitydetail .partner-header, .sessiondetailpage .bloc-entitydetail .partner-header {
   display: flex;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header span.overlay-partner-header {
+.exhibitordetailpage .bloc-entitydetail .partner-header span.overlay-partner-header, .sessiondetailpage .bloc-entitydetail .partner-header span.overlay-partner-header {
   position: absolute;
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.87) 33%, rgba(0, 0, 0, 0.7) 66%, rgba(0, 0, 0, 0.2));
   width: 102vw;
@@ -449,7 +449,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   flex-basis: 100%;
   z-index: -1;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header span.background-partner-header {
+.exhibitordetailpage .bloc-entitydetail .partner-header span.background-partner-header, .sessiondetailpage .bloc-entitydetail .partner-header span.background-partner-header {
   position: absolute;
   width: 100vw;
   background-position: center center;
@@ -460,10 +460,10 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   background-size: cover;
   z-index: -2;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day {
+.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day, .sessiondetailpage .bloc-entitydetail .partner-header .tagslist.day {
   margin-bottom: 0 !important;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable {
+.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable, .sessiondetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -481,7 +481,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-weight: 500;
   background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vector.png");
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable:after {
+.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable:after, .sessiondetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable:after {
   content: "";
   display: block;
   font-size: 20px;
@@ -489,35 +489,35 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   top: -9px;
   font-weight: bold;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Wed:after {
+.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Wed:after, .sessiondetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Wed:after {
   content: "16";
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Thu:after {
+.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Thu:after, .sessiondetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Thu:after {
   content: "17";
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Fri:after {
+.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Fri:after, .sessiondetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Fri:after {
   content: "18";
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Sat:after {
+.exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Sat:after, .sessiondetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Sat:after {
   content: "19";
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper {
   display: flex;
   flex-flow: wrap;
   align-items: center;
   padding-top: 10px;
   padding-bottom: 40px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content {
   flex: 9;
   display: flex;
   flex-direction: column;
   align-items: end;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist {
   padding-top: 5px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag {
   /*background-image:$gradient;
   color: white;
   font-weight: 800;
@@ -529,24 +529,24 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   padding-bottom: 0;
   font-size: 17px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor {
   display: flex;
   align-items: center;
   padding-top: 20px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor > * {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor > *, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor > * {
   margin-right: 20px;
   margin-bottom: 0;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks {
   justify-content: flex-start;
   width: fit-content;
   margin-top: 0;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink:first-child {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink:first-child, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink:first-child {
   display: none;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable .icon {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable .icon, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable .icon {
   color: black !important;
   background: white !important;
   width: 26px;
@@ -554,22 +554,22 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-size: 16px;
   padding: 0;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title h1 {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title h1, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title h1 {
   display: none;
   margin-bottom: 30px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description {
   max-width: 630px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description p.content {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description p.content, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description p.content {
   font-size: 15px;
   font-weight: 500;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos {
   display: inline-flex;
   align-items: center;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos .room {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos .room, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos .room {
   width: fit-content;
   height: fit-content;
   margin-right: 10px;
@@ -580,65 +580,65 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   border-radius: 4px;
   font-weight: 700;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos .room i {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos .room i, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos .room i {
   position: relative;
   left: -16px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos .room i:before {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos .room i:before, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos .room i:before {
   content: "";
   font-family: "Font Awesome 5 Pro";
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .moreinfo-wrapper {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .moreinfo-wrapper, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .moreinfo-wrapper {
   display: none;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions {
   flex: 2;
   display: flex;
   align-content: center;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .entity-actions {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .entity-actions, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .entity-actions {
   margin-bottom: 0px !important;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions * {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions *, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions * {
   width: 100%;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button {
   margin-bottom: 10px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text {
   display: flex;
   align-items: center;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i {
   flex: 1;
   font-family: "Font Awesome 5 Pro" !important;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i.inwink-bookmark:before {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i.inwink-bookmark:before, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i.inwink-bookmark:before {
   content: "";
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i.inwink-calendar:before {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i.inwink-calendar:before, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i.inwink-calendar:before {
   content: "";
   font-size: 16px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i.inwink-chat:before {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i.inwink-chat:before, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button .text i.inwink-chat:before {
   content: "";
   font-size: 16px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap {
   height: 42px;
   font-size: 12px;
   display: flex;
   align-items: center;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .title-content {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .title-content, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .title-content {
   text-align: center;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .title-content i, .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .title-content p {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .title-content i, .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .title-content p, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .title-content i, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .map .showonmap .title-content p {
   width: fit-content;
   display: inline-block;
   margin-right: 10px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag {
   background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
   color: white;
   font-weight: 800;
@@ -652,38 +652,38 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   padding-left: 0;
   margin-right: 10px;*/
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag:before {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag:before, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag:before {
   content: "#";
   font-weight: 500;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header:not(.innovation-header):not(.startup-header) .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable .icon {
+.exhibitordetailpage .bloc-entitydetail .partner-header:not(.innovation-header):not(.startup-header) .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable .icon, .sessiondetailpage .bloc-entitydetail .partner-header:not(.innovation-header):not(.startup-header) .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable .icon {
   color: white !important;
   background: transparent !important;
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header {
+.exhibitordetailpage .bloc-entitydetail .innovation-header, .sessiondetailpage .bloc-entitydetail .innovation-header {
   align-items: center;
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .sessiontype-exhibitor {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .sessiontype-exhibitor, .sessiondetailpage .bloc-entitydetail .innovation-header .sessiontype-exhibitor {
   padding-top: 0 !important;
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .sessiontype-exhibitor .date {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .sessiontype-exhibitor .date, .sessiondetailpage .bloc-entitydetail .innovation-header .sessiontype-exhibitor .date {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper.wrapper-content .title h1 {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper.wrapper-content .title h1, .sessiondetailpage .bloc-entitydetail .innovation-header .wrapper.wrapper-content .title h1 {
   display: block;
   font-size: 40px;
   color: black;
   margin-bottom: 0 !important;
   margin-top: 50px;
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .logo {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .logo, .sessiondetailpage .bloc-entitydetail .innovation-header .logo {
   flex: 1 !important;
   height: 255px !important;
   overflow: visible;
   margin-top: 30px;
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .logo:after {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .logo:after, .sessiondetailpage .bloc-entitydetail .innovation-header .logo:after {
   /*content: "";
   width: 130px;
   height: 179px;
@@ -693,7 +693,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   background: $gradient;
   z-index: -1;*/
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .logo .logo-photo {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .logo .logo-photo, .sessiondetailpage .bloc-entitydetail .innovation-header .logo .logo-photo {
   max-width: 385px;
   background-size: cover;
   position: relative !important;
@@ -702,13 +702,13 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   border-image-source: linear-gradient(90.88deg, #F3B64B 0%, #EB6231 28.67%, #E63240 64.06%, #80358A 91.51%, #3F4C9A 117.13%);
   border-image-slice: 1;
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .partner-themes .tagslist-items {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .partner-themes .tagslist-items, .sessiondetailpage .bloc-entitydetail .innovation-header .partner-themes .tagslist-items {
   display: flex !important;
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content, .sessiondetailpage .bloc-entitydetail .innovation-header .wrapper-content {
   flex: 1 !important;
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .practical-infos .room {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .practical-infos .room, .sessiondetailpage .bloc-entitydetail .innovation-header .wrapper-content .practical-infos .room {
   width: fit-content;
   margin-right: 10px;
   padding: 3px 24px;
@@ -718,7 +718,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   border-radius: 4px;
   font-weight: 700;
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable, .sessiondetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -736,7 +736,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-weight: 500;
   background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vectorwed_black.png");
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable:after {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable:after, .sessiondetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable:after {
   content: "";
   display: block;
   font-size: 20px;
@@ -744,32 +744,32 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   top: -9px;
   font-weight: bold;
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:after {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:after, .sessiondetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:after {
   content: "16";
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Thu:after {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Thu:after, .sessiondetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Thu:after {
   content: "17";
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Fri:after {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Fri:after, .sessiondetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Fri:after {
   content: "18";
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Sat:after {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Sat:after, .sessiondetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Sat:after {
   content: "19";
 }
-.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-actions {
+.exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-actions, .sessiondetailpage .bloc-entitydetail .innovation-header .wrapper-actions {
   flex: 1 !important;
 }
-.exhibitordetailpage .bloc-entitydetail .startup-header .logo {
+.exhibitordetailpage .bloc-entitydetail .startup-header .logo, .sessiondetailpage .bloc-entitydetail .startup-header .logo {
   flex: 2 !important;
   height: 210px !important;
 }
-.exhibitordetailpage .bloc-entitydetail .startup-header .sociallinks .sociallink:first-child {
+.exhibitordetailpage .bloc-entitydetail .startup-header .sociallinks .sociallink:first-child, .sessiondetailpage .bloc-entitydetail .startup-header .sociallinks .sociallink:first-child {
   display: none;
 }
-.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content {
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-content {
   flex: 1 !important;
 }
-.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .practical-infos .room {
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .practical-infos .room, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-content .practical-infos .room {
   width: fit-content;
   margin-right: 10px;
   padding: 3px 24px;
@@ -779,7 +779,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   border-radius: 4px;
   font-weight: 700;
 }
-.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable {
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -797,7 +797,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-weight: 500;
   background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vectorwed_black.png");
 }
-.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable:after {
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable:after, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable:after {
   content: "";
   display: block;
   font-size: 20px;
@@ -805,38 +805,38 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   top: -9px;
   font-weight: bold;
 }
-.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:after {
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:after, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:after {
   content: "16";
 }
-.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Thu:after {
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Thu:after, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Thu:after {
   content: "17";
 }
-.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Fri:after {
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Fri:after, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Fri:after {
   content: "18";
 }
-.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Sat:after {
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Sat:after, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Sat:after {
   content: "19";
 }
-.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-actions {
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-actions, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-actions {
   flex: 1 !important;
 }
-.exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header {
+.exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header, .sessiondetailpage .bloctheme:not(.bloc-footer) header.bloc-header {
   padding-top: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #DDDEDF;
 }
-.exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloc-accent {
+.exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloc-accent, .sessiondetailpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloc-accent {
   font-size: 18px;
   font-weight: 500;
 }
-.exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloctitle {
+.exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloctitle, .sessiondetailpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloctitle {
   text-transform: uppercase;
   font-size: 29px;
   color: #202020 !important;
   border: none !important;
   padding-bottom: 0 !important;
 }
-.exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header .description {
+.exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header .description, .sessiondetailpage .bloctheme:not(.bloc-footer) header.bloc-header .description {
   color: black !important;
   opacity: 0.4;
   font-weight: 500;
