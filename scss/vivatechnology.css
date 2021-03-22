@@ -845,10 +845,10 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 }
 
 /* LISTS PARTNERS */
-@media screen and (min-width: 201px) {
+@media screen and (min-width: 601px) {
   .entitylistpage #ct-exhibitorsearch .bloc-header,
 .entitylistpage #ct-70d18f07-9243-4dd5-f38c-fbd7e750c611 .bloc-header,
-.entitylistpage #ct-70d18f07-9243-4dd5-f38c-fbd7e750c611 .bloc-header,
+.entitylistpage #ct-sessionssearch .bloc-header,
 .entitylistpage #ct-d7d9fefa-2e38-4382-902d-9b1e8a859fce .bloc-header {
     height: fit-content;
     padding: 10px;
