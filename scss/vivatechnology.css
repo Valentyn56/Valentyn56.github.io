@@ -66,19 +66,16 @@ h6 {
 
 @keyframes gradient {
   0% {
-    background-position: 0% 50% !important;
-    background-position-x: 0%;
-    background-position-y: 50%;
+    background-position-x: 0% !important;
+    background-position-y: 50% !important;
   }
   50% {
-    background-position: 100% 50% !important;
-    background-position-x: 100%;
-    background-position-y: 50%;
+    background-position-x: 100% !important;
+    background-position-y: 50% !important;
   }
   100% {
-    background-position: 0% 50% !important;
-    background-position-x: 0%;
-    background-position-y: 50%;
+    background-position-x: 0% !important;
+    background-position-y: 50% !important;
   }
 }
 @media screen and (min-width: 1260px) {
