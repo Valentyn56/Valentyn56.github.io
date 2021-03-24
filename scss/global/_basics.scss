@@ -36,11 +36,11 @@ h6{
 
 #appsplash {
   .splash{
-    background:$bigbluegradient !important;
-    background-size: 400% 400% !important;
-    -webkit-animation: gradient 10s ease infinite;
-    -moz-animation: gradient 10s ease infinite;
-    animation: gradient 10s ease infinite;
+    background:$bigbluegradient;
+    background-size: 250% 250%;
+    -webkit-animation: gradient 15s ease infinite;
+    -moz-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
   }
 }
 
