@@ -39,24 +39,19 @@ h6{
     background:$bigbluegradient !important;
     background-size: 400% 400% !important;
     animation: gradient 15s ease infinite;
+    -webkit-animation: gradient 15s ease infinite;
   }
 }
 
-@keyframes gradient {
+@-webkit-keyframes gradient {
   0% {
-    //background-position: 0% 50% !important;
-    background-position-x: 0% !important;
-    background-position-y: 50% !important;
+    background-position: 0% 50%;
   }
   50% {
-    //background-position: 100% 50% !important;
-    background-position-x: 100% !important;
-    background-position-y: 50% !important;
+    background-position: 100% 50%;
   }
   100% {
-    //background-position: 0% 50% !important;
-    background-position-x: 0% !important;
-    background-position-y: 50% !important;
+    background-position: 0% 50%;
   }
 }
 
