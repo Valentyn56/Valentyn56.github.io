@@ -91,10 +91,10 @@ h6 {
   border-right: 4px solid #ffffff36;
   transform: rotate(7deg);
   opacity: 0.1;
-  animation: movinglass 8s ease infinite;
-  -webkit-animation: movinglass 8s ease infinite;
-  -o-animation: movinglass 8s ease infinite;
-  -moz-animation: movinglass 8s ease infinite;
+  animation: movinglass 15s ease infinite;
+  -webkit-animation: movinglass 15s ease infinite;
+  -o-animation: movinglass 15s ease infinite;
+  -moz-animation: movinglass 15s ease infinite;
 }
 #appsplash .splash:after {
   content: "";
@@ -106,10 +106,10 @@ h6 {
   border-right: 4px solid #ffffff36;
   transform: rotate(7deg);
   opacity: 0.1;
-  animation: movinglass2 8s ease infinite;
-  -webkit-animation: movinglass2 8s ease infinite;
-  -o-animation: movinglass2 8s ease infinite;
-  -moz-animation: movinglass2 8s ease infinite;
+  animation: movinglass2 15s ease infinite;
+  -webkit-animation: movinglass2 15s ease infinite;
+  -o-animation: movinglass2 15s ease infinite;
+  -moz-animation: movinglass2 15s ease infinite;
 }
 
 @-webkit-keyframes gradient {
@@ -147,86 +147,86 @@ h6 {
 }
 @-webkit-keyframes movinglass {
   0% {
-    left: -10%;
+    left: -15%;
   }
   25% {
     left: 75%;
   }
   75% {
-    left: 110%;
+    left: 120%;
   }
   100% {
-    left: -10%;
+    left: -15%;
   }
 }
 @-moz-keyframes movinglass {
   0% {
-    left: -10%;
+    left: -15%;
   }
   25% {
     left: 75%;
   }
   75% {
-    left: 110%;
+    left: 120%;
   }
   100% {
-    left: -10%;
+    left: -15%;
   }
 }
 @keyframes movinglass {
   0% {
-    left: -10%;
+    left: -15%;
   }
   25% {
     left: 75%;
   }
   75% {
-    left: 110%;
+    left: 120%;
   }
   100% {
-    left: -10%;
+    left: -15%;
   }
 }
 @-webkit-keyframes movinglass2 {
   0% {
-    left: -15%;
+    left: -20%;
   }
   25% {
     left: 65%;
   }
   75% {
-    left: 120%;
+    left: 130%;
   }
   100% {
-    left: -15%;
+    left: -20%;
   }
 }
 @-moz-keyframes movinglass2 {
   0% {
-    left: -15%;
+    left: -20%;
   }
-  50% {
+  25% {
     left: 65%;
   }
-  100% {
-    left: 120%;
+  75% {
+    left: 1230%;
   }
   100% {
-    left: -15%;
+    left: -20%;
   }
 }
 @keyframes movinglass2 {
   0% {
-    left: -15%;
+    left: -20%;
   }
-  50% {
+  25% {
     left: 65%;
   }
-  100% {
-    left: 120%;
+  75% {
+    left: 130%;
   }
   100% {
-    left: -15%;
+    left: -20%;
   }
 }
 @media screen and (min-width: 1260px) {
