@@ -81,6 +81,36 @@ h6 {
   border-width: 10px !important;
   margin: 0;
 }
+#appsplash .splash:before {
+  content: "";
+  position: absolute;
+  left: -130px;
+  height: 140vh;
+  width: 500px;
+  background: #ffffff52;
+  border-right: 4px solid #ffffff36;
+  transform: rotate(7deg);
+  opacity: 0.2;
+  animation: movinglass 8s ease infinite;
+  -webkit-animation: movinglass 8s ease infinite;
+  -o-animation: movinglass 8s ease infinite;
+  -moz-animation: movinglass 8s ease infinite;
+}
+#appsplash .splash:after {
+  content: "";
+  position: absolute;
+  left: -360px;
+  height: 140vh;
+  width: 500px;
+  background: #ffffff52;
+  border-right: 4px solid #ffffff36;
+  transform: rotate(7deg);
+  opacity: 0.2;
+  animation: movinglass 8s ease infinite;
+  -webkit-animation: movinglass 8s ease infinite;
+  -o-animation: movinglass 8s ease infinite;
+  -moz-animation: movinglass 8s ease infinite;
+}
 
 @-webkit-keyframes gradient {
   0% {
@@ -117,35 +147,35 @@ h6 {
 }
 @-webkit-keyframes movinglass {
   0% {
-    left: 0;
+    left: -10%;
   }
   50% {
     left: 75%;
   }
   100% {
-    left: 100%;
+    left: 110%;
   }
 }
 @-moz-keyframes movinglass {
   0% {
-    left: 0;
+    left: -10%;
   }
   50% {
-    left: 100%;
+    left: 75%;
   }
   100% {
-    left: 0;
+    left: 110%;
   }
 }
 @keyframes movinglass {
   0% {
-    left: 0;
+    left: -10%;
   }
   50% {
-    left: 100%;
+    left: 75%;
   }
   100% {
-    left: 0;
+    left: 110%;
   }
 }
 @media screen and (min-width: 1260px) {
