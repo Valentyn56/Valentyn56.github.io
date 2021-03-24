@@ -36,21 +36,21 @@ h6{
 
 #appsplash {
   .splash{
-    background:$bigbluegradient;
-    background-size: 400% 400%;
+    background:$bigbluegradient !important;
+    background-size: 400% 400% !important;
     animation: gradient 15s ease infinite;
   }
 }
 
 @keyframes gradient {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 50% !important;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 100% 50% !important;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 0% 50% !important;
   }
 }
 
