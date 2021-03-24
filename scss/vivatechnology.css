@@ -147,7 +147,7 @@ h6 {
 }
 @-webkit-keyframes movinglass {
   0% {
-    left: -15%;
+    left: -10%;
   }
   25% {
     left: 75%;
@@ -156,12 +156,12 @@ h6 {
     left: 120%;
   }
   100% {
-    left: -15%;
+    left: -10%;
   }
 }
 @-moz-keyframes movinglass {
   0% {
-    left: -15%;
+    left: -10%;
   }
   25% {
     left: 75%;
@@ -170,12 +170,12 @@ h6 {
     left: 120%;
   }
   100% {
-    left: -15%;
+    left: -10%;
   }
 }
 @keyframes movinglass {
   0% {
-    left: -15%;
+    left: -10%;
   }
   25% {
     left: 75%;
@@ -184,7 +184,7 @@ h6 {
     left: 120%;
   }
   100% {
-    left: -15%;
+    left: -10%;
   }
 }
 @-webkit-keyframes movinglass2 {
