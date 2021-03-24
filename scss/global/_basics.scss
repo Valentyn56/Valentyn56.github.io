@@ -42,6 +42,23 @@ h6{
     -webkit-animation: gradient 10s ease infinite;
     -moz-animation: gradient 10s ease infinite;
     animation: gradient 10s ease infinite;
+    .splashcontent{
+      img{
+        position: absolute;
+      }
+      .loaderindicator.ring.big{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        .spinner{
+          width: 150px;
+          height: 150px;
+          border-width: 10px !important;
+          margin: 0;
+        }
+      }
+    }
   }
 }
 

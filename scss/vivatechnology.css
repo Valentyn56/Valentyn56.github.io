@@ -66,6 +66,21 @@ h6 {
   -moz-animation: gradient 10s ease infinite;
   animation: gradient 10s ease infinite;
 }
+#appsplash .splash .splashcontent img {
+  position: absolute;
+}
+#appsplash .splash .splashcontent .loaderindicator.ring.big {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#appsplash .splash .splashcontent .loaderindicator.ring.big .spinner {
+  width: 150px;
+  height: 150px;
+  border-width: 10px !important;
+  margin: 0;
+}
 
 @-webkit-keyframes gradient {
   0% {
