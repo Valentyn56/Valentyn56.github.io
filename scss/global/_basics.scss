@@ -34,6 +34,26 @@ h6{
   }
 }
 
+.appsplash {
+  .splash{
+    background:$bigbluegradient;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 @media screen and (min-width: 1260px){
   .h1, h1 {
     font-size: 44px;
