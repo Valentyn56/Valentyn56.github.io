@@ -90,7 +90,7 @@ h6 {
   background: #ffffff52;
   border-right: 4px solid #ffffff36;
   transform: rotate(7deg);
-  opacity: 0.2;
+  opacity: 0.1;
   animation: movinglass 8s ease infinite;
   -webkit-animation: movinglass 8s ease infinite;
   -o-animation: movinglass 8s ease infinite;
@@ -105,7 +105,7 @@ h6 {
   background: #ffffff52;
   border-right: 4px solid #ffffff36;
   transform: rotate(7deg);
-  opacity: 0.2;
+  opacity: 0.1;
   animation: movinglass2 8s ease infinite;
   -webkit-animation: movinglass2 8s ease infinite;
   -o-animation: movinglass2 8s ease infinite;
