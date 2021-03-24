@@ -149,44 +149,56 @@ h6 {
   0% {
     left: -10%;
   }
-  50% {
+  25% {
     left: 75%;
   }
-  100% {
+  75% {
     left: 110%;
+  }
+  100% {
+    left: -10%;
   }
 }
 @-moz-keyframes movinglass {
   0% {
     left: -10%;
   }
-  50% {
+  25% {
     left: 75%;
   }
-  100% {
+  75% {
     left: 110%;
+  }
+  100% {
+    left: -10%;
   }
 }
 @keyframes movinglass {
   0% {
     left: -10%;
   }
-  50% {
+  25% {
     left: 75%;
   }
-  100% {
+  75% {
     left: 110%;
+  }
+  100% {
+    left: -10%;
   }
 }
 @-webkit-keyframes movinglass2 {
   0% {
     left: -15%;
   }
-  50% {
+  25% {
     left: 65%;
   }
-  100% {
+  75% {
     left: 120%;
+  }
+  100% {
+    left: -15%;
   }
 }
 @-moz-keyframes movinglass2 {
@@ -199,6 +211,9 @@ h6 {
   100% {
     left: 120%;
   }
+  100% {
+    left: -15%;
+  }
 }
 @keyframes movinglass2 {
   0% {
@@ -209,6 +224,9 @@ h6 {
   }
   100% {
     left: 120%;
+  }
+  100% {
+    left: -15%;
   }
 }
 @media screen and (min-width: 1260px) {
