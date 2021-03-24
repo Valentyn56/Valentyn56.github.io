@@ -58,7 +58,7 @@ h6 {
   display: none;
 }
 
-.appsplash .splash {
+#appsplash .splash {
   background: linear-gradient(90.88deg, #F3B64B 0%, #EB6231 28.67%, #E63240 64.06%, #80358A 91.51%, #3F4C9A 117.13%);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
