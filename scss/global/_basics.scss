@@ -79,6 +79,40 @@ h6{
 }
 
 
+@-webkit-keyframes movinglass {
+  0%{
+    left:0;
+  }
+  50%{
+    left:100%;
+  }
+  100%{
+    left:0;
+  }
+}
+@-moz-keyframes movinglass {
+  0%{
+    left:0;
+  }
+  50%{
+    left:100%;
+  }
+  100%{
+    left:0;
+  }
+}
+@keyframes movinglass {
+  0%{
+    left:0;
+  }
+  50%{
+    left:100%;
+  }
+  100%{
+    left:0;
+  }
+}
+
 
 
 
