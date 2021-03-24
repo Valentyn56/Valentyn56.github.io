@@ -85,10 +85,10 @@ h6{
         border-right: 4px solid #ffffff36;
         transform: rotate(7deg);
         opacity: 0.2;
-        animation: movinglass 8s ease infinite;
-      -webkit-animation: movinglass 8s ease infinite;
-      -o-animation: movinglass 8s ease infinite;
-      -moz-animation: movinglass 8s ease infinite;
+        animation: movinglass2 8s ease infinite;
+      -webkit-animation: movinglass2 8s ease infinite;
+      -o-animation: movinglass2 8s ease infinite;
+      -moz-animation: movinglass2 8s ease infinite;
     }
   }
 }
@@ -142,6 +142,22 @@ h6{
   100%{
     left:110%;
   }
+}
+
+@-webkit-keyframes movinglass2 {
+  0%{left:-15%;}
+  50%{left:65%;}
+  100%{left:120%;}
+}
+@-moz-keyframes movinglass2 {
+  0%{left:-15%;}
+  50%{left:65%;}
+  100%{left:120%;}
+}
+@keyframes movinglass2 {
+  0%{left:-15%;}
+  50%{left:65%;}
+  100%{left:120%;}
 }
 
 
