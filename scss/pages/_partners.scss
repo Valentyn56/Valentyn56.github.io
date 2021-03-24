@@ -208,7 +208,7 @@
           .entity-actions{
             margin-bottom: 0px !important;
           }
-          *{
+          *:not(.spinner){
             width:100%;
           }
           button{

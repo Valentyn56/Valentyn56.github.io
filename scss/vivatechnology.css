@@ -770,7 +770,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .entity-actions, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions .entity-actions {
   margin-bottom: 0px !important;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions *, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions * {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions *:not(.spinner), .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions *:not(.spinner) {
   width: 100%;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-actions button {
