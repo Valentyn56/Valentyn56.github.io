@@ -35,8 +35,21 @@
     .bloctheme.bloctheme-darkbloc{
       .dynamicbloc-contentwrapper:not(.bloc-teaser){
         .bloc-header{
-          border-bottom: 1px solid #dddedf61 !important;
+          /*border-bottom: 1px solid #dddedf61 !important;*/
+          position: relative;
+          width:fit-content;
           padding-bottom: 10px !important;
+
+          &:after{
+            content: "";
+            position: absolute;
+            right: -20px;
+            bottom: 0px;
+            height: 2px;
+            width: 100px;
+            background-image: linear-gradient(135deg, rgb(247, 215, 0), rgb(255, 89, 0), rgb(245, 37, 93));
+          }
+
           .bloc-title{
             .bloctitle{
               color: $white !important;
