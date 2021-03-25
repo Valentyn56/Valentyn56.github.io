@@ -994,7 +994,17 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 .exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header, .sessiondetailpage .bloctheme:not(.bloc-footer) header.bloc-header {
   padding-top: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #DDDEDF;
+  position: relative;
+  width: fit-content;
+}
+.exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header:after, .sessiondetailpage .bloctheme:not(.bloc-footer) header.bloc-header:after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  height: 2px;
+  width: 100px;
+  background-image: linear-gradient(135deg, #F7D700, #FF5900, #F5255D);
 }
 .exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloc-accent, .sessiondetailpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloc-accent {
   font-size: 18px;
