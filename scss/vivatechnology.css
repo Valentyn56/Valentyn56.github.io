@@ -1126,7 +1126,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
   padding-top: 20px;
-  border-bottom: 1px solid #DDDEDF;
+  /*border-bottom: 1px solid #DDDEDF;*/
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header .bloc-title .bloc-accent {
   font-size: 18px;
