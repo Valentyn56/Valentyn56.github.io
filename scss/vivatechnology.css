@@ -1154,7 +1154,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
   content: "";
   position: absolute;
-  right: -20px;
+  right: -30px;
   bottom: 0px;
   height: 2px;
   width: 100px;
