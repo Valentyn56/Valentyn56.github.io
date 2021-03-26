@@ -1,5 +1,5 @@
 .eventcontentpage{
-  .dynamicpage-parks-showrooms,.dynamicpage-schedules{
+  .dynamicpage-parks-showrooms{
     .bloctheme:not(.bloc-footer){
       .dynamicbloc-contentwrapper:not(.bloc-teaser){
         padding-top: 30px !important;
@@ -119,6 +119,53 @@
                 background: linear-gradient(135deg, rgb(247 215 0 / 50%), rgb(255 89 0 / 50%), rgb(245 37 93 / 50%));
               }
             }
+          }
+        }
+      }
+    }
+  }
+  .dynamicpage-schedules{
+    .bloc-header{
+      padding-top: 20px;
+      /*border-bottom: 1px solid #DDDEDF;*/
+      .bloc-title{
+        .bloc-accent{
+          font-size: 18px;
+          font-weight: 500;
+        }
+        .bloctitle{
+          /* text-transform: uppercase; */
+          font-size: 25px;
+          font-weight: bold !important;
+          //color: $blackText !important;
+          border: none !important;
+          padding-bottom: 0 !important;
+        }
+      }
+      .description{
+        //color:$black !important;
+        opacity: 0.4;
+        font-weight: 500;
+        font-size: 17px;
+        margin-top: 0px !important;
+      }
+    }
+    .bloctheme{
+      .dynamicbloc-contentwrapper:not(.bloc-teaser) {
+        .bloc-header {
+          /*border-bottom: 1px solid #dddedf61 !important;*/
+          position: relative;
+          width: fit-content;
+          padding-bottom: 10px !important;
+
+          &:after {
+            content: "";
+            position: absolute;
+            right: -30px;
+            bottom: 0px;
+            height: 2px;
+            width: 100px;
+            background-image: linear-gradient(135deg, rgb(247, 215, 0), rgb(255, 89, 0), rgb(245, 37, 93));
           }
         }
       }
