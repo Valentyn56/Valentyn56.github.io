@@ -152,17 +152,20 @@
     }
     .bloctheme{
       .dynamicbloc-contentwrapper:not(.bloc-teaser){
+          padding-top:30px;
           padding-bottom: 30px;
         .bloc-header {
           /*border-bottom: 1px solid #dddedf61 !important;*/
           position: relative;
           width: fit-content;
+          margin:auto;
           padding-bottom: 10px !important;
 
           &:after {
             content: "";
             position: absolute;
-            right: -30px;
+            left: 50%;
+            transform:translateX(-50%);
             bottom: 0px;
             height: 2px;
             width: 100px;
