@@ -6,7 +6,30 @@
   -moz-transition: all 0.1s ease;
   -o-transition: all 0.1s ease;
 
+  .appheader-chat{
+    i.icon{
+      &:before{
+        content:"\f075";
+        font-family: $fontawesome !important;
+        font-size: 23px;
+        font-weight: 200;
+      }
+    }
+  }
+  .appheader-notifications{
+    i.icon{
+      &:before{
+        content: "\f0f3";
+        font-family: $fontawesome !important;
+        font-size: 23px;
+        font-weight: 200;
+      }
+    }
+  }
+
 }
+
+
 
 
 /* Navs Responsive */
