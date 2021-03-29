@@ -251,17 +251,21 @@ h6 {
   -moz-transition: all 0.1s ease;
   -o-transition: all 0.1s ease;
 }
+.app-header .appheader-action-button .button {
+  padding-top: 1px !important;
+  margin-right: 8px !important;
+}
 .app-header .appheader-chat i.icon:before {
   content: "";
   font-family: "Font Awesome 5 Pro" !important;
   font-size: 23px;
-  font-weight: 200;
+  font-weight: normal;
 }
 .app-header .appheader-notifications i.icon:before {
   content: "";
   font-family: "Font Awesome 5 Pro" !important;
   font-size: 23px;
-  font-weight: 200;
+  font-weight: normal;
 }
 
 /* Navs Responsive */
@@ -348,13 +352,13 @@ button[type=button], a[role=button] {
 .inwink-account:before {
   content: "";
   font-family: "Font Awesome 5 Pro";
-  font-weight: 300;
+  font-weight: normal;
 }
 
 .inwink-search:before {
   content: "";
   font-family: "Font Awesome 5 Pro";
-  font-weight: 300;
+  font-weight: normal;
   font-size: 23px;
 }
 
@@ -364,6 +368,20 @@ button[type=button], a[role=button] {
 .inwink-email:before {
   content: "";
   font-family: "Font Awesome 5 Pro";
+}
+
+.inwink-chat:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro" !important;
+  font-size: 23px;
+  font-weight: normal;
+}
+
+.inwink-bell:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro" !important;
+  font-size: 23px;
+  font-weight: normal;
 }
 
 .has-button a[role=button]:after {

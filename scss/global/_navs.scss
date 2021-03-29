@@ -5,6 +5,12 @@
   -webkit-transition: all 0.1s ease;
   -moz-transition: all 0.1s ease;
   -o-transition: all 0.1s ease;
+  .appheader-action-button{
+    .button{
+      padding-top: 1px !important;
+      margin-right: 8px !important;
+    }
+  }
 
   .appheader-chat{
     i.icon{
@@ -12,7 +18,7 @@
         content:"\f075";
         font-family: $fontawesome !important;
         font-size: 23px;
-        font-weight: 200;
+        font-weight: normal;
       }
     }
   }
@@ -22,7 +28,7 @@
         content: "\f0f3";
         font-family: $fontawesome !important;
         font-size: 23px;
-        font-weight: 200;
+        font-weight: normal;
       }
     }
   }

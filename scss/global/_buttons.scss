@@ -20,12 +20,12 @@ button[type="button"], a[role="button"] {
 .inwink-account:before {
   content: "\f2bd";
   font-family: $fontawesome;
-  font-weight: 300;
+  font-weight: normal;
 }
 .inwink-search:before {
   content: "\f002";
   font-family: $fontawesome;
-  font-weight: 300;
+  font-weight: normal;
   font-size: 23px;
 }
 .inwink-email{
@@ -33,6 +33,22 @@ button[type="button"], a[role="button"] {
   &:before{
     content: "\f0e0";
     font-family: $fontawesome;
+  }
+}
+.inwink-chat{
+  &:before{
+    content:"\f075";
+    font-family: $fontawesome !important;
+    font-size: 23px;
+    font-weight: normal;
+  }
+}
+.inwink-bell{
+  &:before{
+    content: "\f0f3";
+    font-family: $fontawesome !important;
+    font-size: 23px;
+    font-weight: normal;
   }
 }
 
