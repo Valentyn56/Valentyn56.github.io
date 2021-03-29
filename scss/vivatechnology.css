@@ -305,7 +305,7 @@ h6 {
     width: 100%;
   }
   .app-header .app-header-content .links-list .iconlink:last-child:after {
-    display: none;
+    /*display: none;*/
   }
   .app-header .app-header-content .notif-content .messages {
     color: black !important;
