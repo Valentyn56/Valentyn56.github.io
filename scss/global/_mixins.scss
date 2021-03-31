@@ -1,10 +1,10 @@
 /* MIXINS */
 
-@mixin normal-transition{
-  transition: all .2s ease;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -o-transition: all .2s ease;
+@mixin normal-transition($time : .2s){
+  transition: all $time ease !important;
+  -webkit-transition: all $time ease !important;
+  -moz-transition: all $time ease !important;
+  -o-transition: all $time ease !important;
 }
 
 /* KEYFRAMES */
