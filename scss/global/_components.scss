@@ -26,7 +26,7 @@ inwink-items, .inwink-items .inwink-item /*, .picturegalleryitem */ {
 
 .inwink-item.clickable, contact-item.clickable, .entitylist .inwink-item{
   box-shadow: $lilshadow !important;
-  @include normal-transition;
+  @include normal-transition(.1s);
   &:hover{
     box-shadow: $lilshadowhover !important;
   }
