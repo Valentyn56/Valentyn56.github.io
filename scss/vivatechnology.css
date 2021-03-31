@@ -1297,6 +1297,13 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 .dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent {
   width: 100% !important;
 }
+.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
+  margin-left: 0 !important;
+}
+.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
+  left: 0 !important;
+  transform: translateX(0);
+}
 
 @media screen and (min-width: 768px) {
   .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:first-child {

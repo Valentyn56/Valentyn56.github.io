@@ -180,6 +180,17 @@
 .dynamicpage-networking-rooms{
   .dynamicpage-blocscontainer.dynamicpage-maincontent{
     width:100% !important;
+    .bloctheme{
+      .dynamicbloc-contentwrapper:not(.bloc-teaser){
+        .bloc-header{
+          margin-left:0 !important;
+          &:after{
+            left: 0 !important;
+            transform:translateX(0);
+          }
+        }
+      }
+    }
   }
 }
 
