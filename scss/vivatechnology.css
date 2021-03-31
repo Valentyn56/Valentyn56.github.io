@@ -397,7 +397,7 @@ button[type=button], a[role=button] {
 
 /* Modal Components */
 .appusermessage-header .actions button {
-  border: 2px solid #1d6ff7;
+  border: 2px solid #1d6ff7 !important;
 }
 .appusermessage-header .actions button i:before {
   font-weight: 800 !important;
