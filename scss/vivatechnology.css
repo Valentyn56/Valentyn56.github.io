@@ -479,14 +479,14 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   display: none;
 }
 
-.inwink-item.clickable, contact-item.clickable, .entitylist .inwink-item {
+.inwink-item.clickable, contact-item.clickable, .entitylist .inwink-item, .itemslist.bloc-teaserexhibitors .inwink-item {
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34) !important;
   transition: all 0.1s ease !important;
   -webkit-transition: all 0.1s ease !important;
   -moz-transition: all 0.1s ease !important;
   -o-transition: all 0.1s ease !important;
 }
-.inwink-item.clickable:hover, contact-item.clickable:hover, .entitylist .inwink-item:hover {
+.inwink-item.clickable:hover, contact-item.clickable:hover, .entitylist .inwink-item:hover, .itemslist.bloc-teaserexhibitors .inwink-item:hover {
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.84) !important;
 }
 
