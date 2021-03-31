@@ -479,6 +479,17 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   display: none;
 }
 
+.inwink-item.clickable, contact-item.clickable {
+  box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34) !important;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.inwink-item.clickable:hover, contact-item.clickable:hover {
+  box-shadow: 0 3px 10px rgba(215, 204, 203, 0.84) !important;
+}
+
 /* Items list */
 .itemslist button.asyncbtn.requestmeeting {
   display: none;

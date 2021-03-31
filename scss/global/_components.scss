@@ -24,7 +24,15 @@ inwink-items, .inwink-items .inwink-item /*, .picturegalleryitem */ {
   display: none;
 }
 
-/* Items list */
+.inwink-item.clickable, contact-item.clickable{
+  box-shadow: $lilshadow !important;
+  @include normal-transition;
+  &:hover{
+    box-shadow: $lilshadowhover !important;
+  }
+}
+
+  /* Items list */
 
 .itemslist {
   button.asyncbtn.requestmeeting{
