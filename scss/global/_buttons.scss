@@ -62,8 +62,9 @@ button[type="button"], a[role="button"] {
 }
 
 .keywordbubble{
-  background:$pink;
-  color:white;
+  background:$pink !important;
+  color:white !important;
+  font-weight: 600;
 }
 
 /* Modal Components */
