@@ -24,7 +24,7 @@ inwink-items, .inwink-items .inwink-item /*, .picturegalleryitem */ {
   display: none;
 }
 
-.inwink-item.clickable, contact-item.clickable, .entitylist .inwink-item, .itemslist.bloc-teaserexhibitors .inwink-item{
+.inwink-item.clickable, contact-item.clickable, .entitylist .inwink-item,.app-page:not(.exhibitordetailpage)  .itemslist.bloc-teaserexhibitors .inwink-item{
   box-shadow: $lilshadow !important;
   @include normal-transition(.1s);
   &:hover{
