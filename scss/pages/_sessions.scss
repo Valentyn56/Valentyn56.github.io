@@ -34,4 +34,8 @@
   .sessionslot .sessiondate div.room i::after {
     content: '\f124';
   }
+
+  .sessionslot .sessiondate div i::before{
+    display: none;
+  }
 }

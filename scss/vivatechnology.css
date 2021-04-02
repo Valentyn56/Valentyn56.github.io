@@ -1210,6 +1210,9 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 .sessiondetailpage .sessionslot .sessiondate div.room i::after {
   content: "";
 }
+.sessiondetailpage .sessionslot .sessiondate div i::before {
+  display: none;
+}
 
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) {
   padding-top: 30px !important;
