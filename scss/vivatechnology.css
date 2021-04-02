@@ -1178,6 +1178,25 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
     padding: 20px 0 !important;
   }
 }
+.sessiondetailpage .keywordbubble {
+  background-color: #f5255d !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  text-transform: normal;
+  font-size: 12px;
+  vertical-align: middle;
+  box-shadow: none;
+  padding: 5px 9px;
+  border-radius: 2px;
+  font-style: normal;
+  overflow: visible;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) {
   padding-top: 30px !important;
   padding-bottom: 50px !important;
