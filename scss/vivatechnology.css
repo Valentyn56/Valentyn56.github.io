@@ -1196,6 +1196,20 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   margin-right: 5px;
   margin-bottom: 4px;
 }
+.sessiondetailpage .sessionslot .sessiondate div i::after {
+  font-weight: 300;
+  font-style: normal;
+  font-family: "Font Awesome 5 Pro" !important;
+}
+.sessiondetailpage .sessionslot .sessiondate div.date i::after {
+  content: "";
+}
+.sessiondetailpage .sessionslot .sessiondate div.hour i::after {
+  content: "";
+}
+.sessiondetailpage .sessionslot .sessiondate div.room i::after {
+  content: "";
+}
 
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) {
   padding-top: 30px !important;
