@@ -804,6 +804,9 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-size: 16px;
   padding: 0;
 }
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable:hover i, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable:hover i {
+  color: #f5255d !important;
+}
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title h1, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title h1 {
   display: none;
   margin-bottom: 30px;
@@ -909,6 +912,9 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 .exhibitordetailpage .bloc-entitydetail .partner-header:not(.innovation-header):not(.startup-header) .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable .icon, .sessiondetailpage .bloc-entitydetail .partner-header:not(.innovation-header):not(.startup-header) .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable .icon {
   color: white !important;
   background: transparent !important;
+}
+.exhibitordetailpage .bloc-entitydetail .partner-header:not(.innovation-header):not(.startup-header) .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable:hover .icon, .sessiondetailpage .bloc-entitydetail .partner-header:not(.innovation-header):not(.startup-header) .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable:hover .icon {
+  color: #f5255d !important;
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header, .sessiondetailpage .bloc-entitydetail .innovation-header {
   align-items: center;

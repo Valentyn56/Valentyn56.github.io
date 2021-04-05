@@ -153,6 +153,9 @@
                   font-size: 16px;
                   padding: 0;
                 }
+                .sociallink.clickable:hover i {
+                  color: $pink !important;
+                }
               }
             }
             h1{
@@ -291,6 +294,9 @@
       .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable .icon{
         color: white !important;
         background: transparent !important;
+      }
+      .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable:hover .icon{
+        color: $pink !important;
       }
     }
 
