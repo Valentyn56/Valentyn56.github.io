@@ -53,6 +53,7 @@ button[type="button"], a[role="button"] {
 }
 .inwink-group:before {
   content: "\f0c0";
+  font-family: $fontawesome !important;
 }
 .inwink-meeting:before {
   content: "\f63d";

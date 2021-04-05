@@ -390,6 +390,7 @@ button[type=button], a[role=button] {
 
 .inwink-group:before {
   content: "";
+  font-family: "Font Awesome 5 Pro" !important;
 }
 
 .inwink-meeting:before {
