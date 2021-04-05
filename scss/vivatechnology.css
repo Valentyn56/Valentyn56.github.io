@@ -352,6 +352,17 @@ button[type=button], a[role=button] {
   font-weight: bold !important;
 }
 
+.sociallink i {
+  transition: all 0.1s ease !important;
+  -webkit-transition: all 0.1s ease !important;
+  -moz-transition: all 0.1s ease !important;
+  -o-transition: all 0.1s ease !important;
+}
+
+.sociallink.clickable:hover i {
+  color: #f5255d !important;
+}
+
 /* Inwink buttons */
 .inwink-account:before {
   content: "";

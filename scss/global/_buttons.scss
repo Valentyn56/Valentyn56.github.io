@@ -15,6 +15,14 @@ button[type="button"], a[role="button"] {
   }
 }
 
+.sociallink i {
+  @include normal-transition(.1s);
+}
+
+.sociallink.clickable:hover i {
+  color: $pink !important;
+}
+
 /* Inwink buttons */
 
 .inwink-account:before {
