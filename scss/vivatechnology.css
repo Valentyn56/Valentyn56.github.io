@@ -388,6 +388,14 @@ button[type=button], a[role=button] {
   font-weight: normal;
 }
 
+.inwink-group:before {
+  content: "";
+}
+
+.inwink-meeting:before {
+  content: "";
+}
+
 .has-button a[role=button]:after {
   content: " more";
 }

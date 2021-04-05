@@ -51,6 +51,12 @@ button[type="button"], a[role="button"] {
     font-weight: normal;
   }
 }
+.inwink-group:before {
+  content: "\f0c0";
+}
+.inwink-meeting:before {
+  content: "\f63d";
+}
 
 .has-button a[role="button"]{
   &:after{
