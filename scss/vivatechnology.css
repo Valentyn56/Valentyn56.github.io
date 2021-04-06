@@ -823,7 +823,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   max-width: 630px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description p.content, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description p.content {
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 500;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos {
