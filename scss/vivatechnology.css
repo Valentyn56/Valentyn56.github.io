@@ -1107,7 +1107,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 .exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header:after, .sessiondetailpage .bloctheme:not(.bloc-footer) header.bloc-header:after {
   content: "";
   position: absolute;
-  right: -20px;
+  left: 0;
   bottom: 0;
   height: 2px;
   width: 100px;
