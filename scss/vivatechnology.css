@@ -719,7 +719,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   background-position: center center;
   background-color: transparent;
   color: white;
-  width: 40px;
+  width: 60px;
   /*height: 50px;*/
   height: auto;
   border-radius: 0;
@@ -728,7 +728,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   margin-right: 12px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 500;
   background: transparent;
   /*background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vector.png");*/
@@ -741,11 +741,11 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   top: -9px;
   font-weight: bold;*/
   display: block;
-  font-size: 30px;
+  font-size: 40px;
   position: relative;
   top: 0px;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 23px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Wed:before, .sessiondetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Wed:before {
   content: "16";
@@ -823,7 +823,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   max-width: 630px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description p.content, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description p.content {
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 500;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .practical-infos {
@@ -909,7 +909,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-weight: 800;
   margin-top: 10px;
   background: transparent;
-  font-size: 15px;
+  font-size: 15px
   padding-left: 0;
   margin-right: 10px;*/
 }
@@ -988,7 +988,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   background-position: center center;
   background-color: transparent;
   color: black;
-  width: 40px;
+  width: 60px;
   height: auto;
   border-radius: 0;
   padding: 0;
@@ -996,7 +996,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   margin-right: 5px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 500;
   background: transparent;
   /*background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vectorwed_black.png");*/
@@ -1009,11 +1009,11 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   top: -9px;
   font-weight: bold;*/
   display: block;
-  font-size: 30px;
+  font-size: 40px;
   position: relative;
   top: 0px;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 23px;
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:before, .sessiondetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:before {
   content: "16";
@@ -1056,7 +1056,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   background-position: center center;
   background-color: transparent;
   color: black;
-  width: 40px;
+  width: 60px;
   height: auto;
   border-radius: 0;
   padding: 0;
@@ -1064,7 +1064,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   margin-right: 5px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 500;
   background: transparent;
   /*background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vectorwed_black.png");*/
@@ -1077,11 +1077,11 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
    top: -9px;
    font-weight: bold;*/
   display: block;
-  font-size: 30px;
+  font-size: 40px;
   position: relative;
   top: 0px;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 23px;
 }
 .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:before, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:before {
   content: "16";
