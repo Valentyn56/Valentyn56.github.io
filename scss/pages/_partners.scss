@@ -470,7 +470,7 @@
                 background-color: transparent;
                 color: black;
                 width: 40px;
-                height: 50px;
+                height: auto;
                 border-radius: 0;
                 padding: 0;
                 padding-top: 13px;
@@ -479,27 +479,34 @@
                 text-transform: uppercase;
                 font-size: 11px;
                 font-weight: 500;
-                background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vectorwed_black.png");
+                background: transparent;
+                /*background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/Vectorwed_black.png");*/
 
-                &:after{
+                &:before{
                   content: "";
-                  display: block;
+                 /* display: block;
                   font-size: 20px;
                   position: relative;
                   top: -9px;
+                  font-weight: bold;*/
+                  display: block;
+                  font-size: 30px;
+                  position: relative;
+                  top: 0px;
                   font-weight: bold;
+                  line-height: 20px;
                 }
 
-                &.day-Wed:after {
+                &.day-Wed:before {
                   content: "16";
                 }
-                &.day-Thu:after {
+                &.day-Thu:before {
                   content: "17";
                 }
-                &.day-Fri:after {
+                &.day-Fri:before {
                   content: "18";
                 }
-                &.day-Sat:after {
+                &.day-Sat:before {
                   content: "19";
                 }
 
