@@ -1281,6 +1281,45 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   width: 100px;
   background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
 }
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item {
+  box-shadow: none !important;
+}
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card {
+  background-image: linear-gradient(rgba(247, 215, 0, 0.11), rgba(255, 89, 0, 0.1), rgba(245, 37, 93, 0.11));
+  color: #202020 !important;
+  border: 3px solid;
+  border-image: linear-gradient(rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
+  border-image-slice: 1 !important;
+}
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .sessionslot {
+  background-color: #ffffff1f;
+  display: none;
+}
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .inwink-bookmark {
+  display: none !important;
+}
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .exhibitoritemactions button:after {
+  box-shadow: none !important;
+}
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .logo {
+  padding: 10px !important;
+  color: #202020;
+  background: white;
+  margin: 10px !important;
+  max-width: 120px !important;
+  min-width: 120px;
+  width: 120px !important;
+  max-height: 120px !important;
+  height: 120px !important;
+  border-radius: 3px;
+}
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card h4, .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card i:after, .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .tag, .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card p {
+  color: #202020 !important;
+}
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card:hover {
+  border-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  background: linear-gradient(135deg, rgba(247, 215, 0, 0.2), rgba(255, 89, 0, 0.19), rgba(245, 37, 93, 0.18));
+}
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
   /*border-bottom: 1px solid #dddedf61 !important;*/
   position: relative;
