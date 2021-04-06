@@ -295,7 +295,12 @@
 
       }
 
-
+      .practical-infos{
+        display: none !important;
+      }
+      .infos-container {
+        display: flex !important;
+      }
     }
 
     .partner-header:not(.innovation-header):not(.startup-header){
