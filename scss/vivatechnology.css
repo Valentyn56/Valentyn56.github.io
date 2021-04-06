@@ -891,7 +891,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   display: inline-block;
   margin-right: 10px;
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes > .tagslist-items .tag, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes > .tagslist-items .tag {
   background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
   color: white;
   font-weight: 800;
@@ -905,7 +905,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   padding-left: 0;
   margin-right: 10px;*/
 }
-.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag:before, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes .tagslist-items .tag:before {
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes > .tagslist-items .tag:before, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes > .tagslist-items .tag:before {
   content: "#";
   font-weight: 500;
 }
