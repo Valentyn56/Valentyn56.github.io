@@ -1255,7 +1255,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header .bloc-title .bloctitle {
   /* text-transform: uppercase; */
-  font-size: 25px;
+  font-size: 25px !important;
   font-weight: bold !important;
   border: none !important;
   padding-bottom: 0 !important;
