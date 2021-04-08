@@ -802,7 +802,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   margin-top: 0;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink:first-child, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink:first-child {
-  display: none;
+  /*display: none;*/
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable .icon, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor .sociallinks .sociallink.clickable .icon {
   color: black !important;
