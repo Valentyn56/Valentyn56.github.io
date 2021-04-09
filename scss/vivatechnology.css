@@ -1044,7 +1044,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   display: none;
 }
 .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-content {
-  flex: 1 !important;
+  flex: 2 !important;
 }
 .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .practical-infos .room, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-content .practical-infos .room {
   width: fit-content;
