@@ -693,6 +693,9 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   padding: 1px 8px;
   font-size: 14px;
   font-weight: bold;
+  display: block;
+  width: fit-content;
+  margin-bottom: 10px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header span.overlay-partner-header, .sessiondetailpage .bloc-entitydetail .partner-header span.overlay-partner-header {
   position: absolute;
