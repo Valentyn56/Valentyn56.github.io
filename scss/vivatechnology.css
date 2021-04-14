@@ -1415,39 +1415,39 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   border-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
   background: linear-gradient(135deg, rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
 }
-.eventcontentpage .dynamicpage-schedules .bloc-header, .eventcontentpage .dynamicpage-networking-rooms .bloc-header, .eventcontentpage .dynamicpage.withsidebar .bloc-header, .eventcontentpage .dynamicpage-thematic-trails .bloc-header {
+.eventcontentpage .dynamicpage-schedules .bloc-header, .eventcontentpage .dynamicpage-networking-rooms .bloc-header, .eventcontentpage .dynamicpage.withsidebar .bloc-header {
   padding-top: 20px;
   /*border-bottom: 1px solid #DDDEDF;*/
 }
-.eventcontentpage .dynamicpage-schedules .bloc-header .bloc-title .bloc-accent, .eventcontentpage .dynamicpage-networking-rooms .bloc-header .bloc-title .bloc-accent, .eventcontentpage .dynamicpage.withsidebar .bloc-header .bloc-title .bloc-accent, .eventcontentpage .dynamicpage-thematic-trails .bloc-header .bloc-title .bloc-accent {
+.eventcontentpage .dynamicpage-schedules .bloc-header .bloc-title .bloc-accent, .eventcontentpage .dynamicpage-networking-rooms .bloc-header .bloc-title .bloc-accent, .eventcontentpage .dynamicpage.withsidebar .bloc-header .bloc-title .bloc-accent {
   font-size: 18px;
   font-weight: 500;
 }
-.eventcontentpage .dynamicpage-schedules .bloc-header .bloc-title .bloctitle, .eventcontentpage .dynamicpage-networking-rooms .bloc-header .bloc-title .bloctitle, .eventcontentpage .dynamicpage.withsidebar .bloc-header .bloc-title .bloctitle, .eventcontentpage .dynamicpage-thematic-trails .bloc-header .bloc-title .bloctitle {
+.eventcontentpage .dynamicpage-schedules .bloc-header .bloc-title .bloctitle, .eventcontentpage .dynamicpage-networking-rooms .bloc-header .bloc-title .bloctitle, .eventcontentpage .dynamicpage.withsidebar .bloc-header .bloc-title .bloctitle {
   /* text-transform: uppercase; */
   font-size: 25px;
   font-weight: bold !important;
   border: none !important;
   padding-bottom: 0 !important;
 }
-.eventcontentpage .dynamicpage-schedules .bloc-header .description, .eventcontentpage .dynamicpage-networking-rooms .bloc-header .description, .eventcontentpage .dynamicpage.withsidebar .bloc-header .description, .eventcontentpage .dynamicpage-thematic-trails .bloc-header .description {
+.eventcontentpage .dynamicpage-schedules .bloc-header .description, .eventcontentpage .dynamicpage-networking-rooms .bloc-header .description, .eventcontentpage .dynamicpage.withsidebar .bloc-header .description {
   opacity: 0.4;
   font-weight: 500;
   font-size: 17px;
   margin-top: 0px !important;
 }
-.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage-thematic-trails .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) {
+.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .eventcontentpage .dynamicpage-thematic-trails .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
+.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
   /*border-bottom: 1px solid #dddedf61 !important;*/
   position: relative;
   width: fit-content;
   margin: auto;
   padding-bottom: 10px !important;
 }
-.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .eventcontentpage .dynamicpage-thematic-trails .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
+.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -1458,13 +1458,13 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
 }
 
-.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage-thematic-trails .dynamicpage-blocscontainer.dynamicpage-maincontent {
+.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent {
   width: 100% !important;
 }
-.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage-thematic-trails .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
+.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
   margin-left: 0 !important;
 }
-.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage-thematic-trails .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
+.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
   left: 0 !important;
   transform: translateX(0);
 }
