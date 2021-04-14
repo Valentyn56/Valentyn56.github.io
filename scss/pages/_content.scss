@@ -170,7 +170,7 @@
       }
     }
   }
-  .dynamicpage-schedules,.dynamicpage-networking-rooms,.dynamicpage.withsidebar{
+  .dynamicpage-schedules,.dynamicpage-networking-rooms,.dynamicpage.withsidebar,.dynamicpage-eventthemedetail{
     .bloc-header{
       padding-top: 20px;
       /*border-bottom: 1px solid #DDDEDF;*/
@@ -223,7 +223,7 @@
   }
 }
 
-.dynamicpage-networking-rooms,.dynamicpage-hall-test, .dynamicpage.withsidebar{
+.dynamicpage-networking-rooms,.dynamicpage-hall-test, .dynamicpage.withsidebar,.dynamicpage-eventthemedetail{
   .dynamicpage-blocscontainer.dynamicpage-maincontent{
     width:100% !important;
     .bloctheme{
