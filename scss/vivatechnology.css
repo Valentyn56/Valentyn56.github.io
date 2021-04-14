@@ -1458,13 +1458,13 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
 }
 
-.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent {
+.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage-thematic-trails .dynamicpage-blocscontainer.dynamicpage-maincontent {
   width: 100% !important;
 }
-.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
+.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage-thematic-trails .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
   margin-left: 0 !important;
 }
-.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
+.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage-thematic-trails .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
   left: 0 !important;
   transform: translateX(0);
 }
