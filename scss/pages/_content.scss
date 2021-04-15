@@ -170,177 +170,7 @@
       }
     }
   }
-  .dynamicpage-eventthemedetail{
-    .bloctheme:not(.bloc-footer){
-      .dynamicbloc-contentwrapper{
-        padding-top: 30px !important;
-        padding-bottom: 50px !important;
-        margin:0;
-        .bloc-header{
-          padding-top: 20px;
-          /*border-bottom: 1px solid #DDDEDF;*/
-          .bloc-title{
-            .bloc-accent{
-              font-size: 18px;
-              font-weight: 500;
-            }
-            .bloctitle{
-              /* text-transform: uppercase; */
-              font-size: 25px !important;
-              font-weight: bold !important;
-              //color: $blackText !important;
-              border: none !important;
-              padding-bottom: 0 !important;
-            }
-          }
-          .description{
-            //color:$black !important;
-            opacity: 0.4;
-            font-weight: 500;
-            font-size: 17px;
-            margin-top: 0px !important;
-          }
-        }
-      }
-    }
-    .bloctheme{
-      .dynamicbloc-contentwrapper {
-        .bloc-header {
-          /*border-bottom: 1px solid #dddedf61 !important;*/
-          position: relative;
-          width: fit-content;
-          padding-bottom: 10px !important;
 
-          &:after {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: 0px;
-            height: 2px;
-            width: 100px;
-            background-image: linear-gradient(135deg, rgb(247, 215, 0), rgb(255, 89, 0), rgb(245, 37, 93));
-          }
-        }
-      }
-    }
-    .bloctheme:not(.bloctheme-darkbloc){
-      .bloc-exhibitorslist{
-        .inwink-items{
-          .exhibitor-item{
-            box-shadow:none !important;
-            .card{
-              background-image: linear-gradient(rgb(247 215 0 / 11%), rgb(255 89 0 / 10%), rgb(245 37 93 / 11%));
-              color: $blackText !important;
-              border: 3px solid;
-              border-image: linear-gradient(rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
-              border-image-slice: 1 !important;
-              .sessionslot{
-                background-color: #ffffff1f;
-                display: none;
-              }
-              .inwink-bookmark{
-                display: none !important;
-              }
-              .exhibitoritemactions button:after{
-                box-shadow: none !important;
-              }
-              .logo{
-                padding: 10px !important;
-                color: $blackText;
-                background: white;
-                margin: 10px !important;
-                max-width: 120px !important;
-                min-width: 120px;
-                width: 120px !important;
-                max-height: 120px !important;
-                height: 120px !important;
-                border-radius: 3px;
-              }
-              h4,i:after,.tag,p{
-                color:$blackText !important;
-              }
-
-              &:hover{
-                border-image:$gradient;
-                background: linear-gradient(135deg, rgb(247 215 0 / 20%), rgb(255 89 0 / 19%), rgb(245 37 93 / 18%));
-              }
-            }
-          }
-        }
-      }
-    }
-    .bloctheme.bloctheme-darkbloc{
-      .dynamicbloc-contentwrapper:not(.bloc-teaser){
-        .bloc-header{
-          /*border-bottom: 1px solid #dddedf61 !important;*/
-          position: relative;
-          width:fit-content;
-          padding-bottom: 10px !important;
-
-          &:after{
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: 0px;
-            height: 2px;
-            width: 100px;
-            background-image: linear-gradient(135deg, rgb(247, 215, 0), rgb(255, 89, 0), rgb(245, 37, 93));
-          }
-
-          .bloc-title{
-            .bloctitle{
-              color: $white !important;
-            }
-          }
-        }
-      }
-
-      .bloc-exhibitorslist{
-        .inwink-items{
-          .exhibitor-item{
-            box-shadow:none !important;
-            .card{
-              background-color: #ffffff1f;
-              color: white !important;
-              border: 3px solid;
-              border-image: linear-gradient(rgb(247 215 0 / 50%), rgb(255 89 0 / 50%), rgb(245 37 93 / 50%));
-              border-image-slice: 1 !important;
-              .sessionslot{
-                background-color: #ffffff1f;
-                display: none;
-              }
-              .inwink-bookmark{
-                display: none !important;
-              }
-              .exhibitoritemactions button:after{
-                box-shadow: none !important;
-              }
-              .logo{
-                padding: 10px !important;
-                color: black;
-                background: white;
-                margin: 10px !important;
-                max-width: 120px !important;
-                min-width: 120px;
-                width: 120px !important;
-                max-height: 120px !important;
-                height: 120px !important;
-                border-radius: 3px;
-              }
-              h4,i:after,.tag,p{
-                color:white !important;
-              }
-
-              &:hover{
-                border-image:$gradient;
-                background: linear-gradient(135deg, rgb(247 215 0 / 50%), rgb(255 89 0 / 50%), rgb(245 37 93 / 50%));
-              }
-            }
-          }
-        }
-      }
-    }
-  }
   .dynamicpage-schedules,.dynamicpage-networking-rooms,.dynamicpage.withsidebar{
     .bloc-header{
       padding-top: 20px;
@@ -404,6 +234,178 @@
           &:after{
             left: 0 !important;
             transform:translateX(0);
+          }
+        }
+      }
+    }
+  }
+}
+
+.dynamicpage-eventthemedetail{
+  .bloctheme:not(.bloc-footer){
+    .dynamicbloc-contentwrapper{
+      padding-top: 30px !important;
+      padding-bottom: 50px !important;
+      margin:0;
+      .bloc-header{
+        padding-top: 20px;
+        /*border-bottom: 1px solid #DDDEDF;*/
+        .bloc-title{
+          .bloc-accent{
+            font-size: 18px;
+            font-weight: 500;
+          }
+          .bloctitle{
+            /* text-transform: uppercase; */
+            font-size: 25px !important;
+            font-weight: bold !important;
+            //color: $blackText !important;
+            border: none !important;
+            padding-bottom: 0 !important;
+          }
+        }
+        .description{
+          //color:$black !important;
+          opacity: 0.4;
+          font-weight: 500;
+          font-size: 17px;
+          margin-top: 0px !important;
+        }
+      }
+    }
+  }
+  .bloctheme{
+    .dynamicbloc-contentwrapper {
+      .bloc-header {
+        /*border-bottom: 1px solid #dddedf61 !important;*/
+        position: relative;
+        width: fit-content;
+        padding-bottom: 10px !important;
+
+        &:after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0px;
+          height: 2px;
+          width: 100px;
+          background-image: linear-gradient(135deg, rgb(247, 215, 0), rgb(255, 89, 0), rgb(245, 37, 93));
+        }
+      }
+    }
+  }
+  .bloctheme:not(.bloctheme-darkbloc){
+    .bloc-exhibitorslist{
+      .inwink-items{
+        .exhibitor-item{
+          box-shadow:none !important;
+          .card{
+            background-image: linear-gradient(rgb(247 215 0 / 11%), rgb(255 89 0 / 10%), rgb(245 37 93 / 11%));
+            color: $blackText !important;
+            border: 3px solid;
+            border-image: linear-gradient(rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
+            border-image-slice: 1 !important;
+            .sessionslot{
+              background-color: #ffffff1f;
+              display: none;
+            }
+            .inwink-bookmark{
+              display: none !important;
+            }
+            .exhibitoritemactions button:after{
+              box-shadow: none !important;
+            }
+            .logo{
+              padding: 10px !important;
+              color: $blackText;
+              background: white;
+              margin: 10px !important;
+              max-width: 120px !important;
+              min-width: 120px;
+              width: 120px !important;
+              max-height: 120px !important;
+              height: 120px !important;
+              border-radius: 3px;
+            }
+            h4,i:after,.tag,p{
+              color:$blackText !important;
+            }
+
+            &:hover{
+              border-image:$gradient;
+              background: linear-gradient(135deg, rgb(247 215 0 / 20%), rgb(255 89 0 / 19%), rgb(245 37 93 / 18%));
+            }
+          }
+        }
+      }
+    }
+  }
+  .bloctheme.bloctheme-darkbloc{
+    .dynamicbloc-contentwrapper:not(.bloc-teaser){
+      .bloc-header{
+        /*border-bottom: 1px solid #dddedf61 !important;*/
+        position: relative;
+        width:fit-content;
+        padding-bottom: 10px !important;
+
+        &:after{
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0px;
+          height: 2px;
+          width: 100px;
+          background-image: linear-gradient(135deg, rgb(247, 215, 0), rgb(255, 89, 0), rgb(245, 37, 93));
+        }
+
+        .bloc-title{
+          .bloctitle{
+            color: $white !important;
+          }
+        }
+      }
+    }
+
+    .bloc-exhibitorslist{
+      .inwink-items{
+        .exhibitor-item{
+          box-shadow:none !important;
+          .card{
+            background-color: #ffffff1f;
+            color: white !important;
+            border: 3px solid;
+            border-image: linear-gradient(rgb(247 215 0 / 50%), rgb(255 89 0 / 50%), rgb(245 37 93 / 50%));
+            border-image-slice: 1 !important;
+            .sessionslot{
+              background-color: #ffffff1f;
+              display: none;
+            }
+            .inwink-bookmark{
+              display: none !important;
+            }
+            .exhibitoritemactions button:after{
+              box-shadow: none !important;
+            }
+            .logo{
+              padding: 10px !important;
+              color: black;
+              background: white;
+              margin: 10px !important;
+              max-width: 120px !important;
+              min-width: 120px;
+              width: 120px !important;
+              max-height: 120px !important;
+              height: 120px !important;
+              border-radius: 3px;
+            }
+            h4,i:after,.tag,p{
+              color:white !important;
+            }
+
+            &:hover{
+              border-image:$gradient;
+              background: linear-gradient(135deg, rgb(247 215 0 / 50%), rgb(255 89 0 / 50%), rgb(245 37 93 / 50%));
+            }
           }
         }
       }
