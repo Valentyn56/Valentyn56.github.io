@@ -1415,39 +1415,176 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   border-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
   background: linear-gradient(135deg, rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
 }
-.eventcontentpage .dynamicpage-schedules .bloc-header, .eventcontentpage .dynamicpage-networking-rooms .bloc-header, .eventcontentpage .dynamicpage.withsidebar .bloc-header, .eventcontentpage .dynamicpage-eventthemedetail .bloc-header {
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper {
+  padding-top: 30px !important;
+  padding-bottom: 50px !important;
+  margin: 0;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper .bloc-header {
   padding-top: 20px;
   /*border-bottom: 1px solid #DDDEDF;*/
 }
-.eventcontentpage .dynamicpage-schedules .bloc-header .bloc-title .bloc-accent, .eventcontentpage .dynamicpage-networking-rooms .bloc-header .bloc-title .bloc-accent, .eventcontentpage .dynamicpage.withsidebar .bloc-header .bloc-title .bloc-accent, .eventcontentpage .dynamicpage-eventthemedetail .bloc-header .bloc-title .bloc-accent {
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper .bloc-header .bloc-title .bloc-accent {
   font-size: 18px;
   font-weight: 500;
 }
-.eventcontentpage .dynamicpage-schedules .bloc-header .bloc-title .bloctitle, .eventcontentpage .dynamicpage-networking-rooms .bloc-header .bloc-title .bloctitle, .eventcontentpage .dynamicpage.withsidebar .bloc-header .bloc-title .bloctitle, .eventcontentpage .dynamicpage-eventthemedetail .bloc-header .bloc-title .bloctitle {
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper .bloc-header .bloc-title .bloctitle {
+  /* text-transform: uppercase; */
+  font-size: 25px !important;
+  font-weight: bold !important;
+  border: none !important;
+  padding-bottom: 0 !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper .bloc-header .description {
+  opacity: 0.4;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 0px !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme .dynamicbloc-contentwrapper .bloc-header {
+  /*border-bottom: 1px solid #dddedf61 !important;*/
+  position: relative;
+  width: fit-content;
+  padding-bottom: 10px !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme .dynamicbloc-contentwrapper .bloc-header:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 2px;
+  width: 100px;
+  background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item {
+  box-shadow: none !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card {
+  background-image: linear-gradient(rgba(247, 215, 0, 0.11), rgba(255, 89, 0, 0.1), rgba(245, 37, 93, 0.11));
+  color: #202020 !important;
+  border: 3px solid;
+  border-image: linear-gradient(rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
+  border-image-slice: 1 !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .sessionslot {
+  background-color: #ffffff1f;
+  display: none;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .inwink-bookmark {
+  display: none !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .exhibitoritemactions button:after {
+  box-shadow: none !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .logo {
+  padding: 10px !important;
+  color: #202020;
+  background: white;
+  margin: 10px !important;
+  max-width: 120px !important;
+  min-width: 120px;
+  width: 120px !important;
+  max-height: 120px !important;
+  height: 120px !important;
+  border-radius: 3px;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card h4, .eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card i:after, .eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card .tag, .eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card p {
+  color: #202020 !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card:hover {
+  border-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  background: linear-gradient(135deg, rgba(247, 215, 0, 0.2), rgba(255, 89, 0, 0.19), rgba(245, 37, 93, 0.18));
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
+  /*border-bottom: 1px solid #dddedf61 !important;*/
+  position: relative;
+  width: fit-content;
+  padding-bottom: 10px !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 2px;
+  width: 100px;
+  background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header .bloc-title .bloctitle {
+  color: white !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item {
+  box-shadow: none !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card {
+  background-color: #ffffff1f;
+  color: white !important;
+  border: 3px solid;
+  border-image: linear-gradient(rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
+  border-image-slice: 1 !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card .sessionslot {
+  background-color: #ffffff1f;
+  display: none;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card .inwink-bookmark {
+  display: none !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card .exhibitoritemactions button:after {
+  box-shadow: none !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card .logo {
+  padding: 10px !important;
+  color: black;
+  background: white;
+  margin: 10px !important;
+  max-width: 120px !important;
+  min-width: 120px;
+  width: 120px !important;
+  max-height: 120px !important;
+  height: 120px !important;
+  border-radius: 3px;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card h4, .eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card i:after, .eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card .tag, .eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card p {
+  color: white !important;
+}
+.eventcontentpage .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card:hover {
+  border-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  background: linear-gradient(135deg, rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
+}
+.eventcontentpage .dynamicpage-schedules .bloc-header, .eventcontentpage .dynamicpage-networking-rooms .bloc-header, .eventcontentpage .dynamicpage.withsidebar .bloc-header {
+  padding-top: 20px;
+  /*border-bottom: 1px solid #DDDEDF;*/
+}
+.eventcontentpage .dynamicpage-schedules .bloc-header .bloc-title .bloc-accent, .eventcontentpage .dynamicpage-networking-rooms .bloc-header .bloc-title .bloc-accent, .eventcontentpage .dynamicpage.withsidebar .bloc-header .bloc-title .bloc-accent {
+  font-size: 18px;
+  font-weight: 500;
+}
+.eventcontentpage .dynamicpage-schedules .bloc-header .bloc-title .bloctitle, .eventcontentpage .dynamicpage-networking-rooms .bloc-header .bloc-title .bloctitle, .eventcontentpage .dynamicpage.withsidebar .bloc-header .bloc-title .bloctitle {
   /* text-transform: uppercase; */
   font-size: 25px;
   font-weight: bold !important;
   border: none !important;
   padding-bottom: 0 !important;
 }
-.eventcontentpage .dynamicpage-schedules .bloc-header .description, .eventcontentpage .dynamicpage-networking-rooms .bloc-header .description, .eventcontentpage .dynamicpage.withsidebar .bloc-header .description, .eventcontentpage .dynamicpage-eventthemedetail .bloc-header .description {
+.eventcontentpage .dynamicpage-schedules .bloc-header .description, .eventcontentpage .dynamicpage-networking-rooms .bloc-header .description, .eventcontentpage .dynamicpage.withsidebar .bloc-header .description {
   opacity: 0.4;
   font-weight: 500;
   font-size: 17px;
   margin-top: 0px !important;
 }
-.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage-eventthemedetail .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) {
+.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .eventcontentpage .dynamicpage-eventthemedetail .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
+.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
   /*border-bottom: 1px solid #dddedf61 !important;*/
   position: relative;
   width: fit-content;
   margin: auto;
   padding-bottom: 10px !important;
 }
-.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .eventcontentpage .dynamicpage-eventthemedetail .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
+.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -1458,13 +1595,13 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
 }
 
-.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage-eventthemedetail .dynamicpage-blocscontainer.dynamicpage-maincontent {
+.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent {
   width: 100% !important;
 }
-.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage-eventthemedetail .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
+.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
   margin-left: 0 !important;
 }
-.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage-eventthemedetail .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
+.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
   left: 0 !important;
   transform: translateX(0);
 }
