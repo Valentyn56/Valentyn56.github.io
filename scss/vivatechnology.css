@@ -1469,39 +1469,39 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   transform: translateX(0);
 }
 
-.dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper {
+.dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.dynamic-bloc-entitydetail) {
   padding-top: 30px !important;
   padding-bottom: 50px !important;
   margin: 0;
 }
-.dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper .bloc-header {
+.dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.dynamic-bloc-entitydetail) .bloc-header {
   padding-top: 20px;
   /*border-bottom: 1px solid #DDDEDF;*/
 }
-.dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper .bloc-header .bloc-title .bloc-accent {
+.dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.dynamic-bloc-entitydetail) .bloc-header .bloc-title .bloc-accent {
   font-size: 18px;
   font-weight: 500;
 }
-.dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper .bloc-header .bloc-title .bloctitle {
+.dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.dynamic-bloc-entitydetail) .bloc-header .bloc-title .bloctitle {
   /* text-transform: uppercase; */
   font-size: 25px !important;
   font-weight: bold !important;
   border: none !important;
   padding-bottom: 0 !important;
 }
-.dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper .bloc-header .description {
+.dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.dynamic-bloc-entitydetail) .bloc-header .description {
   opacity: 0.4;
   font-weight: 500;
   font-size: 17px;
   margin-top: 0px !important;
 }
-.dynamicpage-eventthemedetail .bloctheme .dynamicbloc-contentwrapper .bloc-header {
+.dynamicpage-eventthemedetail .bloctheme .dynamicbloc-contentwrapper:not(.dynamic-bloc-entitydetail) .bloc-header {
   /*border-bottom: 1px solid #dddedf61 !important;*/
   position: relative;
   width: fit-content;
   padding-bottom: 10px !important;
 }
-.dynamicpage-eventthemedetail .bloctheme .dynamicbloc-contentwrapper .bloc-header:after {
+.dynamicpage-eventthemedetail .bloctheme .dynamicbloc-contentwrapper:not(.dynamic-bloc-entitydetail) .bloc-header:after {
   content: "";
   position: absolute;
   left: 0;

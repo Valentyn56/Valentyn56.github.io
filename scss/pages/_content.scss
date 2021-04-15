@@ -243,7 +243,7 @@
 
 .dynamicpage-eventthemedetail{
   .bloctheme:not(.bloc-footer){
-    .dynamicbloc-contentwrapper{
+    .dynamicbloc-contentwrapper:not(.dynamic-bloc-entitydetail){
       padding-top: 30px !important;
       padding-bottom: 50px !important;
       margin:0;
@@ -275,7 +275,7 @@
     }
   }
   .bloctheme{
-    .dynamicbloc-contentwrapper {
+    .dynamicbloc-contentwrapper:not(.dynamic-bloc-entitydetail) {
       .bloc-header {
         /*border-bottom: 1px solid #dddedf61 !important;*/
         position: relative;
