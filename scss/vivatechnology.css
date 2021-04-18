@@ -676,6 +676,22 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
     margin-bottom: 30px !important;
   }
 }
+.currentdiscussion .discussion-messages .discussion-message .message-sendername {
+  color: #202020;
+  font-weight: 500 !important;
+}
+.currentdiscussion .discussion-messages .discussion-message .sended .message-text {
+  background: #1d6ff7 !important;
+  border: none !important;
+  color: white !important;
+}
+.currentdiscussion .discussion-sendmessage .actions-toolbar > button {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  font-weight: 900 !important;
+}
+
 /* Partners PAGE */
 .exhibitordetailpage, .sessiondetailpage {
   /* Partner's Header */

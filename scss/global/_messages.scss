@@ -1,0 +1,30 @@
+.currentdiscussion{
+  .discussion-messages{
+    .discussion-message{
+      .message-sendername{
+        color: #202020;
+        font-weight: 500 !important;
+      }
+      .sended{
+        .message-text{
+          background: $blue !important;
+          border: none !important;
+          color: white !important;
+        }
+      }
+      .received{
+
+      }
+    }
+  }
+  .discussion-sendmessage{
+    .actions-toolbar{
+      > button{
+        border-radius: 100%;
+        width: 35px;
+        height: 35px;
+        font-weight: 900 !important;
+      }
+    }
+  }
+}
