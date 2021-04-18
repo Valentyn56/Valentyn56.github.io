@@ -680,7 +680,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   color: #202020;
   font-weight: 500 !important;
 }
-.currentdiscussion .discussion-messages .discussion-message .sended .message-text {
+.currentdiscussion .discussion-messages .discussion-message.sended .message-text {
   background: #1d6ff7 !important;
   border: none !important;
   color: white !important;

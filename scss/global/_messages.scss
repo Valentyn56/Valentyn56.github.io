@@ -5,7 +5,7 @@
         color: #202020;
         font-weight: 500 !important;
       }
-      .sended{
+      &.sended{
         .message-text{
           background: $blue !important;
           border: none !important;
