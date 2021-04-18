@@ -695,6 +695,12 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   height: 35px;
   font-weight: 900 !important;
 }
+.currentdiscussion .discussion-sendmessage .actions-toolbar > span:not(.btnsend-container) button {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  font-weight: 900 !important;
+}
 .currentdiscussion .discussion-sendmessage .actions-toolbar button.btnsend {
   font-size: 15px;
   font-weight: 600;
