@@ -685,6 +685,10 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   border: none !important;
   color: white !important;
 }
+.currentdiscussion .discussion-messages .discussion-message .message-date {
+  color: #4b4b4b;
+  font-weight: 500;
+}
 .currentdiscussion .discussion-sendmessage .actions-toolbar > button {
   border-radius: 100%;
   width: 35px;

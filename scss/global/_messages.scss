@@ -2,18 +2,22 @@
   .discussion-messages{
     .discussion-message{
       .message-sendername{
-        color: #202020;
+        color: $blackText;
         font-weight: 500 !important;
       }
       &.sended{
         .message-text{
           background: $blue !important;
           border: none !important;
-          color: white !important;
+          color: $white !important;
         }
       }
       .received{
 
+      }
+      .message-date {
+        color: $greyText;
+        font-weight: 500;
       }
     }
   }
