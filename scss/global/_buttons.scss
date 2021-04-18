@@ -133,7 +133,7 @@ button[type="button"], a[role="button"] {
     border: 2px solid $blue;
     .text{
       &:after{
-        top: 24% !important;
+        /*top: 24% !important;*/
       }
     }
     &:after{
