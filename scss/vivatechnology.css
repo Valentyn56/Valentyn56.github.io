@@ -415,6 +415,13 @@ button[type=button], a[role=button] {
   content: " less";
 }
 
+.popover-shell.appusermodal.myspace-messages-modal .popover-content .currentdiscussion > .currentdiscussionheader .btnhide, .popover-shell.entitylistmodalfilters .popover-content .modalfilters .btnclose {
+  color: #ffffff !important;
+  background: #4b4b4b !important;
+  border: none !important;
+  font-weight: 900 !important;
+}
+
 #bl-7115dddf-3799-43f0-957a-28ce816aa58f .keywordbubble {
   background: #f5255d !important;
   color: white !important;
