@@ -6,9 +6,12 @@
 
     .logo {
       width: 180px;
-      height: 180px;
+      height: 140px;
+      background: white;
       margin: 0;
       margin-right: 30px;
+      margin-top: 20px;
+      padding: 10px !important;
     }
 
     .partner-header:not(.startup-header):not(.innovation-header){

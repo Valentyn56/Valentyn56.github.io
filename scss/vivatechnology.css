@@ -720,9 +720,12 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 }
 .exhibitordetailpage .bloc-entitydetail .logo, .sessiondetailpage .bloc-entitydetail .logo {
   width: 180px;
-  height: 180px;
+  height: 140px;
+  background: white;
   margin: 0;
   margin-right: 30px;
+  margin-top: 20px;
+  padding: 10px !important;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header:not(.startup-header):not(.innovation-header) .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before, .sessiondetailpage .bloc-entitydetail .partner-header:not(.startup-header):not(.innovation-header) .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before {
   content: "";
