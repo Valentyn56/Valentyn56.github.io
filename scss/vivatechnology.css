@@ -727,6 +727,9 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   margin-top: 20px;
   padding: 10px !important;
 }
+.exhibitordetailpage .bloc-entitydetail .logo .logo-photo, .sessiondetailpage .bloc-entitydetail .logo .logo-photo {
+  position: unset !important;
+}
 .exhibitordetailpage .bloc-entitydetail .partner-header:not(.startup-header):not(.innovation-header) .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before, .sessiondetailpage .bloc-entitydetail .partner-header:not(.startup-header):not(.innovation-header) .wrapper.wrapper-content > .title .sessiontype-exhibitor .tagslist .tag:before {
   content: "";
   font-family: "Font Awesome 5 Pro";

@@ -12,6 +12,9 @@
       margin-right: 30px;
       margin-top: 20px;
       padding: 10px !important;
+      .logo-photo {
+        position: unset !important;
+      }
     }
 
     .partner-header:not(.startup-header):not(.innovation-header){
