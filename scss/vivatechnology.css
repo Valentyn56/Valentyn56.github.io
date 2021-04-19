@@ -1013,6 +1013,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   height: 255px !important;
   overflow: visible;
   margin-top: 30px;
+  padding: 0 !important;
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .logo:after, .sessiondetailpage .bloc-entitydetail .innovation-header .logo:after {
   /*content: "";
