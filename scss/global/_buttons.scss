@@ -70,9 +70,6 @@ button[type="button"], a[role="button"] {
 .inwink-calendar:before {
   content: "\f271";
   font-family: $fontawesome;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(45deg, #c1d609, #05bfc6);
 }
 
 
