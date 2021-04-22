@@ -729,26 +729,26 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   border-radius: 10px;
 }
 
-.dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header {
+.dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header, .dynamicpage-home .bloctheme .bloc-teasereventinfos .bloc-header {
   /*border-bottom: 1px solid #dddedf61 !important;*/
   position: relative;
   width: fit-content;
   padding-bottom: 10px !important;
 }
-.dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header .bloc-title {
+.dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header .bloc-title, .dynamicpage-home .bloctheme .bloc-teasereventinfos .bloc-header .bloc-title {
   text-align: left;
 }
-.dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header .bloc-title .bloc-accent {
+.dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header .bloc-title .bloc-accent, .dynamicpage-home .bloctheme .bloc-teasereventinfos .bloc-header .bloc-title .bloc-accent {
   font-size: 18px;
   font-weight: 500;
 }
-.dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header .bloc-title .bloctitle {
+.dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header .bloc-title .bloctitle, .dynamicpage-home .bloctheme .bloc-teasereventinfos .bloc-header .bloc-title .bloctitle {
   font-size: 37px !important;
   font-weight: bold !important;
   border: none !important;
   padding-bottom: 0 !important;
 }
-.dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header:after {
+.dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header:after, .dynamicpage-home .bloctheme .bloc-teasereventinfos .bloc-header:after {
   content: "";
   position: absolute;
   left: 0;
