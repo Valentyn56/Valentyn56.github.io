@@ -553,10 +553,17 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   background-image: linear-gradient(90.88deg, #F3B64B 0%, #EB6231 28.67%, #E63240 64.06%, #80358A 91.51%, #3F4C9A 117.13%) !important;
 }
 
-.homepage .dynamicbloc-contentwrapper#ct-teaserexhibitors .bloc-content .exhibitor-item, .homepage .dynamicbloc-contentwrapper.bloc-teaserexhibitors .bloc-content .exhibitor-item {
-  width: calc(20% - 0px);
-}
-
+/*.homepage{
+  .dynamicbloc-contentwrapper {
+    &#ct-teaserexhibitors, &.bloc-teaserexhibitors {
+      .bloc-content {
+        .exhibitor-item{
+          width: calc(20% - 0px);
+        }
+      }
+    }
+  }
+}*/
 .dynamicbloc-contentwrapper:not(#ct-e352c39c-02d4-4062-fc86-474d372210e1)#ct-teaserexhibitors .bloc-content, .dynamicbloc-contentwrapper:not(#ct-e352c39c-02d4-4062-fc86-474d372210e1).bloc-teaserexhibitors .bloc-content {
   background-color: transparent !important;
   box-shadow: none !important;
