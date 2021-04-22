@@ -735,6 +735,9 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   width: fit-content;
   padding-bottom: 10px !important;
 }
+.dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header .bloc-title {
+  text-align: left;
+}
 .dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header .bloc-title .bloc-accent {
   font-size: 18px;
   font-weight: 500;
