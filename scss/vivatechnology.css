@@ -735,6 +735,16 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   width: fit-content;
   padding-bottom: 10px !important;
 }
+.dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header .bloc-title .bloc-accent {
+  font-size: 18px;
+  font-weight: 500;
+}
+.dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header .bloc-title .bloctitle {
+  font-size: 25px !important;
+  font-weight: bold !important;
+  border: none !important;
+  padding-bottom: 0 !important;
+}
 .dynamicpage-home .bloctheme .teasereventthemeitems .bloc-header:after {
   content: "";
   position: absolute;

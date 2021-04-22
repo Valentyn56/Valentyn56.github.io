@@ -7,6 +7,19 @@
         width: fit-content;
         padding-bottom: 10px !important;
 
+        .bloc-title{
+          .bloc-accent{
+            font-size: 18px;
+            font-weight: 500;
+          }
+          .bloctitle{
+            font-size: 25px !important;
+            font-weight: bold !important;
+            border: none !important;
+            padding-bottom: 0 !important;
+          }
+        }
+
         &:after {
           content: "";
           position: absolute;
