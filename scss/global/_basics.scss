@@ -151,13 +151,21 @@ h6{
 
 
 
-@media screen and (min-width: 1260px){
-  .h1, h1 {
-    font-size: 44px;
-    line-height: 1.6;
-  }
 
+
+
+@media screen and (min-width: 480px){
+  h4 {
+    font-size: 18pt !important;
+  }
 }
+
+@media screen and (min-width: 601px){
+  h4 {
+    font-size: 19pt !important;
+  }
+}
+
 
 @media screen and (min-width: 768px){
   .h1, h1 {
@@ -167,14 +175,11 @@ h6{
     font-size: 20px;
   }
 }
-@media screen and (min-width: 601px){
-  h4 {
-    font-size: 19pt !important;
-  }
-}
-@media screen and (min-width: 480px){
-  h4 {
-    font-size: 18pt !important;
-  }
-}
 
+@media screen and (min-width: 1260px){
+  .h1, h1 {
+    font-size: 44px;
+    line-height: 1.6;
+  }
+
+}
