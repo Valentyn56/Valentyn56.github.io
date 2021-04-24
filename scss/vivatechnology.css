@@ -303,7 +303,7 @@ h6 {
     padding: 35px 0;
     margin-top: 15px;
     background-color: white !important;
-    color: black !important;
+    color: #202020 !important;
     text-transform: uppercase;
     border-bottom: 1px solid rgba(179, 178, 178, 0.2);
     background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/logos/logo_vivatech_white.png");
@@ -315,7 +315,7 @@ h6 {
     max-height: 50px !important;
   }
   .app-header .app-header-content .links-list .iconlink {
-    opacity: 0.9;
+    opacity: 1;
     font-weight: 600 !important;
     position: relative;
   }

@@ -61,7 +61,7 @@
     padding: 35px 0;
     margin-top: 15px;
     background-color: white !important;
-    color: black !important;
+    color: $blackText !important;
     text-transform: uppercase;
     border-bottom: 1px solid hsla(0,1%,70%,.2);
 
@@ -82,7 +82,7 @@
 
       .links-list{
         .iconlink{
-          opacity: 0.9;
+          opacity: 1;
           font-weight: 600 !important;
           position: relative;
           &:after{
