@@ -8,20 +8,18 @@ var burgermenu = document.getElementById("burger-menu");
 var menulinks = document.getElementsByClassName("headline");
 
 
-
-
-for (var i = 0; i < menulinks.length; i++){
+/*for (var i = 0; i < menulinks.length; i++){
     var str = "lien"+i;
     menulinks[i].setAttribute("id",str);
     document.getElementById(str).addEventListener("click",toggleMenu);
-}
+}*/
 
-logo.addEventListener("click",function () {
+/*logo.addEventListener("click",function () {
     if(nav.classList.contains("scrolled")){
         nav.classList.remove("scrolled");
         burgermenu.classList.remove("scrolled");
     }
-});
+});*/
 
 if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")){
     page.addEventListener("scroll", function(){
@@ -48,22 +46,41 @@ function toggleMenu(){
     }
 }
 
-function addClassNameListener(elemId, callback) {
-    var elem = document.getElementById(elemId);
-    var lastClassName = elem.className;
-    window.setInterval( function() {
-        var className = elem.className;
-        if (className !== lastClassName) {
-            callback();
-            lastClassName = className;
-        }
-    },10);
-}
 
 
+(function (global) {
+    var inwink = global.inwink || {};
+    global.inwink = inwink;
+    inwink.tracking = inwink.tracking || {};
+    inwink.tracking.trackers = inwink.tracking.trackers || [];
+    inwink.tracking.trackers.push({
+        isEssential: true, //If false, the user needs to accept cookies to trigger the script//
+        script: {
+            id: "", //Give a name to your script, mandatory//
+            innerContent: "", //Put the script that must be loaded here if it's a text/javascript//
+            src: "" //Put the link of the script if it's a in a link, erase the property otherwise//
+        },
+        trackPage: function (location) {
+            if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")){
+                page.addEventListener("scroll", function(){
+                    var pageScroll = page.scrollTop;
 
-
-
+                    if(pageScroll >= 10){
+                        nav.classList.add("scrolled");
+                        burgermenu.classList.add("scrolled");
+                    }else{
+                        nav.classList.remove("scrolled");
+                        burgermenu.classList.remove("scrolled");
+                    }
+                });
+            }else{
+                toggleMenu();
+            }
+        },
+    });
+    if (inwink.trackingStatus)
+        inwink.trackingStatus();
+})(this);
 
 
 
