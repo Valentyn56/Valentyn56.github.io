@@ -65,6 +65,8 @@ function toggleMenu(){
                 console.log("This is the Homepage");
                 document.getElementsByClassName("dynamicpage-scrollcontent")[0].setAttribute("id", "Scrollcontent");
                 var page = document.getElementById('Scrollcontent');
+                nav.classList.remove("scrolled");
+                burgermenu.classList.remove("scrolled");
                 page.addEventListener("scroll", function(){
                     var pageScroll = page.scrollTop;
 
