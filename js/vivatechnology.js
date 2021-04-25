@@ -62,6 +62,7 @@ function toggleMenu(){
         },
         trackPage: function (location) {
             if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")){
+                console.log("This is the Homepage");
                 page.addEventListener("scroll", function(){
                     var pageScroll = page.scrollTop;
 
@@ -75,6 +76,7 @@ function toggleMenu(){
                 });
             }else{
                 toggleMenu();
+                console.log("Not Hompage");
             }
         },
     });
