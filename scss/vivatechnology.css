@@ -1715,6 +1715,35 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   background: linear-gradient(135deg, rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
 }
 
+.specific-header .bloc-header {
+  /*border-bottom: 1px solid #dddedf61 !important;*/
+  position: relative;
+  width: fit-content;
+  padding-bottom: 10px !important;
+}
+.specific-header .bloc-header .bloc-title {
+  text-align: left;
+}
+.specific-header .bloc-header .bloc-title .bloc-accent {
+  font-size: 18px;
+  font-weight: 500;
+}
+.specific-header .bloc-header .bloc-title .bloctitle {
+  font-size: 37px !important;
+  font-weight: bold !important;
+  border: none !important;
+  padding-bottom: 0 !important;
+}
+.specific-header .bloc-header:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 2px;
+  width: 100px;
+  background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+}
+
 @media screen and (min-width: 768px) {
   .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:first-child {
     margin-top: 18px;
