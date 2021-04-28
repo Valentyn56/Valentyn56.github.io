@@ -88,7 +88,7 @@ function toggleMenu(){
             /* BUTTON DESIGN MULTIPLE.JS */
             setTimeout(function(){
                 var multiple = new Multiple({
-                    selector: '.contentpagelink-items .contentpagelink.inwink-item',
+                    selector: '.dynamicbloc-contentwrapper:not(#ct-dfc3cf5b-faf6-4c0e-dd6a-a7098330f488) .contentpagelink-items .contentpagelink.inwink-item',
                     background: 'url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/background_myvivatech_for_buttons.jpg")'
                 });
             }, 500);
