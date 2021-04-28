@@ -61,6 +61,8 @@ function toggleMenu(){
             src: "" //Put the link of the script if it's a in a link, erase the property otherwise//
         },
         trackPage: function (location) {
+
+            /* APPHEADER SCROLLED*/
             if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")){
                 console.log("This is the Homepage");
                 document.getElementsByClassName("dynamicpage-scrollcontent")[0].setAttribute("id", "Scrollcontent");
@@ -82,6 +84,15 @@ function toggleMenu(){
                 toggleMenu();
                 console.log("Not Homepage");
             }
+
+            /* BUTTON DESIGN MULTIPLE.JS */
+            setTimeout(function(){
+                var multiple = new Multiple({
+                    selector: '.contentpagelink-items .contentpagelink.inwink-item',
+                    background: 'url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/background_myvivatech_for_buttons.jpg")'
+                });
+            }, 500);
+
         },
     });
     if (inwink.trackingStatus)
