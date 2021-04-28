@@ -741,6 +741,12 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   border-radius: 10px;
 }
 
+.dynamicpage-home .dynamicbloc-wrapper .dynamiccontentbloc {
+  max-width: 1750px !important;
+}
+.dynamicpage-home .dynamicbloc-contentwrapper {
+  margin: 20px 0 30px 0 !important;
+}
 .dynamicpage-home .bloctheme .specific-header .bloc-header {
   /*border-bottom: 1px solid #dddedf61 !important;*/
   position: relative;
