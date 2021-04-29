@@ -1,5 +1,5 @@
-document.getElementsByClassName("dynamicpage-scrollcontent")[0].setAttribute("id", "Scrollcontent");
 document.getElementsByClassName("app-header")[0].setAttribute("id", "Appheader");
+document.getElementsByClassName("dynamicpage-scrollcontent")[0].setAttribute("id", "Scrollcontent");
 document.getElementsByClassName("mainlogo")[0].setAttribute("id", "Mainlogo");
 var page = document.getElementById('Scrollcontent');
 var nav = document.getElementById("Appheader");
