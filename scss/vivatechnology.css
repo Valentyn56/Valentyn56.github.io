@@ -745,7 +745,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   max-width: 1750px !important;
 }
 .dynamicpage-home .bloctheme:not(#bl-a25f1d8c-4c72-4db0-f118-90743c2ad649) .dynamicbloc-contentwrapper {
-  /*margin: 20px 0 30px 0 !important;*/
+  margin: 20px 0 30px 0 !important;
 }
 .dynamicpage-home .bloctheme .specific-header .bloc-header {
   /*border-bottom: 1px solid #dddedf61 !important;*/
