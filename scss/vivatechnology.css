@@ -415,6 +415,16 @@ button[type=button], a[role=button] {
   font-weight: normal;
 }
 
+.inwink-web:before {
+  content: "www";
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  border: 2px solid;
+  padding: 3px 5px;
+  border-radius: 15px;
+}
+
 .inwink-group:before {
   content: "";
   font-family: "Font Awesome 5 Pro" !important;
