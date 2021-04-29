@@ -60,7 +60,7 @@ button[type="button"], a[role="button"] {
   }
 }
 .inwink-web{
-  margin-right: 15px;
+  margin-right: 15px !important;
   &:before {
     content: "www";
     font-family: 'Poppins';
