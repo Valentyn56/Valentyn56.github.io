@@ -418,7 +418,7 @@ button[type=button], a[role=button] {
 .inwink-web {
   margin-right: 15px;
 }
-.inwink-web :before {
+.inwink-web:before {
   content: "www";
   font-family: "Poppins";
   font-weight: 600;
