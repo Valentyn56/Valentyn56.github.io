@@ -59,14 +59,17 @@ button[type="button"], a[role="button"] {
     font-weight: normal;
   }
 }
-.inwink-web:before {
-  content: "www";
-  font-family: 'Poppins';
-  font-weight: 600;
-  font-size: 14px;
-  border: 2px solid;
-  padding: 3px 5px;
-  border-radius: 15px;
+.inwink-web{
+  margin-right: 15px;
+  :before {
+    content: "www";
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    border: 2px solid;
+    padding: 3px 5px;
+    border-radius: 15px;
+  }
 }
 .inwink-group:before {
   content: "\f0c0";
