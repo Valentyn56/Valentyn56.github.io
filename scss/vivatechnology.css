@@ -12,6 +12,7 @@
 */
 /* COLORS */
 /* EFFECTS */
+/*$gradient : linear-gradient(135deg,$yellow,$orange,$pink);*/
 /* Fonts */
 /* MIXINS */
 /* KEYFRAMES */
@@ -1023,7 +1024,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   margin-right: 10px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes > .tagslist-items .tag, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes > .tagslist-items .tag {
-  background-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  background-image: linear-gradient(339deg, #41279f 0%, #d42558 20%, #f9027f 40%, #e45539 60%, #ef8c3f 80%, #f3eb4b 100%);
   color: white;
   font-weight: 800;
   margin-top: 10px;
@@ -1469,7 +1470,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   color: #202020 !important;
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card:hover {
-  border-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  border-image: linear-gradient(339deg, #41279f 0%, #d42558 20%, #f9027f 40%, #e45539 60%, #ef8c3f 80%, #f3eb4b 100%);
   background: linear-gradient(135deg, rgba(247, 215, 0, 0.2), rgba(255, 89, 0, 0.19), rgba(245, 37, 93, 0.18));
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
@@ -1526,7 +1527,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   color: white !important;
 }
 .eventcontentpage .dynamicpage-parks-showrooms .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card:hover {
-  border-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  border-image: linear-gradient(339deg, #41279f 0%, #d42558 20%, #f9027f 40%, #e45539 60%, #ef8c3f 80%, #f3eb4b 100%);
   background: linear-gradient(135deg, rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
 }
 .eventcontentpage .dynamicpage-schedules .bloc-header, .eventcontentpage .dynamicpage-networking-rooms .bloc-header, .eventcontentpage .dynamicpage.withsidebar .bloc-header {
@@ -1660,7 +1661,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   color: #202020 !important;
 }
 .dynamicpage-eventthemedetail .bloctheme:not(.bloctheme-darkbloc) .bloc-exhibitorslist .inwink-items .exhibitor-item .card:hover {
-  border-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  border-image: linear-gradient(339deg, #41279f 0%, #d42558 20%, #f9027f 40%, #e45539 60%, #ef8c3f 80%, #f3eb4b 100%);
   background: linear-gradient(135deg, rgba(247, 215, 0, 0.2), rgba(255, 89, 0, 0.19), rgba(245, 37, 93, 0.18));
 }
 .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
@@ -1717,7 +1718,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   color: white !important;
 }
 .dynamicpage-eventthemedetail .bloctheme.bloctheme-darkbloc .bloc-exhibitorslist .inwink-items .exhibitor-item .card:hover {
-  border-image: linear-gradient(135deg, #f7d700, #ff5900, #f5255d);
+  border-image: linear-gradient(339deg, #41279f 0%, #d42558 20%, #f9027f 40%, #e45539 60%, #ef8c3f 80%, #f3eb4b 100%);
   background: linear-gradient(135deg, rgba(247, 215, 0, 0.5), rgba(255, 89, 0, 0.5), rgba(245, 37, 93, 0.5));
 }
 
