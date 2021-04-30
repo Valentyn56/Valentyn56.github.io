@@ -439,6 +439,12 @@ button[type=button], a[role=button] {
   font-style: normal;
 }
 
+.inwink-youtube:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 500;
+}
+
 .inwink-group:before {
   content: "";
   font-family: "Font Awesome 5 Pro" !important;

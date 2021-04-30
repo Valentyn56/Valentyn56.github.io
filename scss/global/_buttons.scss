@@ -84,6 +84,15 @@ button[type="button"], a[role="button"] {
     font-style: normal;
   }
 }
+.inwink-youtube{
+  &:before{
+    content: "\f167";
+    font-family: $fontawesome;
+    font-weight: 500;
+  }
+}
+
+
 
 .inwink-group:before {
   content: "\f0c0";
