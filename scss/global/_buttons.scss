@@ -74,6 +74,9 @@ button[type="button"], a[role="button"] {
 }
 
 .inwink-placeholder{
+  &:before{
+    display:none;
+  }
   &:after{
     content: '\f3c5';
     font-family: $fontawesome;

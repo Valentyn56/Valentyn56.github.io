@@ -429,6 +429,9 @@ button[type=button], a[role=button] {
   border-radius: 15px;
 }
 
+.inwink-placeholder:before {
+  display: none;
+}
 .inwink-placeholder:after {
   content: "";
   font-family: "Font Awesome 5 Pro";
