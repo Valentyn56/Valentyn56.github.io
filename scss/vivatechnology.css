@@ -429,6 +429,13 @@ button[type=button], a[role=button] {
   border-radius: 15px;
 }
 
+.inwink-placeholder:after {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: bold;
+  font-style: normal;
+}
+
 .inwink-group:before {
   content: "";
   font-family: "Font Awesome 5 Pro" !important;

@@ -72,6 +72,16 @@ button[type="button"], a[role="button"] {
     border-radius: 15px;
   }
 }
+
+.inwink-placeholder{
+  &:after{
+    content: '\f3c5';
+    font-family: $fontawesome;
+    font-weight: bold;
+    font-style: normal;
+  }
+}
+
 .inwink-group:before {
   content: "\f0c0";
   font-family: $fontawesome !important;
