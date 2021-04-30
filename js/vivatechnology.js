@@ -7,7 +7,7 @@ var logo = document.getElementById("Mainlogo");
 var burgermenu = document.getElementById("burger-menu");
 var menulinks = document.getElementsByClassName("headline");
 
-var multipleSelector = '.dynamicbloc-contentwrapper:not(#ct-dfc3cf5b-faf6-4c0e-dd6a-a7098330f488):not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .contentpagelink-items .contentpagelink.inwink-item';
+var multipleSelector = '.dynamicbloc-contentwrapper:not(#ct-dfc3cf5b-faf6-4c0e-dd6a-a7098330f488):not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .contentpagelink-items .contentpagelink.inwink-item:not([aria-current="page"])';
 
 
 /*for (var i = 0; i < menulinks.length; i++){
