@@ -1055,7 +1055,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-weight: 500;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .practical-infos, .sessiondetailpage .bloc-entitydetail .partner-header .practical-infos {
-  display: none !important;
+  /*display: none !important;*/
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .infos-container, .sessiondetailpage .bloc-entitydetail .partner-header .infos-container {
   display: flex !important;
