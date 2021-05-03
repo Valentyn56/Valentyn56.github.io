@@ -1279,7 +1279,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 }
 .exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloctitle, .sessiondetailpage .bloctheme:not(.bloc-footer) header.bloc-header h2.bloc-title .bloctitle {
   text-transform: uppercase;
-  font-size: 29px;
+  font-size: 25px;
   color: #202020 !important;
   border: none !important;
   padding-bottom: 0 !important;
