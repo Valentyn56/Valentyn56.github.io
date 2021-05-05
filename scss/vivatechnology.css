@@ -1582,7 +1582,8 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 .eventcontentpage .dynamicpage-schedules .bloc-header .description, .eventcontentpage .dynamicpage-networking-rooms .bloc-header .description, .eventcontentpage .dynamicpage.withsidebar .bloc-header .description {
   opacity: 0.4;
   font-weight: 500;
-  font-size: 17px;
+  /*font-size: 17px;*/
+  font-size: 18px;
   margin-top: 0px !important;
 }
 .eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) {
