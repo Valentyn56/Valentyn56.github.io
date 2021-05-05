@@ -107,6 +107,11 @@ button[type="button"], a[role="button"] {
   font-family: $fontawesome;
 }
 
+.inwink-networking:before {
+  content: "\f78a";
+  font-family: $fontawesome;
+}
+
 
 .has-button a[role="button"]{
   &:after{

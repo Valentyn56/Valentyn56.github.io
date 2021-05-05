@@ -459,6 +459,11 @@ button[type=button], a[role=button] {
   font-family: "Font Awesome 5 Pro";
 }
 
+.inwink-networking:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+}
+
 .has-button a[role=button]:after {
   content: " more";
 }
