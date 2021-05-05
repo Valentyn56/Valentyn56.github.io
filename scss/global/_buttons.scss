@@ -124,13 +124,13 @@ button[type="button"], a[role="button"] {
   font-weight: 900 !important;
 }
 
-#bl-7115dddf-3799-43f0-957a-28ce816aa58f .keywordbubble{
+#bl-7115dddf-3799-43f0-957a-28ce816aa58f .description .keywordbubble{
   background-image: $gradient;
   color:white !important;
   font-weight: 600;
   border-radius:110px;
 }
-#bl-7115dddf-3799-43f0-957a-28ce816aa58f .keywordbubble:before{
+#bl-7115dddf-3799-43f0-957a-28ce816aa58f .description .keywordbubble:before{
   content:"#";
 }
 
