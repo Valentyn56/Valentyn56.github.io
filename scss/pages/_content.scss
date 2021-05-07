@@ -198,7 +198,7 @@
       }
     }
     .bloctheme{
-      .dynamicbloc-contentwrapper:not(.bloc-teaser){
+      .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer){
           padding-top:30px;
           padding-bottom: 30px;
         .bloc-header {
@@ -228,7 +228,7 @@
   .dynamicpage-blocscontainer.dynamicpage-maincontent{
     width:100% !important;
     .bloctheme{
-      .dynamicbloc-contentwrapper:not(.bloc-teaser){
+      .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer){
         .bloc-header{
           margin-left:0 !important;
           &:after{
