@@ -1590,18 +1590,18 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-size: 17px;
   margin-top: 0px !important;
 }
-.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer), .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer), .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer) {
+.eventcontentpage .dynamicpage-schedules .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage-networking-rooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser), .eventcontentpage .dynamicpage.withsidebar .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer) .bloc-header, .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer) .bloc-header, .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer) .bloc-header {
+.eventcontentpage .dynamicpage-schedules .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .eventcontentpage .dynamicpage-networking-rooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .eventcontentpage .dynamicpage.withsidebar .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
   /*border-bottom: 1px solid #dddedf61 !important;*/
   position: relative;
   width: fit-content;
   margin: auto;
   padding-bottom: 10px !important;
 }
-.eventcontentpage .dynamicpage-schedules .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer) .bloc-header:after, .eventcontentpage .dynamicpage-networking-rooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer) .bloc-header:after, .eventcontentpage .dynamicpage.withsidebar .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer) .bloc-header:after {
+.eventcontentpage .dynamicpage-schedules .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .eventcontentpage .dynamicpage-networking-rooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .eventcontentpage .dynamicpage.withsidebar .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -1615,10 +1615,10 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 .dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent {
   width: 100% !important;
 }
-.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer) .bloc-header, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer) .bloc-header, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer) .bloc-header {
+.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
   margin-left: 0 !important;
 }
-.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer) .bloc-header:after, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer) .bloc-header:after, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser):not(.bloc-footer) .bloc-header:after {
+.dynamicpage-networking-rooms .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage-hall-test .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after, .dynamicpage.withsidebar .dynamicpage-blocscontainer.dynamicpage-maincontent .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
   left: 0 !important;
   transform: translateX(0);
 }
