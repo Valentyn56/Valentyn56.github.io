@@ -1800,10 +1800,12 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   text-align: left;
 }
 .specific-header-h2 .bloc-header .bloc-title .bloc-accent {
+  text-align: left;
   font-size: 18px;
   font-weight: 500;
 }
 .specific-header-h2 .bloc-header .bloc-title .bloctitle {
+  text-align: left;
   font-size: 30px !important;
   font-weight: bold !important;
   border: none !important;
