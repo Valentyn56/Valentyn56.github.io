@@ -688,10 +688,10 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 .bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos .inwink-item:hover {
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.84) !important;
 }
-.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .picturegalleryitem {
+.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .picturegallery:not(#ct-b3de05fe-fac6-49dd-e396-3a79aff80ced):not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .picturegalleryitem {
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34);
 }
-.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .picturegalleryitem .player {
+.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .picturegallery:not(#ct-b3de05fe-fac6-49dd-e396-3a79aff80ced):not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .picturegalleryitem .player {
   width: 55px !important;
   height: 55px !important;
   box-shadow: none !important;
@@ -699,7 +699,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   opacity: 1 !important;
   background: #000000b0 !important;
 }
-.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .picturegalleryitem .player i::before {
+.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .picturegallery:not(#ct-b3de05fe-fac6-49dd-e396-3a79aff80ced):not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .picturegalleryitem .player i::before {
   content: "" !important;
   color: white !important;
   font-family: "Font Awesome 5 Pro";
@@ -707,12 +707,12 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-size: 60px;
   text-shadow: 0px 0px 8px #00000024;
 }
-.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .picturegalleryitem .title-layer {
+.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .picturegallery:not(#ct-b3de05fe-fac6-49dd-e396-3a79aff80ced):not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .picturegalleryitem .title-layer {
   background: #0000004f !important;
   font-weight: 600;
   font-size: 18px;
 }
-.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .picturegalleryitem .title-layer span {
+.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .picturegallery:not(#ct-b3de05fe-fac6-49dd-e396-3a79aff80ced):not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .picturegalleryitem .title-layer span {
   position: absolute;
   bottom: 5px;
 }
