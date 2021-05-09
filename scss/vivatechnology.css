@@ -676,7 +676,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   text-transform: uppercase;
 }
 .bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos .inwink-item:before {
-  color: #f5255d !important;
+  /*color: $pink !important;*/
   text-transform: lowercase !important;
   font-size: 14px !important;
   position: absolute !important;
