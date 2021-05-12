@@ -1204,7 +1204,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   height: 210px !important;
 }
 .exhibitordetailpage .bloc-entitydetail .startup-header .sociallinks .sociallink:first-child, .sessiondetailpage .bloc-entitydetail .startup-header .sociallinks .sociallink:first-child {
-  display: none;
+  /*display: none;*/
 }
 .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-content {
   flex: 2 !important;
