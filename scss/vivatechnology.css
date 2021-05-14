@@ -1332,7 +1332,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 /* RESPONSIVE Partner's page */
 @media screen and (min-width: 601px) {
   .innovation-header .wrapper-actions .entity-actions {
-    padding-left: 100px;
+    padding-left: 30px;
   }
 }
 @media screen and (max-width: 601px) {
