@@ -328,7 +328,7 @@ h6 {
   .app-header .app-header-content .links-list .iconlink:after {
     content: "";
     position: absolute;
-    bottom: -6px;
+    bottom: 0px;
     width: 0%;
     background-image: linear-gradient(90deg, #f7d700, #ff5900, #f5255d);
     height: 3px;

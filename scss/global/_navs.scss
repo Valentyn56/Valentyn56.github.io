@@ -88,7 +88,7 @@
           &:after{
             content: "";
             position: absolute;
-            bottom: -6px;
+            bottom: 0px;
             width: 0%;
             background-image: linear-gradient(90deg, $yellow, $orange, $pink);
             height: 3px;
