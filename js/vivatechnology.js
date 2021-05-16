@@ -94,6 +94,9 @@ setTimeout(function(){
                         selector: multipleSelector,
                         background: 'url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/background_myvivatech_for_buttons.jpg")'
                     });
+
+                    multiple.update();
+
                 }, 500);
 
             }else{
