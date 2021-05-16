@@ -543,7 +543,7 @@
       .wrapper-actions{
         flex: 1 !important;
         justify-content: flex-end;
-        .entity-actions{
+        .entity-actions,.practical-infos{
           padding-left: 30px;
           max-width: 290px;
         }
@@ -552,6 +552,10 @@
       @media screen and(max-width:768px) {
         .wrapper-actions{
           justify-content: center;
+        }
+        .practical-infos{
+          padding-left:initial;
+          max-width: unset;
         }
       }
 

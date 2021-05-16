@@ -1269,13 +1269,17 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   flex: 1 !important;
   justify-content: flex-end;
 }
-.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-actions .entity-actions, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-actions .entity-actions {
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-actions .entity-actions, .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-actions .practical-infos, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-actions .entity-actions, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-actions .practical-infos {
   padding-left: 30px;
   max-width: 290px;
 }
 @media screen and (max-width: 768px) {
   .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-actions, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-actions {
     justify-content: center;
+  }
+  .exhibitordetailpage .bloc-entitydetail .startup-header .practical-infos, .sessiondetailpage .bloc-entitydetail .startup-header .practical-infos {
+    padding-left: initial;
+    max-width: unset;
   }
 }
 .exhibitordetailpage .bloctheme:not(.bloc-footer) header.bloc-header, .sessiondetailpage .bloctheme:not(.bloc-footer) header.bloc-header {
