@@ -543,7 +543,11 @@
       .wrapper-actions{
         flex: 1 !important;
         justify-content: flex-end;
-        .entity-actions,.practical-infos{
+        .entity-actions{
+          padding-left: 30px;
+          max-width: 290px;
+        }
+        .practical-infos{
           padding-left: 30px;
           max-width: 290px;
         }

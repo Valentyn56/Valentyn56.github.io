@@ -1269,7 +1269,11 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   flex: 1 !important;
   justify-content: flex-end;
 }
-.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-actions .entity-actions, .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-actions .practical-infos, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-actions .entity-actions, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-actions .practical-infos {
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-actions .entity-actions, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-actions .entity-actions {
+  padding-left: 30px;
+  max-width: 290px;
+}
+.exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-actions .practical-infos, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-actions .practical-infos {
   padding-left: 30px;
   max-width: 290px;
 }
