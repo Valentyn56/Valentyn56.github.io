@@ -348,30 +348,15 @@
       }
       .logo{
         flex: 1 !important;
-        height: 255px !important;
+        height: 360px;
         overflow: visible;
-        margin-top: 30px;
-        padding:0 !important;
-        &:after {
-          /*content: "";
-          width: 130px;
-          height: 179px;
-          position: absolute;
-          top: 150px;
-          right: 64px;
-          background: $gradient;
-          z-index: -1;*/
-        }
+        align-self: center;
+        margin-left: 70px;
+
         .logo-photo {
-          max-width: 385px;
-          //left: 50% !important;
-          background-size: cover;
+          background-size: contain;
+          min-height: 280px !important;
           position: relative !important;
-          //transform: translateX(-50%);
-          box-shadow: $lilshadow;
-          //border: 10px solid;
-          border-image-source: $bigbluegradient;
-          border-image-slice: 1;
         }
       }
       .partner-themes{

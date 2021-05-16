@@ -1112,28 +1112,15 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .logo, .sessiondetailpage .bloc-entitydetail .innovation-header .logo {
   flex: 1 !important;
-  height: 255px !important;
+  height: 360px;
   overflow: visible;
-  margin-top: 30px;
-  padding: 0 !important;
-}
-.exhibitordetailpage .bloc-entitydetail .innovation-header .logo:after, .sessiondetailpage .bloc-entitydetail .innovation-header .logo:after {
-  /*content: "";
-  width: 130px;
-  height: 179px;
-  position: absolute;
-  top: 150px;
-  right: 64px;
-  background: $gradient;
-  z-index: -1;*/
+  align-self: center;
+  margin-left: 70px;
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .logo .logo-photo, .sessiondetailpage .bloc-entitydetail .innovation-header .logo .logo-photo {
-  max-width: 385px;
-  background-size: cover;
+  background-size: contain;
+  min-height: 280px !important;
   position: relative !important;
-  box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34);
-  border-image-source: linear-gradient(90.88deg, #F3B64B 0%, #EB6231 28.67%, #E63240 64.06%, #80358A 91.51%, #3F4C9A 117.13%);
-  border-image-slice: 1;
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .partner-themes .tagslist-items, .sessiondetailpage .bloc-entitydetail .innovation-header .partner-themes .tagslist-items {
   display: flex !important;
