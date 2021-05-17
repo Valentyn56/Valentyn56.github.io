@@ -684,3 +684,22 @@
   }
 }
 
+.exhibitordetailpage{
+  .download-icon{
+    .inwink-placeholder{
+      &:after{
+        font-size: 20px;
+        color: $blue;
+        @include normal-transition(.1s);
+      }
+    }
+    &:hover{
+      .inwink-placeholder{
+        &:after{
+          color: $darkblue;
+        }
+      }
+    }
+  }
+}
+

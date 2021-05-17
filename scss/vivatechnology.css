@@ -1421,6 +1421,18 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
     padding: 20px 0 !important;
   }
 }
+.exhibitordetailpage .download-icon .inwink-placeholder:after {
+  font-size: 20px;
+  color: #1d6ff7;
+  transition: all 0.1s ease !important;
+  -webkit-transition: all 0.1s ease !important;
+  -moz-transition: all 0.1s ease !important;
+  -o-transition: all 0.1s ease !important;
+}
+.exhibitordetailpage .download-icon:hover .inwink-placeholder:after {
+  color: #0a50c4;
+}
+
 .sessiondetailpage .keywordbubble {
   background-color: #f5255d !important;
   color: #ffffff !important;
