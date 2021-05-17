@@ -115,20 +115,21 @@ function toggleMenu(){
 
             }else{
                 toggleMenu();
-                console.log("Not Homepage");
+
+                /* BUTTON DESIGN MULTIPLE.JS */
+                setTimeout(function(){
+
+                    var multiple = new Multiple({
+                        selector: multipleSelector,
+                        background: 'url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/background_myvivatech_for_buttons.jpg")'
+                    });
+
+                    document.querySelectorAll(multipleSelector).classList.add("multiple-desktop");
+
+                }, 500);
             }
 
-            /* BUTTON DESIGN MULTIPLE.JS */
-            setTimeout(function(){
 
-                var multiple = new Multiple({
-                    selector: multipleSelector,
-                    background: 'url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/background_myvivatech_for_buttons.jpg")'
-                });
-
-                document.querySelectorAll(multipleSelector).classList.add("multiple-desktop");
-
-           }, 500);
 
         },
     });
