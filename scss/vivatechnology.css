@@ -439,6 +439,16 @@ button[type=button], a[role=button] {
   font-style: normal;
 }
 
+.inwink-online:before {
+  display: none;
+}
+.inwink-online:after {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: bold;
+  font-style: normal;
+}
+
 .inwink-youtube:before {
   content: "";
   font-family: "Font Awesome 5 Brands";

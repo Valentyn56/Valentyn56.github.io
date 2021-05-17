@@ -84,6 +84,18 @@ button[type="button"], a[role="button"] {
     font-style: normal;
   }
 }
+.inwink-online{
+  &:before{
+    display:none;
+  }
+  &:after{
+    content: '\f7a2';
+    font-family: $fontawesome;
+    font-weight: bold;
+    font-style: normal;
+  }
+}
+
 .inwink-youtube{
   &:before{
     content: "\f167";
