@@ -57,7 +57,8 @@ if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")
     }, 500);
 }else{
 
-    toggleMenu();
+    nav.classList.add("scrolled");
+    burgermenu.classList.add("scrolled");
 
     /* BUTTON DESIGN MULTIPLE.JS */
     setTimeout(function(){
