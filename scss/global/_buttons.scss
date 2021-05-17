@@ -84,6 +84,21 @@ button[type="button"], a[role="button"] {
     font-style: normal;
   }
 }
+
+.download-icon{
+  .inwink-placeholder{
+    &:before{
+      display:none;
+    }
+    &:after{
+      content: '\f381';
+      font-family: $fontawesome;
+      font-weight: bold;
+      font-style: normal;
+    }
+  }
+}
+
 .inwink-online{
   &:before{
     display:none;
