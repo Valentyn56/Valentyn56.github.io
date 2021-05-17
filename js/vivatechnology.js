@@ -24,6 +24,17 @@ var multipleSelector = '.dynamicbloc-contentwrapper:not(#ct-dfc3cf5b-faf6-4c0e-d
 });*/
 
 if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")){
+
+    var pageScroll = page.scrollTop;
+
+    if(pageScroll >= 10){
+        nav.classList.add("scrolled");
+        burgermenu.classList.add("scrolled");
+    }else{
+        nav.classList.remove("scrolled");
+        burgermenu.classList.remove("scrolled");
+    }
+
     page.addEventListener("scroll", function(){
         var pageScroll = page.scrollTop;
 
@@ -45,6 +56,9 @@ if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")
 
     }, 500);
 }else{
+
+    toggleMenu();
+
     /* BUTTON DESIGN MULTIPLE.JS */
     setTimeout(function(){
         var multiple = new Multiple({
