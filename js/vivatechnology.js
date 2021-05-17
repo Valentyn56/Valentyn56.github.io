@@ -1,5 +1,7 @@
 document.getElementsByClassName("app-header")[0].setAttribute("id", "Appheader");
-document.getElementsByClassName("dynamicpage-scrollcontent")[0].setAttribute("id", "Scrollcontent");
+if(document.getElementsByClassName("dynamicpage-scrollcontent")[0]){
+    document.getElementsByClassName("dynamicpage-scrollcontent")[0].setAttribute("id", "Scrollcontent");
+}
 document.getElementsByClassName("mainlogo")[0].setAttribute("id", "Mainlogo");
 var page = document.getElementById('Scrollcontent');
 var nav = document.getElementById("Appheader");
@@ -57,8 +59,7 @@ if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")
     }, 500);
 }else{
 
-    nav.classList.add("scrolled");
-    burgermenu.classList.add("scrolled");
+
 
     /* BUTTON DESIGN MULTIPLE.JS */
     setTimeout(function(){
