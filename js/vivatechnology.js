@@ -41,7 +41,6 @@ if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")
             background: 'url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/background_myvivatech_for_buttons%2520(1).jpg")'
         });
 
-        addMultipleDesktop(multipleSelector);
 
     }, 500);
 }else{
@@ -51,8 +50,6 @@ if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")
             selector: multipleSelector,
             background: 'url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/background_myvivatech_for_buttons.jpg")'
         });
-
-        addMultipleDesktop(multipleSelector);
 
     }, 500);
 }
@@ -107,8 +104,6 @@ function toggleMenu(){
                         background: 'url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/background_myvivatech_for_buttons%2520(1).jpg")'
                     });
 
-                    addMultipleDesktop(multipleSelector);
-
                 }, 500);
 
             }else{
@@ -123,8 +118,6 @@ function toggleMenu(){
                     });
 
 
-                    addMultipleDesktop(multipleSelector);
-
                 }, 500);
             }
         },
@@ -133,15 +126,7 @@ function toggleMenu(){
         inwink.trackingStatus();
 })(this);
 
-function addMultipleDesktop(selector){
-    console.log("multiple loads");
-    /*var multiplelinks = document.querySelectorAll(selector);
 
-    for(var i = 0 ; i < multiplelinks.length ; i++){
-        multiplelinks[i].classList.add("multiple-desktop")
-    }*/
-
-}
 
 
 
