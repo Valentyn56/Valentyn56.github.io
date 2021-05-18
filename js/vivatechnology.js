@@ -60,7 +60,7 @@ if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")
 toggleMenu();
 
 function toggleMenu(){
-    console.log("toogle toggle toggle");
+
     if(nav.classList.contains("scrolled")){
         console.log("déja scrolled");
     }else{
