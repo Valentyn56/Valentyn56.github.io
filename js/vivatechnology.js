@@ -135,11 +135,11 @@ function toggleMenu(){
 
 function addMultipleDesktop(selector){
 
-    var multiplelinks = document.querySelectorAll(selector);
+    /*var multiplelinks = document.querySelectorAll(selector);
 
     for(var i = 0 ; i < multiplelinks.length ; i++){
         multiplelinks[i].classList.add("multiple-desktop")
-    }
+    }*/
 
 }
 
