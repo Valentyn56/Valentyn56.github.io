@@ -134,7 +134,7 @@ function toggleMenu(){
 })(this);
 
 function addMultipleDesktop(selector){
-
+    console.log("multiple loads");
     /*var multiplelinks = document.querySelectorAll(selector);
 
     for(var i = 0 ; i < multiplelinks.length ; i++){
