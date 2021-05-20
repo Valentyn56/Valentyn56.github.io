@@ -40,8 +40,6 @@ if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")
             selector: multipleSelector,
             background: 'url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/background_myvivatech_for_buttons%2520(1).jpg")'
         });
-
-
     }, 500);
 }else{
     /* BUTTON DESIGN MULTIPLE.JS */

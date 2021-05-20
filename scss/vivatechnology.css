@@ -472,6 +472,7 @@ button[type=button], a[role=button] {
 
 .inwink-meeting:before {
   content: "";
+  font-family: "Font Awesome 5 Pro";
 }
 
 .inwink-calendar:before {

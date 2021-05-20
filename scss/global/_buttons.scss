@@ -127,6 +127,7 @@ button[type="button"], a[role="button"] {
 }
 .inwink-meeting:before {
   content: "\f63d";
+  font-family: $fontawesome;
 }
 
 .inwink-calendar:before {
