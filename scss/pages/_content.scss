@@ -7,6 +7,7 @@
         margin:0;
         .bloc-header{
           padding-top: 20px;
+          margin:auto;
           /*border-bottom: 1px solid #DDDEDF;*/
           .bloc-title{
             .bloc-accent{
@@ -38,12 +39,14 @@
           /*border-bottom: 1px solid #dddedf61 !important;*/
           position: relative;
           width: fit-content;
+          margin:auto;
           padding-bottom: 10px !important;
 
           &:after {
             content: "";
             position: absolute;
-            left: 0;
+            left: 50%;
+            transform: translateX(-50%);
             bottom: 0px;
             height: 2px;
             width: 100px;
