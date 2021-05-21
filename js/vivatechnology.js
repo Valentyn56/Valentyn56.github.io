@@ -9,7 +9,7 @@ var logo = document.getElementById("Mainlogo");
 var burgermenu = document.getElementById("burger-menu");
 var menulinks = document.getElementsByClassName("headline");
 
-var multipleSelector = '.dynamicbloc-contentwrapper:not(#ct-dfc3cf5b-faf6-4c0e-dd6a-a7098330f488):not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .contentpagelink-items .contentpagelink.inwink-item';
+//var multipleSelector = '.dynamicbloc-contentwrapper:not(#ct-dfc3cf5b-faf6-4c0e-dd6a-a7098330f488):not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .contentpagelink-items .contentpagelink.inwink-item';
 
 
 if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")){
@@ -35,21 +35,21 @@ if(document.getElementsByClassName("app-page")[0].classList.contains("homepage")
             burgermenu.classList.remove("scrolled");
         }
     });
-    setTimeout(function(){
+    /*setTimeout(function(){
         var multiple = new Multiple({
             selector: multipleSelector,
             background: 'url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/background_myvivatech_for_buttons%2520(1).jpg")'
         });
-    }, 500);
+    }, 500);*/
 }else{
     /* BUTTON DESIGN MULTIPLE.JS */
-    setTimeout(function(){
+    /*setTimeout(function(){
         var multiple = new Multiple({
             selector: multipleSelector,
             background: 'url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/background_myvivatech_for_buttons.jpg")'
         });
 
-    }, 500);
+    }, 500);*/
 }
 
 toggleMenu();
@@ -96,19 +96,19 @@ function toggleMenu(){
                         burgermenu.classList.remove("scrolled");
                     }
                 });
-                setTimeout(function(){
+                /*setTimeout(function(){
                     var multiple = new Multiple({
                         selector: multipleSelector,
                         background: 'url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/background_myvivatech_for_buttons%2520(1).jpg")'
                     });
 
-                }, 500);
+                }, 500);*/
 
             }else{
                 toggleMenu();
 
                 /* BUTTON DESIGN MULTIPLE.JS */
-                setTimeout(function(){
+                /*setTimeout(function(){
 
                     var multiple = new Multiple({
                         selector: multipleSelector,
@@ -116,7 +116,7 @@ function toggleMenu(){
                     });
 
 
-                }, 500);
+                }, 500);*/
             }
         },
     });
