@@ -1690,13 +1690,13 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-size: 17px;
   margin-top: 0px !important;
 }
-.dynamicpage-eventthemedetail .bloctheme .dynamicbloc-contentwrapper:not(.dynamic-bloc-entitydetail) .bloc-header {
+.dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.dynamic-bloc-entitydetail) .bloc-header {
   /*border-bottom: 1px solid #dddedf61 !important;*/
   position: relative;
   width: fit-content;
   padding-bottom: 10px !important;
 }
-.dynamicpage-eventthemedetail .bloctheme .dynamicbloc-contentwrapper:not(.dynamic-bloc-entitydetail) .bloc-header:after {
+.dynamicpage-eventthemedetail .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.dynamic-bloc-entitydetail) .bloc-header:after {
   content: "";
   position: absolute;
   left: 0;
