@@ -47,7 +47,7 @@ button[type="button"], a[role="button"] {
   &:before{
     content:"\f075";
     font-family: $fontawesome !important;
-    font-size: 23px;
+    /*font-size: 23px;*/
     font-weight: normal;
   }
 }

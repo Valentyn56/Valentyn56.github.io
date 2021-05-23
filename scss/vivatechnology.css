@@ -404,7 +404,7 @@ button[type=button], a[role=button] {
 .inwink-chat:before {
   content: "";
   font-family: "Font Awesome 5 Pro" !important;
-  font-size: 23px;
+  /*font-size: 23px;*/
   font-weight: normal;
 }
 
