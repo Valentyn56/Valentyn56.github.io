@@ -673,26 +673,26 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-weight: 600;
 }
 
-.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos {
+.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos:not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) {
   text-align: center;
 }
-.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos .inwink-item {
+.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos:not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .inwink-item {
   flex-direction: column;
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.34) !important;
   background-color: white;
 }
-.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos .inwink-item .detail {
+.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos:not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .inwink-item .detail {
   flex-direction: column;
   display: flex;
   justify-content: center;
   margin-top: 21px;
   margin-bottom: 16px;
 }
-.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos .inwink-item .detail h4 {
+.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos:not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .inwink-item .detail h4 {
   font-size: 20px;
   text-transform: uppercase;
 }
-.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos .inwink-item:before {
+.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos:not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .inwink-item:before {
   /*color: $pink !important;*/
   text-transform: lowercase !important;
   font-size: 14px !important;
@@ -702,7 +702,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   width: 100%;
   margin: auto;
 }
-.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos .inwink-item:hover {
+.bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .bloc-teasereventinfos:not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .inwink-item:hover {
   box-shadow: 0 3px 10px rgba(215, 204, 203, 0.84) !important;
 }
 .bloctheme:not(.bloc-footer):not(#bl-f21ce46b-ee82-4328-a020-a183dbc2490b):not(#bl-c9905c58-b774-47d9-f261-af44ad2a86be) .picturegallery:not(#ct-b3de05fe-fac6-49dd-e396-3a79aff80ced):not(#ct-f3b35949-6e29-461a-8314-d633dfb69ae6) .picturegalleryitem {
