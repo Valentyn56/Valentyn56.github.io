@@ -1497,14 +1497,14 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-size: 17px;
   margin-top: 0px !important;
 }
-.eventcontentpage .dynamicpage-parks-showrooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header {
   /*border-bottom: 1px solid #dddedf61 !important;*/
   position: relative;
   width: fit-content;
   margin: auto;
   padding-bottom: 10px !important;
 }
-.eventcontentpage .dynamicpage-parks-showrooms .bloctheme .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
+.eventcontentpage .dynamicpage-parks-showrooms .bloctheme:not(.bloc-footer) .dynamicbloc-contentwrapper:not(.bloc-teaser) .bloc-header:after {
   content: "";
   position: absolute;
   left: 50%;

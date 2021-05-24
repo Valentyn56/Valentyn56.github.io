@@ -33,7 +33,7 @@
         }
       }
     }
-    .bloctheme{
+    .bloctheme:not(.bloc-footer){
       .dynamicbloc-contentwrapper:not(.bloc-teaser) {
         .bloc-header {
           /*border-bottom: 1px solid #dddedf61 !important;*/
