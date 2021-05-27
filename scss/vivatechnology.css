@@ -1344,6 +1344,13 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
     position: sticky;
     top: 20px;
   }
+  .entitylistpage #ct-exhibitorsearch .bloc-header h2.bloc-title,
+.entitylistpage #ct-70d18f07-9243-4dd5-f38c-fbd7e750c611 .bloc-header h2.bloc-title,
+.entitylistpage #ct-sessionssearch .bloc-header h2.bloc-title,
+.entitylistpage #ct-speakersearch .bloc-header h2.bloc-title,
+.entitylistpage #ct-d7d9fefa-2e38-4382-902d-9b1e8a859fce .bloc-header h2.bloc-title {
+    padding: 0 10px;
+  }
 
   .entitylistpage .dynamicbloc-wrapper .dynamicbloc-contentwrapper.entitylist {
     overflow: visible !important;
