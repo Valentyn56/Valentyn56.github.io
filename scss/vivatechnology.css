@@ -266,56 +266,56 @@ body, html {
 }
 
 h1 span, h1 {
-  font-size: 1.35em !important;
+  font-size: 1.35rem !important;
 }
 
 h2 span:not(.pretitle), h2 {
-  font-size: 1.3em !important;
+  font-size: 1.3rem !important;
 }
 
 h3 span, h3 {
-  font-size: 1.04em !important;
+  font-size: 1.04rem !important;
 }
 
 h4 span, h4 {
-  font-size: 1em !important;
+  font-size: 1rem !important;
 }
 
 h5 span, h5 {
-  font-size: 1em !important;
+  font-size: 1rem !important;
 }
 
 h6 span, h6 {
-  font-size: 1em !important;
+  font-size: 1rem !important;
 }
 
 p span, p, b {
-  font-size: 0.98em !important;
+  font-size: 0.98rem !important;
 }
 
 @media screen and (min-width: 0px) {
   body, html {
-    font-size: 1em !important;
+    font-size: 1rem !important;
   }
 }
 @media screen and (min-width: 768px) {
   body, html {
-    font-size: 1em !important;
+    font-size: 1rem !important;
   }
 }
 @media screen and (min-width: 850px) {
   body, html {
-    font-size: 1em !important;
+    font-size: 1rem !important;
   }
 }
 @media screen and (min-width: 1024px) {
   body, html {
-    font-size: 0.85em !important;
+    font-size: 0.85rem !important;
   }
 }
 @media screen and (min-width: 1280px) {
   body, html {
-    font-size: 1em !important;
+    font-size: 1rem !important;
   }
 }
 /* NAVS */
