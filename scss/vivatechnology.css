@@ -261,20 +261,20 @@ h6 {
   }
 }
 /* RESPONSIVE FONTS */
-body, html {
+html {
   font-size: 15px !important;
 }
 
 h1 span, h1 {
-  font-size: 1.35rem !important;
+  font-size: 2rem !important;
 }
 
 h2 span:not(.pretitle), h2 {
-  font-size: 1.3rem !important;
+  font-size: 1.9rem !important;
 }
 
 h3 span, h3 {
-  font-size: 1.04rem !important;
+  font-size: 1.4rem !important;
 }
 
 h4 span, h4 {
@@ -290,32 +290,32 @@ h6 span, h6 {
 }
 
 p span, p, b {
-  font-size: 0.98rem !important;
+  font-size: 1rem !important;
 }
 
 @media screen and (min-width: 0px) {
   body, html {
-    font-size: 1rem !important;
+    font-size: 15px !important;
   }
 }
 @media screen and (min-width: 768px) {
   body, html {
-    font-size: 1rem !important;
+    font-size: 15px !important;
   }
 }
 @media screen and (min-width: 850px) {
   body, html {
-    font-size: 1rem !important;
+    font-size: 15px !important;
   }
 }
 @media screen and (min-width: 1024px) {
   body, html {
-    font-size: 0.85rem !important;
+    font-size: 13px !important;
   }
 }
 @media screen and (min-width: 1280px) {
   body, html {
-    font-size: 1rem !important;
+    font-size: 15px !important;
   }
 }
 /* NAVS */
