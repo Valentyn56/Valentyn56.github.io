@@ -286,21 +286,12 @@
         }
         .partner-themes{
           > .tagslist-items{
+            margin-top: 10px;
             .tag{
-
               background-image: $taggradient;
               color: white;
               font-weight: 800;
-              margin-top: 10px;
               margin-right: 10px;
-
-              /*color: $white;
-              font-weight: 800;
-              margin-top: 10px;
-              background: transparent;
-              font-size: 15px
-              padding-left: 0;
-              margin-right: 10px;*/
 
               &:before{
                 content: "#";

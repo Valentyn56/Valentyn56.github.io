@@ -1083,19 +1083,14 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   display: inline-block;
   margin-right: 10px;
 }
+.exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes > .tagslist-items, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes > .tagslist-items {
+  margin-top: 10px;
+}
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes > .tagslist-items .tag, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes > .tagslist-items .tag {
   background-image: linear-gradient(319deg, #ED044F, #F17C24);
   color: white;
   font-weight: 800;
-  margin-top: 10px;
   margin-right: 10px;
-  /*color: $white;
-  font-weight: 800;
-  margin-top: 10px;
-  background: transparent;
-  font-size: 15px
-  padding-left: 0;
-  margin-right: 10px;*/
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes > .tagslist-items .tag:before, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper .partner-themes > .tagslist-items .tag:before {
   content: "#";
