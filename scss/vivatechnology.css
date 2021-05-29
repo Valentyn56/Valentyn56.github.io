@@ -260,6 +260,64 @@ h6 {
     line-height: 1.6;
   }
 }
+/* RESPONSIVE FONTS */
+body, html {
+  font-size: 15px !important;
+}
+
+h1 span, h1 {
+  font-size: 1.35em !important;
+}
+
+h2 span:not(.pretitle), h2 {
+  font-size: 1.3em !important;
+}
+
+h3 span, h3 {
+  font-size: 1.04em !important;
+}
+
+h4 span, h4 {
+  font-size: 1em !important;
+}
+
+h5 span, h5 {
+  font-size: 1em !important;
+}
+
+h6 span, h6 {
+  font-size: 1em !important;
+}
+
+p span, p, b {
+  font-size: 0.98em !important;
+}
+
+@media screen and (min-width: 0px) {
+  body, html {
+    font-size: 1em !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  body, html {
+    font-size: 1em !important;
+  }
+}
+@media screen and (min-width: 850px) {
+  body, html {
+    font-size: 1em !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body, html {
+    font-size: 0.85em !important;
+  }
+}
+@media screen and (min-width: 1280px) {
+  body, html {
+    font-size: 1em !important;
+  }
+}
 /* NAVS */
 .app-header {
   transition: all 0.1s ease;
