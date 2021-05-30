@@ -1908,7 +1908,6 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 }
 .specific-header-h2 .bloc-header .bloc-title .bloctitle {
   text-align: left;
-  font-size: 30px !important;
   font-weight: bold !important;
   border: none !important;
   padding-bottom: 0 !important;
