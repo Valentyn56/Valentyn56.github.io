@@ -282,11 +282,11 @@ h4 span, h4 {
 }
 
 h5 span, h5 {
-  font-size: 1.05rem !important;
+  /*font-size:1rem !important;*/
 }
 
 h6 span, h6 {
-  font-size: 1rem !important;
+  /*font-size:1rem !important;*/
 }
 
 p span, p, b {
