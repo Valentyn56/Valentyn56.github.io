@@ -945,7 +945,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   position: absolute;
   width: 100vw;
   background-position: center center;
-  height: 110%;
+  height: 112%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
