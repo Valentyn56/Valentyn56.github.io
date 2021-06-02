@@ -69,6 +69,7 @@
             .tagslist.day {
               margin-bottom: 0 !important;
               .tag.keywordbubble.clickable {
+                pointer-events: none;
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: center center;

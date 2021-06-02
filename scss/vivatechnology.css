@@ -956,6 +956,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   margin-bottom: 0 !important;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable, .sessiondetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable {
+  pointer-events: none;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
