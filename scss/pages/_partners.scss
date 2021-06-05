@@ -42,7 +42,8 @@
 
       span.overlay-partner-header{
         position: absolute;
-        background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.87) 33%, rgb(0 0 0 / 70%) 66%, rgba(0, 0, 0, 0.2));
+        /*background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.87) 33%, rgb(0 0 0 / 70%) 66%, rgba(0, 0, 0, 0.2));*/
+        background-image: linear-gradient(90deg, rgb(0 0 0 / 70%) 33%, rgba(0, 0, 0, 0.5) 71%, rgba(0, 0, 0, 0.2));
         width: 102vw;
         height: 112%;
         left: 50%;
