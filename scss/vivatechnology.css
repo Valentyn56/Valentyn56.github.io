@@ -1241,8 +1241,9 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   position: relative;
   top: -9px;
   font-weight: bold;*/
-  display: block;
-  font-size: 35px;
+  /*display: block;
+  font-size: 35px;*/
+  font-size: 24px;
   position: relative;
   top: 0px;
   font-weight: bold;
@@ -1310,8 +1311,9 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
    position: relative;
    top: -9px;
    font-weight: bold;*/
-  display: block;
-  font-size: 35px;
+  /*display: block;
+  font-size: 35px;*/
+  font-size: 24px;
   position: relative;
   top: 0px;
   font-weight: bold;
