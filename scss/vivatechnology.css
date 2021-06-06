@@ -1290,8 +1290,8 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   background-position: center center;
   background-color: transparent;
   color: black;
-  width: 36px;
-  margin-right: 24px !important;
+  width: 60px;
+  margin-right: 10px !important;
   height: auto;
   border-radius: 0;
   padding: 0;
