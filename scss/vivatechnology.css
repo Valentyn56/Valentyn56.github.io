@@ -369,7 +369,7 @@ p span, p, b {
     background-color: white !important;
     color: #202020 !important;
     text-transform: uppercase;
-    border-bottom: 1px solid rgba(179, 178, 178, 0.2);
+    border-bottom: 1px solid #eeeeee;
     background-image: url("https://storageprdv2inwink.blob.core.windows.net/d469fa5d-3d3c-ea11-a601-281878303843-public/assets/pictures/logos/logo_vivatech_white.png");
   }
   .app-header.scrolled {
