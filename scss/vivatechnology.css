@@ -618,8 +618,8 @@ button.showonmap:hover .viewonmap-action:after {
 }
 
 button.showonmap:hover .viewonmap-action i {
-  /*transform:rotate(720deg);
-  padding-left:8px !important;*/
+  /*transform:rotate(720deg);*/
+  padding-left: 5px !important;
 }
 
 /* Modal Components */
