@@ -591,9 +591,9 @@ button.showonmap .viewonmap-action {
 }
 
 button.showonmap .viewonmap-action i {
-  line-height: 28px;
+  line-height: 26px;
   font-weight: 500;
-  padding-left: 3px !important;
+  padding-left: 1px !important;
   transition: all 0.4s ease-out;
 }
 
