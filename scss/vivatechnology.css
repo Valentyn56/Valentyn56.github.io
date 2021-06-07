@@ -568,6 +568,60 @@ button[type=button], a[role=button] {
   content: "#";
 }
 
+/* SHOW ON MAP button */
+button.showonmap {
+  width: fit-content !important;
+  padding: 0;
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 100px;
+  overflow: hidden !important;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+button.showonmap .viewonmap-action {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  background: #1d6ff7;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+button.showonmap .viewonmap-action i {
+  line-height: 28px;
+  font-weight: 500;
+  padding-left: 3px !important;
+  transition: all 0.3s ease-out;
+}
+
+button.showonmap .viewonmap-action:after {
+  content: "View on map";
+  position: absolute;
+  opacity: 0;
+  font-weight: 500;
+  width: 80px;
+  left: 35px;
+  top: 3px;
+  transition: all 0.6s ease;
+}
+
+button.showonmap:hover .viewonmap-action {
+  background: #0a50c4;
+  padding-right: 125px;
+}
+
+button.showonmap:hover .viewonmap-action:after {
+  opacity: 1;
+}
+
+button.showonmap:hover .viewonmap-action i {
+  transform: rotate(360deg);
+  padding-left: 6px !important;
+}
+
 /* Modal Components */
 .appusermessage-header .actions button {
   border: 2px solid #1d6ff7 !important;
