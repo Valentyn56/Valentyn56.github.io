@@ -594,7 +594,7 @@ button.showonmap .viewonmap-action i {
   line-height: 28px;
   font-weight: 500;
   padding-left: 3px !important;
-  transition: all 0.3s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 button.showonmap .viewonmap-action:after {
@@ -619,7 +619,7 @@ button.showonmap:hover .viewonmap-action:after {
 
 button.showonmap:hover .viewonmap-action i {
   transform: rotate(720deg);
-  padding-left: 6px !important;
+  padding-left: 8px !important;
 }
 
 /* Modal Components */
