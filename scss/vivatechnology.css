@@ -618,7 +618,7 @@ button.showonmap:hover .viewonmap-action:after {
 }
 
 button.showonmap:hover .viewonmap-action i {
-  transform: rotate(360deg);
+  transform: rotate(720deg);
   padding-left: 6px !important;
 }
 
