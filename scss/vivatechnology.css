@@ -1040,10 +1040,11 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-weight: bold;*/
   /*display: block;
   font-size: 35px;*/
-  font-size: 19px;
+  font-size: 15px;
   position: relative;
+  padding-left: 4px;
   top: 0px;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 23px;
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Wed:after, .sessiondetailpage .bloc-entitydetail .partner-header .tagslist.day .tag.keywordbubble.clickable.day-Wed:after {
@@ -1297,10 +1298,11 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   font-weight: bold;*/
   /*display: block;
   font-size: 35px;*/
-  font-size: 19px;
+  font-size: 15px;
   position: relative;
+  padding-left: 4px;
   top: 0px;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 23px;
 }
 .exhibitordetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:after, .sessiondetailpage .bloc-entitydetail .innovation-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:after {
@@ -1367,10 +1369,11 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
    font-weight: bold;*/
   /*display: block;
   font-size: 35px;*/
-  font-size: 19px;
+  font-size: 15px;
   position: relative;
+  padding-left: 4px;
   top: 0px;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 23px;
 }
 .exhibitordetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:after, .sessiondetailpage .bloc-entitydetail .startup-header .wrapper-content .sessiontype-exhibitor .sessionslot .sessiondate .tagslist.day .tag.bloc-lightbg.keywordbubble.tag.bloc-lightbg.keywordbubble.clickable.day-Wed:after {
