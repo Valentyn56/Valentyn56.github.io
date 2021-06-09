@@ -758,7 +758,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   box-shadow: none;
   margin: 0 !important;
   padding: 10px;
-  overflow: visible !important;
+  /*overflow: visible !important;*/
   /*&:first-child{
     padding-left: 0 !important;
   }
