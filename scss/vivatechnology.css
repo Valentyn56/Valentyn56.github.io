@@ -723,7 +723,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 }
 
 /* Carousel items */
-.carouselitem {
+.carouselitem.exhibitor-item {
   vertical-align: top !important;
 }
 
