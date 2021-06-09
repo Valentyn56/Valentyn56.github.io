@@ -722,6 +722,11 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   display: none;
 }
 
+/* Carousel items */
+.carouselitem {
+  vertical-align: top !important;
+}
+
 /* Light Grey Block with Gradient */
 .bloctheme-duplicate-lightgreybloc-7 {
   background-image: linear-gradient(180deg, #f7f8fa, #fff) !important;

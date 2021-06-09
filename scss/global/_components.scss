@@ -40,6 +40,12 @@ inwink-items, .inwink-items .inwink-item /*, .picturegalleryitem */ {
   }
 }
 
+/* Carousel items */
+
+.carouselitem{
+  vertical-align: top !important;
+}
+
 /* Light Grey Block with Gradient */
 .bloctheme-duplicate-lightgreybloc-7{
   background-image: $blankgradient !important;
