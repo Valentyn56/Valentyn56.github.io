@@ -161,6 +161,7 @@
           .title{
             .sessiontype-exhibitor{
               display:flex;
+              flex-flow: row wrap;
               align-items: center;
               padding-top: 20px;
               > * {

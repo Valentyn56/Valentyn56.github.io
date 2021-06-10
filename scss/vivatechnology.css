@@ -1094,6 +1094,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .title .sessiontype-exhibitor {
   display: flex;
+  flex-flow: row wrap;
   align-items: center;
   padding-top: 20px;
 }
