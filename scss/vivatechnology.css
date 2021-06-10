@@ -959,8 +959,8 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   /* Partner's Header */
 }
 .exhibitordetailpage .bloc-entitydetail .logo, .sessiondetailpage .bloc-entitydetail .logo {
-  width: 180px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   background: white;
   margin: 0;
   margin-right: 30px;
