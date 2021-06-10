@@ -188,8 +188,10 @@
               }
             }
             h1{
-              display: none;
-              margin-bottom: 30px;
+              /*display: none;
+              margin-bottom: 30px;*/
+              position: relative;
+              top: 20px;
             }
             .sessiondate{
 
