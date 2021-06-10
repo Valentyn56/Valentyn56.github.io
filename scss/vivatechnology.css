@@ -1482,7 +1482,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
     padding-bottom: 60px !important;
   }
 
-  .entitylistpage .dynamicbloc-wrapper {
+  .entitylistpage:not(.dynamicpage-student) .dynamicbloc-wrapper {
     overflow: visible !important;
   }
 }
