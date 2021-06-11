@@ -1125,7 +1125,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
   /*display: none;
   margin-bottom: 30px;*/
   position: relative;
-  top: 20px;
+  /*top: 20px;*/
 }
 .exhibitordetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description, .sessiondetailpage .bloc-entitydetail .partner-header .wrapper.wrapper-content .description {
   max-width: 630px;
