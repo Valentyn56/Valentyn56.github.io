@@ -190,6 +190,11 @@ button.showonmap .viewonmap-action {
   transition:all .3s ease;
 }
 
+button.showonmap a.viewonmap-action {
+  color: white !important;
+  font-size: 0.8rem !important;
+}
+
 button.showonmap .viewonmap-action i{
   line-height: 26px;
   font-weight: 500;
