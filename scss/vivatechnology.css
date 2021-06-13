@@ -1487,7 +1487,7 @@ inwink-items .content-wrapper.content-wrapper > * *, .inwink-items .inwink-item 
     padding-bottom: 60px !important;
   }
 
-  .entitylistpage:not(.dynamicpage-student):not(.dynamicpage-networking-hub):not(.dynamicpage-vivalounge) .dynamicbloc-wrapper {
+  .entitylistpage:not(.dynamicpage-student):not(.dynamicpage-networking-hub):not(.dynamicpage-partner-rooms):not(.dynamicpage-vivalounge) .dynamicbloc-wrapper {
     overflow: visible !important;
   }
 }
