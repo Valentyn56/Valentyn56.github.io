@@ -72,7 +72,7 @@ function addElement(text, link, destination, newPage) {
         newItem.setAttribute("target","_blank");
         newItem.setAttribute("href",link);
     }else{
-        newItem.setAttribute("data-inwink-nav",link);
+        newItem.setAttribute("href",link);
     }
     //newItem.setAttribute("href",link);
     newItem.setAttribute("role","link");
@@ -95,23 +95,23 @@ function addElement(text, link, destination, newPage) {
 
 function addElements(watch,discover,network){
     /*addElement("What's Live","content/whatslive",watch);*/
-    addElement("VivaTech News","content/vivatech-news",watch,false);
-    addElement("Stage One","room/d225f246-3bbe-eb11-94b3-000d3a219024",watch,false);
-    addElement("Stage 2","room/d8d3092a-37be-eb11-94b3-000d3a219024",watch,false);
-    addElement("Stage 3","room/e6652f30-37be-eb11-94b3-000d3a219024",watch,false);
+    addElement("VivaTech News","https://app.vivatechnology.com/content/vivatech-news",watch,false);
+    addElement("Stage One","https://app.vivatechnology.com/room/d225f246-3bbe-eb11-94b3-000d3a219024",watch,false);
+    addElement("Stage 2","https://app.vivatechnology.com/room/d8d3092a-37be-eb11-94b3-000d3a219024",watch,false);
+    addElement("Stage 3","https://app.vivatechnology.com/room/e6652f30-37be-eb11-94b3-000d3a219024",watch,false);
     /*addElement("VT Channels","",watch);*/
-    addElement("Schedule","content/schedule",watch,false);
-    addElement("Speakers","speakers",watch,false);
+    addElement("Schedule","https://app.vivatechnology.com/content/schedule",watch,false);
+    addElement("Speakers","https://app.vivatechnology.com/speakers",watch,false);
 
-    addElement("Exhibitors & Startups List","partners",discover,false);
-    addElement("Innovation Parks & Showrooms","content/parks-showrooms",discover,false);
-    addElement("Innovations & Solutions List","content/innovation-liste",discover,false);
+    addElement("Exhibitors & Startups List","https://app.vivatechnology.com/partners",discover,false);
+    addElement("Innovation Parks & Showrooms","https://app.vivatechnology.com/content/parks-showrooms",discover,false);
+    addElement("Innovations & Solutions List","https://app.vivatechnology.com/content/innovation-liste",discover,false);
     /*addElement("Thematic Trails","content/thematictrails",discover);*/
-    addElement("Main Topics","content/main-topics",discover,false);
+    addElement("Main Topics","https://app.vivatechnology.com/content/main-topics",discover,false);
 
-    addElement("Networking Hub","content/networking-hub",network,false);
-    addElement("Side Events","content/side-events-list",network,false);
+    addElement("Networking Hub","https://app.vivatechnology.com/content/networking-hub",network,false);
+    addElement("Side Events","https://app.vivatechnology.com/content/side-events-list",network,false);
     /*addElement("VC Hours","content/vc-hours",network);*/
     addElement("Find a Job","https://vivatech.myjobboard.fr/",network,true);
-    addElement("Speed Meetings (soon)","",network,false);
+
 }
