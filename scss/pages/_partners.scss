@@ -134,8 +134,8 @@
           flex: 9;
           display: flex;
           flex-direction: column;
-          align-items: end;
-
+          /*align-items: end;*/
+          align-items: baseline;
           > .title{
             .sessiontype-exhibitor{
               .tagslist{
